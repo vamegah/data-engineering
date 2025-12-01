@@ -14,11 +14,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install nltk textblob && \
     python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('punkt'); nltk.download('stopwords')"
 
+# Create directories first
+RUN mkdir -p ./shared ./data/raw ./data/processed
+
+# Copy project files
 COPY restaurant/ ./restaurant/
 COPY shared/ ./shared/
-
-# Create data directories (APIs work without actual data files)
-RUN mkdir -p ./data/raw ./data/processed
 
 EXPOSE 8006
 

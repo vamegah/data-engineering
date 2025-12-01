@@ -15,11 +15,12 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project files
+# Create directories first
+RUN mkdir -p ./shared ./data/raw ./data/processed ./models ./logs
+
+# Copy project files
 COPY financial/ ./financial/
 COPY shared/ ./shared/
-
-# Create data directories (APIs work without actual data files)
-RUN mkdir -p ./data/raw ./data/processed ./models ./logs
 
 # Expose port for API
 EXPOSE 8003
