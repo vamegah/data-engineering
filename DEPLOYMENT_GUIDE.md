@@ -270,15 +270,18 @@ eb open
 #### Using App Platform
 
 1. **Connect GitHub:**
+
    - Go to DigitalOcean App Platform
    - Connect your GitHub repository
 
 2. **Configure Services:**
+
    - Add each API as a service
    - Set Dockerfile paths
    - Configure environment variables
 
 3. **Add Database:**
+
    - Add managed PostgreSQL database
    - Link to services
 
@@ -322,6 +325,7 @@ gcloud run deploy fraud-api --image gcr.io/YOUR_PROJECT_ID/fraud-api --platform 
 ### Best Option: **Render + GitHub** (FREE)
 
 **Why?**
+
 - ✅ Completely FREE
 - ✅ Auto-deploys from GitHub
 - ✅ Easy setup (5 minutes)
@@ -334,10 +338,12 @@ gcloud run deploy fraud-api --image gcr.io/YOUR_PROJECT_ID/fraud-api --platform 
 1. **Push to GitHub** (Already done! ✅)
 
 2. **Create Render Account:**
+
    - Visit https://render.com
    - Sign up with GitHub
 
 3. **Create New Web Service:**
+
    - Click "New +" → "Web Service"
    - Connect your GitHub repo
    - Select "Docker" as environment
@@ -345,10 +351,12 @@ gcloud run deploy fraud-api --image gcr.io/YOUR_PROJECT_ID/fraud-api --platform 
    - Click "Create Web Service"
 
 4. **Repeat for other services:**
+
    - Create 5 more web services
    - Use respective Dockerfile paths
 
 5. **Add Database:**
+
    - Click "New +" → "PostgreSQL"
    - Free tier available
    - Copy connection string to services
@@ -386,6 +394,7 @@ git push origin gh-pages
 ## 🖥️ Portfolio Landing Page Template
 
 Create a showcase page with:
+
 - Project descriptions
 - Architecture diagrams
 - API documentation links
@@ -403,6 +412,7 @@ I can help you create this if needed!
 ### Before Deploying:
 
 1. **Set Environment Variables:**
+
    ```bash
    # Don't commit real credentials
    DATABASE_URL=postgresql://...
@@ -411,6 +421,7 @@ I can help you create this if needed!
    ```
 
 2. **Enable CORS Properly:**
+
    ```python
    # In FastAPI apps
    app.add_middleware(
@@ -423,10 +434,11 @@ I can help you create this if needed!
    ```
 
 3. **Add Rate Limiting:**
+
    ```python
    # Install: pip install slowapi
    from slowapi import Limiter
-   
+
    limiter = Limiter(key_func=get_remote_address)
    app.state.limiter = limiter
    ```
@@ -457,6 +469,7 @@ curl https://your-ecommerce-api.onrender.com/health
 ### Analytics
 
 Add to your showcase page:
+
 - Google Analytics
 - Plausible Analytics (privacy-friendly)
 
@@ -465,21 +478,24 @@ Add to your showcase page:
 ## 🎬 Next Steps After Deployment
 
 1. **Update README with live URLs:**
+
    ```markdown
    ## 🌐 Live Demo
-   
+
    - Fraud Detection API: https://portfolio-fraud-api.onrender.com/docs
    - E-commerce API: https://portfolio-ecommerce-api.onrender.com/docs
-   ...
+     ...
    ```
 
 2. **Create Demo Video:**
+
    - Record API usage with Postman
    - Show dashboards
    - Explain architecture
    - Upload to YouTube
 
 3. **Add to LinkedIn:**
+
    - Project showcase
    - Link to live demo
    - Add to experience section
@@ -494,17 +510,20 @@ Add to your showcase page:
 ## 💡 Tips for Showcase
 
 1. **Keep it Running:**
+
    - Free tiers may sleep after inactivity
    - Use UptimeRobot to ping every 5 minutes
    - Or upgrade to paid tier ($7/month)
 
 2. **Add Landing Page:**
+
    - Professional entry point
    - Link to all APIs
    - Explain projects
    - Show architecture diagram
 
 3. **Documentation:**
+
    - Ensure all API docs are accessible
    - Add example requests/responses
    - Include Postman collection
@@ -554,6 +573,7 @@ taskkill /PID <PID> /F
 ## 📞 Support
 
 If you encounter issues:
+
 1. Check service logs
 2. Verify environment variables
 3. Test locally first

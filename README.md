@@ -54,12 +54,14 @@ Start here:
 ### Installation & Setup
 
 1. **Clone or download this portfolio**
+
    ```bash
    git clone https://github.com/vamegah/data-engineering.git
    cd data-engineering
    ```
 
 2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -73,6 +75,7 @@ Start here:
 ### 🌐 Live APIs
 
 Access the production APIs:
+
 - **[Fraud Detection API](http://localhost/api/fraud/docs)** - Real-time fraud detection
 - **[E-commerce API](http://localhost/api/ecommerce/docs)** - Customer analytics
 - **[Financial API](http://localhost/api/financial/docs)** - Stock predictions
@@ -102,6 +105,7 @@ docker-compose up -d
 4. Free PostgreSQL database included
 
 **Other Options:**
+
 - **Railway** - Simple deployment with $5/month credit
 - **Heroku** - Traditional PaaS deployment
 - **AWS/GCP** - Production-scale deployment
@@ -113,6 +117,7 @@ docker-compose up -d
 ## 🛠️ Technology Stack
 
 ### Core Technologies
+
 - **Languages:** Python 3.9+, SQL
 - **Data Processing:** Pandas, NumPy, SQLAlchemy
 - **Machine Learning:** Scikit-learn, TensorFlow/Keras, XGBoost
@@ -122,6 +127,7 @@ docker-compose up -d
 - **Visualization:** Streamlit, Plotly, Seaborn
 
 ### DevOps & Infrastructure
+
 - **Containerization:** Docker, Docker Compose
 - **CI/CD:** GitHub Actions (6 workflows)
 - **Orchestration:** Apache Airflow (6 DAGs)
@@ -151,6 +157,7 @@ data-engineering-portfolio/
 ```
 
 Each project contains:
+
 - `README.md` - Project documentation
 - `notebooks/` - Jupyter notebooks for analysis
 - `scripts/` - ETL pipelines and automation
@@ -177,6 +184,7 @@ Each project contains:
 ## 🎓 Learning & Development
 
 This portfolio demonstrates:
+
 - ✅ **End-to-end data pipelines** from raw data to deployed models
 - ✅ **Production engineering** with Docker, CI/CD, testing
 - ✅ **Multiple ML techniques** - Classification, Regression, NLP, Time Series
