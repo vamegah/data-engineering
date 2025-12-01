@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineering Portfolio - Professional Showcase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 20px 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .stat-label {
+            color: rgba(255,255,255,0.9);
+            margin-top: 5px;
+        }
+        
+        .projects {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .projects h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #667eea;
+            text-align: center;
+        }
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #667eea;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .project-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .project-card .emoji {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .project-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+        
+        .tech-badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .tech-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .tech-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #667eea;
+            text-align: center;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .tech-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .tech-item strong {
+            display: block;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+        }
+        
+        footer a:hover {
+            opacity: 0.8;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🚀 Data Engineering Portfolio</h1>
+            <p>Production-Ready Data Engineering & Analytics Projects</p>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">42</div>
+                    <div class="stat-label">API Endpoints</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">80+</div>
+                    <div class="stat-label">Tests Passing</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">A-</div>
+                    <div class="stat-label">Average Grade</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="projects">
+            <h2>Featured Projects</h2>
+            
+            <div class="project-grid">
+                <!-- Fraud Detection -->
+                <div class="project-card">
+                    <div class="emoji">🔒</div>
+                    <h3>Fraud Detection System</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>Real-time fraud detection using machine learning. Predicts fraudulent transactions with 95%+ accuracy.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/fraud/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/fraud" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- E-commerce -->
+                <div class="project-card">
+                    <div class="emoji">🛒</div>
+                    <h3>E-commerce Analytics</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>Customer segmentation & RFM analysis. Predictive analytics for customer lifetime value.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/ecommerce/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/ecommerce" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Financial -->
+                <div class="project-card">
+                    <div class="emoji">📈</div>
+                    <h3>Financial Analytics</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>LSTM neural networks for stock price prediction. Time series analysis & forecasting.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/financial/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/financial" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Healthcare -->
+                <div class="project-card">
+                    <div class="emoji">🏥</div>
+                    <h3>Healthcare Analytics</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>HIPAA-compliant patient analytics. Readmission prediction & resource optimization.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Security</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/healthcare/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/healthcare" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- HR Analytics -->
+                <div class="project-card">
+                    <div class="emoji">👥</div>
+                    <h3>HR Analytics</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>Employee attrition prediction & sentiment analysis of exit interviews using NLP.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">NLTK</span>
+                        <span class="tech-badge">TextBlob</span>
+                        <span class="tech-badge">FastAPI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/hr/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/hr" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Restaurant -->
+                <div class="project-card">
+                    <div class="emoji">🍽️</div>
+                    <h3>Restaurant Analytics</h3>
+                    <p><span class="status-indicator"></span><strong>ONLINE</strong></p>
+                    <p>Review sentiment analysis & rating prediction. NLP-powered customer insights.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">NLP</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">TextBlob</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="/api/restaurant/docs" class="btn btn-primary">API Docs</a>
+                        <a href="https://github.com/vamegah/data-engineering/tree/main/restaurant" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <strong>Languages</strong>
+                    Python, SQL, JavaScript
+                </div>
+                <div class="tech-item">
+                    <strong>ML/AI</strong>
+                    Scikit-learn, TensorFlow, Keras, XGBoost
+                </div>
+                <div class="tech-item">
+                    <strong>Data Processing</strong>
+                    Pandas, NumPy, SQLAlchemy
+                </div>
+                <div class="tech-item">
+                    <strong>APIs</strong>
+                    FastAPI, REST, OpenAPI
+                </div>
+                <div class="tech-item">
+                    <strong>Databases</strong>
+                    PostgreSQL, SQLite
+                </div>
+                <div class="tech-item">
+                    <strong>Visualization</strong>
+                    Streamlit, Plotly, Seaborn
+                </div>
+                <div class="tech-item">
+                    <strong>DevOps</strong>
+                    Docker, GitHub Actions, CI/CD
+                </div>
+                <div class="tech-item">
+                    <strong>Orchestration</strong>
+                    Apache Airflow
+                </div>
+                <div class="tech-item">
+                    <strong>Testing</strong>
+                    Pytest, Unit Tests, Integration Tests
+                </div>
+                <div class="tech-item">
+                    <strong>Monitoring</strong>
+                    Custom Frameworks, Logging
+                </div>
+                <div class="tech-item">
+                    <strong>NLP</strong>
+                    NLTK, TextBlob, Sentiment Analysis
+                </div>
+                <div class="tech-item">
+                    <strong>Security</strong>
+                    Environment Variables, CORS, Rate Limiting
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p style="font-size: 1.2em; margin-bottom: 20px;">
+                <strong>Built with ❤️ by a Data Engineering Professional</strong>
+            </p>
+            <p style="margin-bottom: 20px;">
+                All projects are production-ready with comprehensive testing, documentation, and CI/CD pipelines.
+            </p>
+            <p>
+                <a href="https://github.com/vamegah/data-engineering" target="_blank">📁 View Full Repository on GitHub</a> |
+                <a href="https://linkedin.com/in/your-profile" target="_blank">💼 Connect on LinkedIn</a>
+            </p>
+            <p style="margin-top: 30px; opacity: 0.8;">
+                © 2025 Data Engineering Portfolio | All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

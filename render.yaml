@@ -1,0 +1,90 @@
+services:
+  # Fraud Detection API
+  - type: web
+    name: fraud-api
+    runtime: docker
+    dockerfilePath: ./fraud/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8001
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+  # E-commerce API
+  - type: web
+    name: ecommerce-api
+    runtime: docker
+    dockerfilePath: ./ecommerce/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8002
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+  # Financial API
+  - type: web
+    name: financial-api
+    runtime: docker
+    dockerfilePath: ./financial/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8003
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+  # Healthcare API
+  - type: web
+    name: healthcare-api
+    runtime: docker
+    dockerfilePath: ./healthcare/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8004
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+  # HR API
+  - type: web
+    name: hr-api
+    runtime: docker
+    dockerfilePath: ./hr/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8005
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+  # Restaurant API
+  - type: web
+    name: restaurant-api
+    runtime: docker
+    dockerfilePath: ./restaurant/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8006
+      - key: DATABASE_URL
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+    healthCheckPath: /health
+
+databases:
+  - name: portfolio-db
+    databaseName: portfolio
+    user: portfolio_user
+    plan: starter

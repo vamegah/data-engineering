@@ -1,0 +1,139 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:13
+    container_name: portfolio-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-portfolio_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-portfolio_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-portfolio_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portfolio_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Fraud Detection API
+  fraud-api:
+    build:
+      context: .
+      dockerfile: fraud/Dockerfile
+    container_name: fraud-api
+    ports:
+      - "8001:8001"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8001
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # E-commerce API
+  ecommerce-api:
+    build:
+      context: .
+      dockerfile: ecommerce/Dockerfile
+    container_name: ecommerce-api
+    ports:
+      - "8002:8002"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8002
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Financial API
+  financial-api:
+    build:
+      context: .
+      dockerfile: financial/Dockerfile
+    container_name: financial-api
+    ports:
+      - "8003:8003"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8003
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Healthcare API
+  healthcare-api:
+    build:
+      context: .
+      dockerfile: healthcare/Dockerfile
+    container_name: healthcare-api
+    ports:
+      - "8004:8004"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8004
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # HR API
+  hr-api:
+    build:
+      context: .
+      dockerfile: hr/Dockerfile
+    container_name: hr-api
+    ports:
+      - "8005:8005"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8005
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Restaurant API
+  restaurant-api:
+    build:
+      context: .
+      dockerfile: restaurant/Dockerfile
+    container_name: restaurant-api
+    ports:
+      - "8006:8006"
+    environment:
+      DATABASE_URL: postgresql://portfolio_user:portfolio_pass@postgres:5432/portfolio_db
+      API_PORT: 8006
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    container_name: portfolio-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - fraud-api
+      - ecommerce-api
+      - financial-api
+      - healthcare-api
+      - hr-api
+      - restaurant-api
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
