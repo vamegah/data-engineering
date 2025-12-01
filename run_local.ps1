@@ -20,10 +20,18 @@ try {
 
 # Check if dependencies are installed
 Write-Host "`nChecking dependencies..." -ForegroundColor Yellow
+$hasDeps = $false
 try {
     python -c "import fastapi" 2>&1 | Out-Null
-    Write-Host "✓ Dependencies are installed" -ForegroundColor Green
+    if ($LASTEXITCODE -eq 0) {
+        $hasDeps = $true
+        Write-Host "✓ Dependencies are installed" -ForegroundColor Green
+    }
 } catch {
+    # Will install below
+}
+
+if (-not $hasDeps) {
     Write-Host "✗ Dependencies not installed. Installing now..." -ForegroundColor Yellow
     pip install -r requirements.txt
     if ($LASTEXITCODE -eq 0) {

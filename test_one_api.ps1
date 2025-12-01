@@ -5,9 +5,16 @@ Write-Host "`n🚀 Testing Fraud Detection API..." -ForegroundColor Cyan
 Write-Host ""
 
 # Check Python
+Write-Host "`nChecking Python..." -ForegroundColor Yellow
 try {
     $pythonVersion = python --version 2>&1
-    Write-Host "✓ Python: $pythonVersion" -ForegroundColor Green
+    if ($pythonVersion -match "Python") {
+        Write-Host "✓ Python: $pythonVersion" -ForegroundColor Green
+    } else {
+        Write-Host "✗ Python not found. Install from https://www.python.org" -ForegroundColor Red
+        Read-Host "Press Enter to exit"
+        exit 1
+    }
 } catch {
     Write-Host "✗ Python not found. Install from https://www.python.org" -ForegroundColor Red
     Read-Host "Press Enter to exit"
