@@ -1,0 +1,68 @@
+name: Restaurant Analytics CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - "restaurant/**"
+      - "shared/**"
+      - "tests/test_restaurant.py"
+  pull_request:
+    branches: [main]
+    paths:
+      - "restaurant/**"
+      - "shared/**"
+      - "tests/test_restaurant.py"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_DB: restaurant_db
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov nltk textblob
+
+      - name: Download NLTK data
+        run: |
+          python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('punkt'); nltk.download('stopwords')"
+
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/restaurant_db
+        run: |
+          pytest tests/test_restaurant.py -v --cov=restaurant
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy to production
+        run: echo "Deployment pipeline configured"

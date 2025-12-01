@@ -1,0 +1,5 @@
+dataset,records,missing_values,completeness
+Restaurants,200,0,100.0
+Users,3000,0,100.0
+Reviews,10000,0,100.0
+Overall,13200,0,100.0

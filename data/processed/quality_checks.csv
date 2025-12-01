@@ -1,0 +1,5 @@
+check,status,details
+Data Completeness,PASS,10000 customers processed
+No Negative Balances,PASS,0 negative balances found
+Valid Age Range,PASS,0 invalid ages found
+Reasonable Churn Rate,PASS,Churn rate: 26.73%

@@ -1,0 +1,70 @@
+name: E-commerce CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - "ecommerce/**"
+      - "shared/**"
+      - "tests/test_ecommerce.py"
+  pull_request:
+    branches: [main]
+    paths:
+      - "ecommerce/**"
+      - "shared/**"
+      - "tests/test_ecommerce.py"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_DB: ecommerce_db
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/ecommerce_db
+        run: |
+          pytest tests/test_ecommerce.py -v --cov=ecommerce
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy notification
+        run: echo "Ready for deployment"

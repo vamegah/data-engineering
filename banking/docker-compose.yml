@@ -1,0 +1,74 @@
+version: "3.8"
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14-alpine
+    container_name: banking_postgres
+    environment:
+      POSTGRES_DB: banking_db
+      POSTGRES_USER: ${DB_USER:-banking_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme123}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./banking/sql/schema_setup.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U banking_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: banking/Dockerfile
+    container_name: banking_dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: banking_db
+      DB_USER: ${DB_USER:-banking_user}
+      DB_PASSWORD: ${DB_PASSWORD:-changeme123}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./banking/data:/app/banking/data
+      - ./banking/models:/app/banking/models
+      - ./banking/logs:/app/banking/logs
+    restart: unless-stopped
+
+  # ETL Pipeline (scheduled execution)
+  etl:
+    build:
+      context: .
+      dockerfile: banking/Dockerfile
+    container_name: banking_etl
+    command: python banking/scripts/etl_pipeline.py
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: banking_db
+      DB_USER: ${DB_USER:-banking_user}
+      DB_PASSWORD: ${DB_PASSWORD:-changeme123}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./banking/data:/app/banking/data
+      - ./banking/logs:/app/banking/logs
+    profiles:
+      - etl # Run with: docker-compose --profile etl up
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  default:
+    name: banking_network

@@ -1,0 +1,2 @@
+timestamp,employees_count,exit_interviews_count,attrition_rate,data_quality_metrics
+2025-11-29 18:51:37,1500,518,34.53333333333333,"{'missing_values': np.int64(286), 'duplicate_records': np.int64(0), 'columns_processed': 25}"

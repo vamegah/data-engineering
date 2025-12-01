@@ -1,0 +1,67 @@
+name: HR Analytics CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - "hr/**"
+      - "shared/**"
+      - "tests/test_hr.py"
+  pull_request:
+    branches: [main]
+    paths:
+      - "hr/**"
+      - "shared/**"
+      - "tests/test_hr.py"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_DB: hr_db
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov nltk textblob
+
+      - name: Download NLTK data
+        run: |
+          python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('punkt')"
+
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/hr_db
+        run: |
+          pytest tests/test_hr.py -v --cov=hr
+
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Code quality check
+        run: |
+          pip install pylint
+          pylint hr/ --exit-zero

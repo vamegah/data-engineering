@@ -1,0 +1,1501 @@
+employee_id,department,education,education_field,gender,age,tenure,marital_status,distance_from_home,job_role,salary,bonus,job_satisfaction,performance_rating,overtime,attrition
+EMP1000,Technology,High School,Marketing,Female,60,10,Divorced,6.7,IT Support,54381.76,4115.18,4,1,No,Yes
+EMP1001,Sales,Bachelor,Medical,Female,50,7,Single,47.1,Account Executive,68222.89,1926.07,1,4,No,No
+EMP1002,HR,High School,Life Sciences,Female,36,5,Married,10.4,Recruiter,38824.06,4817.9,3,1,No,No
+EMP1003,Finance,Bachelor,Other,Male,64,9,Single,8.5,CFO,160423.85,4422.45,3,2,No,No
+EMP1004,Finance,Master,Life Sciences,Male,29,10,Single,9.2,Financial Analyst,107074.77,13079.18,4,5,No,No
+EMP1005,Marketing,Master,Technical,Male,42,6,Married,3.5,Marketing Specialist,73965.39,7004.86,4,5,No,No
+EMP1006,Technology,PhD,Other,Male,60,9,Divorced,6.9,IT Support,93456.64,8446.81,4,3,Yes,No
+EMP1007,Technology,High School,Other,Female,40,5,Divorced,6.9,DevOps,77973.57,10261.22,2,2,Yes,No
+EMP1008,R&D,Bachelor,Marketing,Male,44,5,Single,0.8,Lab Technician,48080.3,5719.06,1,4,No,No
+EMP1009,Sales,PhD,Life Sciences,Female,32,4,Married,21.9,BD Manager,156099.13,7253.27,3,3,No,No
+EMP1010,Sales,Master,Marketing,Female,32,6,Divorced,8.1,BD Manager,124844.8,2891.88,1,2,No,Yes
+EMP1011,Technology,Master,Medical,Male,45,0,Married,25.9,CTO,196571.68,25010.85,1,3,Yes,No
+EMP1012,Finance,PhD,Other,Male,57,10,Married,28.5,Controller,174661.56,15839.82,1,1,No,Yes
+EMP1013,Finance,High School,Marketing,Male,61,10,Divorced,3.6,Controller,89068.55,17585.67,4,2,No,No
+EMP1014,Sales,Bachelor,Medical,Female,45,0,Single,16.1,Account Executive,65854.68,7329.84,4,4,No,No
+EMP1015,Finance,Master,Life Sciences,Male,24,8,Married,9.6,Accountant,83179.88,5402.27,3,4,No,No
+EMP1016,R&D,PhD,Life Sciences,Male,43,0,Married,31.8,Research Scientist,110041.35,5710.72,3,2,No,No
+EMP1017,Finance,Master,Technical,Female,23,2,Single,3.6,Financial Analyst,88738.99,13583.95,3,3,Yes,No
+EMP1018,Customer Service,Master,Medical,Female,45,6,Single,17.0,Support Specialist,63947.25,1716.24,1,5,No,Yes
+EMP1019,HR,Bachelor,Medical,Male,51,0,Divorced,14.0,HR Manager,76607.03,14385.57,4,2,No,Yes
+EMP1020,Sales,High School,Marketing,Female,59,8,Single,5.2,Sales Representative,45367.38,3845.23,2,4,No,No
+EMP1021,Marketing,High School,Other,Female,23,8,Divorced,2.2,CMO,105575.94,13433.15,1,1,Yes,Yes
+EMP1022,R&D,Bachelor,Other,Female,42,3,Divorced,15.8,Research Director,92542.6,8637.04,5,4,No,No
+EMP1023,Operations,PhD,Technical,Female,54,0,Married,20.1,Operations Manager,107854.17,2768.8,1,5,Yes,No
+EMP1024,HR,PhD,Technical,Male,33,1,Single,5.7,HR Specialist,75017.24,6173.92,4,4,No,No
+EMP1025,Marketing,High School,Technical,Female,43,4,Single,15.5,CMO,96980.14,4375.27,5,5,Yes,No
+EMP1026,Finance,Master,Medical,Male,46,19,Married,7.5,Financial Analyst,127975.65,11292.86,1,2,Yes,No
+EMP1027,Operations,Master,Life Sciences,Male,48,4,Married,18.7,Operations Manager,97181.3,7738.68,4,4,Yes,No
+EMP1028,Technology,PhD,Life Sciences,Male,63,1,Single,3.3,Data Scientist,156028.28,4414.16,4,3,Yes,No
+EMP1029,Technology,Bachelor,Marketing,Male,49,5,Divorced,33.1,IT Support,65020.78,12903.09,2,3,Yes,Yes
+EMP1030,R&D,Master,Other,Female,37,3,Single,5.1,Lab Technician,68156.05,10693.77,1,4,No,Yes
+EMP1031,Technology,PhD,Other,Female,36,7,Single,6.9,IT Support,101979.58,5957.08,4,4,Yes,No
+EMP1032,Operations,Bachelor,Marketing,Male,24,0,Married,0.9,Supply Chain Analyst,63749.69,4438.79,3,1,No,No
+EMP1033,Operations,High School,Medical,Female,58,7,Divorced,1.8,Supply Chain Analyst,52826.04,3139.22,4,4,Yes,Yes
+EMP1034,HR,Bachelor,Life Sciences,Female,28,3,Married,10.9,CHRO,112069.95,8853.26,2,1,No,Yes
+EMP1035,Sales,High School,Technical,Female,42,16,Single,4.7,Sales Manager,88013.34,3449.82,4,1,No,No
+EMP1036,Customer Service,PhD,Life Sciences,Female,30,2,Divorced,27.1,Support Specialist,77463.47,5998.24,1,1,Yes,Yes
+EMP1037,Technology,Bachelor,Marketing,Female,60,5,Married,0.2,CTO,171012.33,11663.45,1,1,No,No
+EMP1038,R&D,PhD,Life Sciences,Female,39,13,Divorced,7.1,Lab Technician,87367.7,9425.2,5,2,Yes,Yes
+EMP1039,Technology,High School,Technical,Female,25,0,Divorced,6.2,IT Support,40772.25,7098.14,1,3,No,Yes
+EMP1040,HR,Master,Other,Male,46,13,Divorced,0.3,HR Manager,126102.98,24367.12,5,1,No,Yes
+EMP1041,Operations,Master,Marketing,Female,35,5,Single,2.0,Operations Manager,92659.08,7889.54,3,3,Yes,No
+EMP1042,Finance,High School,Medical,Male,30,0,Married,8.0,Accountant,44690.73,6808.32,2,1,No,No
+EMP1043,Technology,Master,Life Sciences,Female,47,1,Married,10.2,Data Scientist,130843.08,27533.02,3,3,Yes,No
+EMP1044,Sales,Master,Life Sciences,Male,23,6,Single,7.8,Sales Representative,75720.9,4743.75,5,4,No,No
+EMP1045,Finance,Bachelor,Medical,Male,41,0,Divorced,11.4,Accountant,57788.19,1709.05,4,4,No,No
+EMP1046,HR,Bachelor,Medical,Female,49,4,Married,13.6,HR Specialist,58026.88,2716.65,4,3,No,No
+EMP1047,Technology,Master,Technical,Female,28,2,Single,0.1,Software Engineer,108159.11,1521.02,3,1,No,No
+EMP1048,Finance,Bachelor,Life Sciences,Female,29,4,Married,9.4,Accountant,62135.36,10809.43,4,2,Yes,Yes
+EMP1049,Technology,High School,Marketing,Female,56,0,Divorced,49.7,Software Engineer,65525.41,8498.97,5,3,Yes,No
+EMP1050,R&D,Bachelor,Life Sciences,Female,35,10,Married,11.0,Research Scientist,84359.52,13349.13,2,5,Yes,Yes
+EMP1051,HR,Bachelor,Technical,Male,38,18,Divorced,17.0,CHRO,135408.63,16217.67,1,2,No,Yes
+EMP1052,Customer Service,Bachelor,Marketing,Female,57,17,Divorced,5.6,Support Specialist,57701.57,1432.69,5,5,Yes,No
+EMP1053,Operations,PhD,Marketing,Female,61,6,Single,22.3,Operations Manager,124010.83,9176.54,5,3,No,No
+EMP1054,Marketing,High School,Marketing,Female,25,0,Divorced,22.2,Content Writer,36843.16,6280.77,1,1,No,Yes
+EMP1055,Operations,Master,Technical,Male,23,7,Single,11.1,Logistics Coordinator,71357.76,8375.77,1,5,Yes,No
+EMP1056,Operations,Master,Life Sciences,Male,27,0,Married,56.0,Supply Chain Analyst,73261.43,7314.86,2,3,No,Yes
+EMP1057,Finance,PhD,Other,Female,63,0,Divorced,2.0,Accountant,81409.68,2755.85,2,2,No,No
+EMP1058,HR,Bachelor,Marketing,Female,25,1,Married,0.3,HR Specialist,55727.5,1074.62,2,1,No,Yes
+EMP1059,Technology,High School,Medical,Female,50,3,Divorced,22.1,DevOps,66429.57,6610.44,4,5,No,No
+EMP1060,Marketing,High School,Technical,Male,39,7,Single,24.7,CMO,108969.21,16416.98,5,3,No,No
+EMP1061,Finance,Master,Marketing,Male,47,5,Married,1.9,Accountant,79995.92,13672.12,1,1,No,Yes
+EMP1062,Marketing,PhD,Technical,Male,55,2,Married,4.6,CMO,201332.33,16795.33,5,1,No,No
+EMP1063,Customer Service,PhD,Medical,Female,31,1,Married,0.3,Service Manager,89812.85,17319.5,5,4,No,No
+EMP1064,R&D,PhD,Marketing,Male,57,29,Divorced,5.2,Research Scientist,172802.46,5646.45,2,1,Yes,No
+EMP1065,HR,PhD,Life Sciences,Female,35,2,Divorced,22.3,HR Specialist,76635.24,11821.39,2,3,No,No
+EMP1066,Finance,High School,Technical,Female,52,3,Divorced,10.9,Accountant,47438.36,1726.56,5,2,Yes,Yes
+EMP1067,Operations,Bachelor,Marketing,Female,36,0,Divorced,6.4,Operations Manager,70620.83,2402.81,2,4,Yes,No
+EMP1068,Sales,Master,Marketing,Female,29,7,Single,7.0,BD Manager,133292.67,14224.45,4,3,No,Yes
+EMP1069,Finance,High School,Technical,Female,35,5,Divorced,0.0,CFO,117552.27,6549.14,1,3,No,No
+EMP1070,Sales,PhD,Medical,Female,44,1,Single,5.3,BD Manager,164964.65,9023.56,5,3,No,No
+EMP1071,Operations,PhD,Technical,Female,61,0,Divorced,15.6,Operations Manager,101731.37,9305.08,1,5,Yes,No
+EMP1072,R&D,Master,Other,Female,42,5,Married,54.9,Lab Technician,64325.93,7696.48,4,5,No,Yes
+EMP1073,HR,Bachelor,Life Sciences,Female,37,5,Divorced,28.2,Recruiter,51374.17,5660.03,2,2,No,Yes
+EMP1074,Technology,Bachelor,Medical,Female,39,1,Single,0.4,Data Scientist,92099.81,2923.05,3,3,Yes,No
+EMP1075,Finance,Bachelor,Life Sciences,Male,45,15,Divorced,34.3,Controller,106251.74,14982.57,4,5,No,No
+EMP1076,Operations,PhD,Life Sciences,Male,47,0,Divorced,22.9,Supply Chain Analyst,98181.85,16632.16,3,5,No,No
+EMP1077,Finance,High School,Technical,Male,46,2,Married,22.7,CFO,116768.14,17823.26,1,5,No,No
+EMP1078,Customer Service,High School,Other,Male,62,14,Single,9.2,Customer Support,43498.9,2714.5,5,2,Yes,No
+EMP1079,R&D,Bachelor,Marketing,Male,50,2,Single,7.6,Lab Technician,47578.1,4265.6,2,2,Yes,Yes
+EMP1080,Customer Service,Master,Other,Female,36,5,Married,5.4,Customer Support,59833.74,2914.39,4,3,No,No
+EMP1081,Marketing,Bachelor,Medical,Male,22,2,Married,1.0,Marketing Specialist,55653.57,5924.29,2,4,No,No
+EMP1082,HR,Bachelor,Other,Male,46,1,Married,3.9,CHRO,115363.27,13629.18,3,3,No,No
+EMP1083,Marketing,Master,Life Sciences,Male,28,20,Divorced,4.2,CMO,216922.81,25495.28,3,5,Yes,No
+EMP1084,Finance,Bachelor,Marketing,Female,30,2,Single,9.9,CFO,126815.87,19920.55,5,5,No,Yes
+EMP1085,HR,Master,Other,Male,45,11,Married,20.6,HR Manager,123749.35,8116.88,3,1,No,No
+EMP1086,R&D,Master,Marketing,Male,22,1,Married,9.6,Research Scientist,100573.08,13205.78,5,3,Yes,Yes
+EMP1087,R&D,High School,Other,Male,29,1,Single,0.9,Lab Technician,35681.72,4981.86,4,5,No,No
+EMP1088,Operations,Master,Marketing,Female,45,0,Divorced,47.5,Logistics Coordinator,63312.67,4159.65,5,5,No,Yes
+EMP1089,Finance,Bachelor,Other,Male,32,5,Divorced,42.9,CFO,129298.72,6624.78,3,4,Yes,No
+EMP1090,Marketing,Master,Medical,Male,38,2,Divorced,23.1,CMO,156262.21,29763.84,1,1,Yes,Yes
+EMP1091,Customer Service,Bachelor,Marketing,Female,29,9,Single,71.2,Customer Support,43016.96,5298.88,5,3,No,No
+EMP1092,Technology,Master,Technical,Male,56,3,Divorced,11.8,Software Engineer,116116.39,10509.38,2,2,No,No
+EMP1093,Sales,High School,Life Sciences,Male,56,17,Divorced,49.4,Sales Representative,55766.59,3208.26,1,3,No,Yes
+EMP1094,Technology,Bachelor,Marketing,Female,54,1,Single,1.2,IT Support,54207.77,5154.84,5,3,No,No
+EMP1095,Marketing,Bachelor,Life Sciences,Male,26,10,Single,6.8,SEO Analyst,74529.55,1219.22,2,4,Yes,No
+EMP1096,Marketing,Bachelor,Other,Male,63,7,Married,3.8,Marketing Specialist,61395.05,2145.05,1,3,No,No
+EMP1097,R&D,Master,Other,Female,60,7,Single,3.3,Lab Technician,70107.91,3763.43,5,4,No,No
+EMP1098,Technology,High School,Other,Female,62,9,Divorced,2.3,IT Support,51444.24,7418.18,4,4,Yes,No
+EMP1099,R&D,High School,Other,Male,49,7,Single,14.6,Lab Technician,40319.99,5282.79,2,5,No,No
+EMP1100,R&D,High School,Other,Male,28,4,Divorced,22.8,Research Scientist,70434.1,9346.32,4,2,Yes,No
+EMP1101,Customer Service,High School,Medical,Female,30,0,Married,13.0,Service Manager,45608.44,955.42,3,4,Yes,Yes
+EMP1102,HR,Master,Life Sciences,Female,29,0,Divorced,2.4,HR Manager,90098.72,4462.15,5,1,Yes,No
+EMP1103,Sales,Bachelor,Marketing,Male,33,12,Divorced,25.0,BD Manager,119791.84,18047.29,5,1,Yes,No
+EMP1104,Technology,PhD,Medical,Male,55,4,Divorced,15.2,IT Support,103960.87,8745.56,2,2,No,No
+EMP1105,HR,High School,Medical,Male,54,7,Single,7.4,HR Specialist,44485.89,7862.51,5,4,No,No
+EMP1106,Operations,PhD,Medical,Male,44,3,Divorced,16.8,Operations Manager,108321.0,2849.2,3,2,No,No
+EMP1107,Technology,Master,Medical,Male,45,0,Single,4.5,DevOps,106948.65,4825.33,5,5,No,No
+EMP1108,HR,Master,Medical,Female,58,0,Married,6.4,Recruiter,58569.4,7754.06,1,1,No,Yes
+EMP1109,R&D,PhD,Life Sciences,Female,56,5,Married,37.4,Lab Technician,73844.86,3527.88,4,3,No,No
+EMP1110,Marketing,Bachelor,Marketing,Female,61,2,Married,5.1,SEO Analyst,64373.12,5550.16,3,1,No,Yes
+EMP1111,Customer Service,PhD,Life Sciences,Female,43,1,Divorced,9.5,Service Manager,107667.92,11044.14,3,4,No,No
+EMP1112,Sales,Master,Marketing,Female,48,3,Divorced,33.1,Account Executive,88705.46,12009.34,4,2,No,No
+EMP1113,HR,PhD,Medical,Female,56,0,Married,18.5,Recruiter,69908.09,3504.05,4,1,No,No
+EMP1114,Marketing,High School,Medical,Male,22,4,Married,1.0,SEO Analyst,50810.5,2682.17,3,3,Yes,No
+EMP1115,Technology,High School,Other,Male,56,1,Single,2.4,CTO,112978.78,17145.35,4,3,No,No
+EMP1116,HR,Bachelor,Technical,Female,58,7,Single,0.1,CHRO,135012.5,25018.65,2,2,No,Yes
+EMP1117,Finance,PhD,Technical,Female,35,1,Married,15.0,Accountant,88230.95,7761.91,4,2,No,No
+EMP1118,Marketing,PhD,Life Sciences,Female,24,3,Married,8.9,SEO Analyst,99465.81,12636.07,1,1,Yes,No
+EMP1119,Operations,PhD,Life Sciences,Female,22,0,Married,2.2,Supply Chain Analyst,99066.05,7560.34,1,4,No,Yes
+EMP1120,Marketing,PhD,Marketing,Female,26,0,Married,47.5,CMO,189774.08,9555.37,2,5,No,No
+EMP1121,Sales,Bachelor,Other,Male,47,2,Divorced,11.3,BD Manager,101729.09,12121.47,4,3,Yes,No
+EMP1122,Operations,Master,Marketing,Male,35,3,Divorced,4.2,Supply Chain Analyst,75428.08,5933.17,1,2,No,Yes
+EMP1123,Customer Service,Bachelor,Other,Female,60,4,Single,10.4,Support Specialist,51649.39,4975.75,5,5,Yes,No
+EMP1124,Sales,Master,Technical,Female,48,1,Married,17.1,Sales Manager,122639.84,6418.21,4,5,No,No
+EMP1125,Technology,Master,Technical,Female,30,5,Divorced,1.2,IT Support,80990.08,8975.4,2,5,No,Yes
+EMP1126,Operations,Master,Other,Female,36,9,Divorced,4.8,Operations Manager,117142.26,5876.04,4,4,No,No
+EMP1127,HR,PhD,Marketing,Female,36,7,Divorced,24.7,Recruiter,76357.91,16156.8,3,2,No,Yes
+EMP1128,Finance,Bachelor,Life Sciences,Male,47,0,Divorced,9.2,Controller,84616.08,7870.6,3,3,No,No
+EMP1129,Sales,Master,Other,Female,63,3,Married,11.9,Sales Representative,70302.9,7601.69,1,2,Yes,Yes
+EMP1130,Finance,High School,Other,Male,34,0,Married,8.5,CFO,105700.12,11921.87,3,1,Yes,No
+EMP1131,Technology,Master,Other,Male,53,1,Divorced,0.7,Data Scientist,123487.43,3572.39,2,3,Yes,Yes
+EMP1132,Technology,Bachelor,Marketing,Male,60,21,Married,2.7,Data Scientist,130531.52,13321.55,1,2,Yes,No
+EMP1133,Customer Service,PhD,Life Sciences,Female,53,0,Divorced,8.8,Customer Support,59223.35,4944.54,2,3,No,Yes
+EMP1134,Technology,High School,Marketing,Female,25,3,Divorced,3.5,Data Scientist,78815.75,8541.31,2,1,No,Yes
+EMP1135,Marketing,Master,Medical,Female,51,4,Single,0.8,CMO,157113.02,10403.77,3,3,Yes,No
+EMP1136,Marketing,PhD,Medical,Male,58,6,Single,27.8,Marketing Specialist,103179.82,9979.99,3,5,Yes,No
+EMP1137,Customer Service,Bachelor,Other,Female,44,4,Married,59.6,Service Manager,61026.45,947.12,2,4,No,Yes
+EMP1138,Marketing,Bachelor,Other,Female,60,0,Single,23.6,CMO,109405.57,14882.51,3,1,No,Yes
+EMP1139,HR,High School,Other,Female,36,1,Single,28.8,HR Manager,61840.96,8659.49,3,3,No,No
+EMP1140,R&D,High School,Life Sciences,Male,64,3,Married,4.2,Research Scientist,64811.32,8772.14,3,1,No,No
+EMP1141,Finance,Master,Life Sciences,Female,50,0,Single,48.5,Accountant,76818.36,9276.44,4,5,No,No
+EMP1142,Finance,PhD,Other,Female,57,2,Married,3.3,Financial Analyst,109825.27,3933.79,2,4,Yes,No
+EMP1143,HR,PhD,Life Sciences,Male,34,0,Single,45.4,HR Specialist,77527.69,10019.95,5,1,No,No
+EMP1144,R&D,Bachelor,Technical,Male,53,0,Single,78.9,Lab Technician,47727.11,4860.76,2,5,Yes,Yes
+EMP1145,Operations,Bachelor,Other,Female,28,2,Single,18.7,Logistics Coordinator,47177.01,7317.04,1,5,Yes,No
+EMP1146,Customer Service,Master,Technical,Male,43,0,Married,59.6,Service Manager,71436.77,1171.21,3,5,Yes,No
+EMP1147,Customer Service,Master,Marketing,Female,49,4,Single,12.6,Support Specialist,64012.09,2412.29,3,3,No,No
+EMP1148,Technology,Bachelor,Technical,Female,23,5,Divorced,4.5,Data Scientist,113027.59,6877.14,5,2,No,Yes
+EMP1149,Finance,Bachelor,Marketing,Female,63,8,Single,8.6,Accountant,62476.95,8100.99,1,1,Yes,Yes
+EMP1150,Finance,PhD,Marketing,Male,27,1,Married,13.5,Financial Analyst,101758.85,18427.58,4,2,No,No
+EMP1151,Technology,PhD,Other,Male,49,0,Single,1.1,Software Engineer,118872.82,14231.78,2,5,No,No
+EMP1152,Operations,PhD,Other,Female,49,0,Single,14.6,Logistics Coordinator,66980.82,3589.46,4,2,No,No
+EMP1153,Sales,Master,Marketing,Female,41,5,Divorced,59.6,BD Manager,134023.4,5386.08,1,5,Yes,Yes
+EMP1154,Finance,PhD,Life Sciences,Male,51,6,Divorced,3.2,Financial Analyst,118708.96,6525.02,5,5,No,No
+EMP1155,Finance,High School,Medical,Female,32,0,Single,23.6,Accountant,40309.42,1713.15,1,4,No,No
+EMP1156,Sales,High School,Technical,Male,49,13,Married,35.8,Sales Representative,54830.85,4062.8,5,4,Yes,No
+EMP1157,Technology,PhD,Marketing,Female,46,0,Married,43.2,CTO,252246.41,13758.3,4,2,Yes,Yes
+EMP1158,Sales,PhD,Medical,Male,60,3,Divorced,48.3,Account Executive,112149.88,7685.98,4,1,Yes,No
+EMP1159,Finance,Bachelor,Other,Female,54,6,Divorced,11.1,CFO,155164.13,8438.06,1,2,Yes,No
+EMP1160,Technology,Bachelor,Other,Female,22,10,Single,56.8,DevOps,93435.81,1117.35,1,1,No,No
+EMP1161,Sales,Master,Marketing,Female,48,6,Married,21.2,Sales Manager,123186.72,15106.58,3,2,No,No
+EMP1162,Operations,High School,Life Sciences,Female,34,8,Married,2.6,Logistics Coordinator,42846.54,4640.69,5,3,No,No
+EMP1163,Technology,High School,Marketing,Male,62,2,Married,9.7,Software Engineer,70935.03,4755.92,3,3,Yes,No
+EMP1164,Finance,Master,Technical,Male,24,8,Married,19.0,Controller,135447.03,16533.07,2,1,No,Yes
+EMP1165,HR,PhD,Medical,Male,60,0,Divorced,4.3,Recruiter,68789.8,2036.13,2,4,No,Yes
+EMP1166,Customer Service,PhD,Life Sciences,Male,27,11,Divorced,15.4,Support Specialist,95585.38,15824.06,1,1,No,Yes
+EMP1167,Finance,Master,Marketing,Female,29,3,Single,16.5,Financial Analyst,82840.53,12029.09,4,2,No,No
+EMP1168,Marketing,High School,Technical,Male,48,8,Married,2.7,Marketing Specialist,54869.36,4183.69,2,5,Yes,Yes
+EMP1169,Customer Service,High School,Technical,Female,30,3,Single,12.5,Service Manager,55672.29,2764.34,2,3,No,Yes
+EMP1170,Finance,PhD,Life Sciences,Female,58,5,Single,22.2,CFO,214026.55,29034.85,3,5,No,No
+EMP1171,Customer Service,Bachelor,Technical,Female,54,3,Single,10.4,Customer Support,44283.12,1170.22,3,3,No,Yes
+EMP1172,R&D,Master,Technical,Female,63,6,Single,0.2,Research Scientist,99159.84,9111.03,2,2,No,No
+EMP1173,Finance,Master,Technical,Male,45,0,Divorced,0.1,Financial Analyst,82901.65,2755.15,1,3,Yes,No
+EMP1174,Technology,PhD,Technical,Female,36,0,Divorced,6.6,CTO,240781.6,34988.69,3,1,Yes,No
+EMP1175,Technology,Master,Marketing,Male,53,1,Married,39.1,Software Engineer,107790.97,1669.36,2,5,No,Yes
+EMP1176,R&D,High School,Life Sciences,Male,53,0,Married,3.9,Research Director,82626.25,7896.59,4,5,No,No
+EMP1177,Operations,PhD,Medical,Male,45,10,Divorced,15.1,Operations Manager,139030.1,6725.1,3,2,No,No
+EMP1178,R&D,High School,Medical,Male,62,1,Married,3.8,Research Scientist,60970.84,7128.72,2,5,Yes,Yes
+EMP1179,R&D,Bachelor,Technical,Male,33,18,Divorced,5.8,Research Director,137202.0,8167.43,5,2,No,Yes
+EMP1180,Customer Service,Master,Marketing,Male,60,2,Divorced,28.3,Customer Support,58952.96,5273.89,3,4,No,Yes
+EMP1181,Sales,Master,Technical,Female,23,1,Married,19.6,Account Executive,77951.38,7984.18,5,1,No,No
+EMP1182,Technology,High School,Technical,Female,24,7,Married,1.5,DevOps,85001.01,6692.88,3,3,Yes,No
+EMP1183,Sales,PhD,Marketing,Male,58,5,Divorced,8.4,Account Executive,104930.7,6449.57,3,3,Yes,No
+EMP1184,R&D,PhD,Other,Female,38,3,Divorced,0.4,Research Director,171250.8,21310.66,5,3,No,No
+EMP1185,Operations,Master,Life Sciences,Male,23,4,Divorced,9.8,Logistics Coordinator,60404.31,6580.74,1,4,No,No
+EMP1186,Technology,High School,Medical,Male,23,6,Divorced,16.3,IT Support,45654.76,3313.16,2,1,No,Yes
+EMP1187,Finance,Bachelor,Marketing,Male,49,1,Divorced,1.9,CFO,131004.97,11982.5,1,5,No,No
+EMP1188,Finance,High School,Medical,Male,44,28,Married,5.1,Financial Analyst,83455.55,3398.6,1,5,No,Yes
+EMP1189,Finance,PhD,Marketing,Male,58,18,Married,7.6,Accountant,116830.46,10137.59,2,1,Yes,No
+EMP1190,Customer Service,Master,Marketing,Female,53,5,Married,37.8,Support Specialist,58617.26,3574.65,4,1,Yes,Yes
+EMP1191,Marketing,Master,Other,Male,54,1,Divorced,75.0,SEO Analyst,81142.63,4097.78,1,3,Yes,No
+EMP1192,R&D,Master,Technical,Female,22,5,Single,0.7,Lab Technician,69528.93,5110.84,1,5,No,No
+EMP1193,Marketing,Bachelor,Life Sciences,Female,40,0,Married,21.5,Content Writer,43948.94,1819.63,1,1,No,No
+EMP1194,HR,Bachelor,Other,Female,23,0,Single,7.0,HR Specialist,47163.33,7546.14,4,5,No,No
+EMP1195,Customer Service,PhD,Medical,Female,47,1,Married,7.5,Customer Support,64530.29,1677.29,3,1,Yes,No
+EMP1196,Finance,High School,Life Sciences,Female,53,3,Single,21.1,CFO,100282.3,14194.33,5,2,No,No
+EMP1197,Technology,High School,Technical,Female,27,10,Married,37.6,IT Support,56184.35,1822.14,5,3,No,No
+EMP1198,Customer Service,High School,Other,Male,53,6,Married,45.2,Customer Support,38179.21,6302.39,4,1,No,No
+EMP1199,Technology,Bachelor,Marketing,Female,25,6,Married,12.9,Data Scientist,108272.65,2719.84,1,4,Yes,Yes
+EMP1200,Sales,Master,Medical,Male,32,2,Single,6.6,BD Manager,124666.51,6028.41,5,1,No,Yes
+EMP1201,Sales,PhD,Other,Male,38,2,Single,23.2,Sales Manager,149920.27,26714.78,4,2,No,No
+EMP1202,Technology,PhD,Other,Male,59,2,Married,4.3,DevOps,142986.99,32071.87,2,4,No,No
+EMP1203,Finance,Bachelor,Life Sciences,Female,45,21,Married,12.5,Accountant,83191.06,7759.05,5,4,No,No
+EMP1204,Marketing,Bachelor,Medical,Female,26,0,Married,6.7,Marketing Specialist,56446.05,6684.47,2,1,Yes,Yes
+EMP1205,R&D,Master,Medical,Male,55,10,Single,16.0,Lab Technician,74193.05,8214.97,1,2,No,Yes
+EMP1206,Customer Service,Master,Medical,Female,27,4,Divorced,4.1,Service Manager,85900.59,3614.41,5,4,No,No
+EMP1207,Customer Service,Bachelor,Life Sciences,Male,43,2,Single,3.2,Support Specialist,45996.36,3754.81,4,3,No,No
+EMP1208,Finance,PhD,Medical,Male,32,6,Divorced,37.6,CFO,254296.61,24326.08,3,3,No,No
+EMP1209,R&D,Master,Life Sciences,Female,37,3,Divorced,1.6,Lab Technician,62519.89,668.9,5,5,Yes,No
+EMP1210,Sales,Master,Marketing,Female,54,10,Married,10.6,Account Executive,103531.22,11410.83,5,5,Yes,No
+EMP1211,Marketing,PhD,Life Sciences,Male,30,11,Single,3.7,Content Writer,82929.53,2831.39,5,2,No,Yes
+EMP1212,R&D,Master,Technical,Male,27,2,Single,0.6,Research Director,131667.72,4501.64,5,4,Yes,No
+EMP1213,Sales,PhD,Medical,Male,37,1,Divorced,0.6,BD Manager,157260.41,7522.54,4,3,No,No
+EMP1214,R&D,High School,Technical,Female,50,4,Divorced,2.9,Research Scientist,60715.51,8079.25,4,3,Yes,No
+EMP1215,HR,Master,Technical,Female,24,12,Divorced,30.2,Recruiter,66150.49,3951.85,3,2,Yes,Yes
+EMP1216,Customer Service,Master,Marketing,Male,41,1,Single,5.0,Service Manager,81220.57,10347.69,4,4,No,No
+EMP1217,HR,High School,Other,Male,57,4,Single,45.1,CHRO,100052.26,11906.63,4,2,Yes,No
+EMP1218,R&D,PhD,Marketing,Male,40,4,Single,13.1,Lab Technician,78123.94,12563.68,1,1,No,Yes
+EMP1219,Customer Service,Master,Life Sciences,Female,47,6,Single,8.6,Service Manager,82586.17,4522.93,1,3,No,Yes
+EMP1220,Marketing,High School,Life Sciences,Male,24,0,Single,13.0,SEO Analyst,49598.61,3743.57,2,2,No,Yes
+EMP1221,Finance,PhD,Medical,Male,40,6,Married,10.9,Financial Analyst,106698.14,4889.72,3,2,No,No
+EMP1222,HR,Master,Technical,Female,41,11,Divorced,21.3,CHRO,172430.46,4752.3,1,1,Yes,No
+EMP1223,Finance,Bachelor,Marketing,Female,53,0,Single,5.0,Accountant,51297.03,8987.84,3,5,No,No
+EMP1224,Sales,High School,Other,Female,28,1,Married,6.5,Sales Representative,38225.19,3499.31,3,3,No,No
+EMP1225,Sales,PhD,Marketing,Female,62,17,Married,33.7,Sales Representative,100817.18,4307.3,5,2,No,No
+EMP1226,Operations,Bachelor,Medical,Male,54,0,Married,43.9,Operations Manager,68413.9,2762.01,3,3,No,Yes
+EMP1227,Sales,PhD,Marketing,Male,61,9,Single,33.5,Sales Manager,146073.72,10301.12,5,5,No,No
+EMP1228,Sales,Bachelor,Other,Male,60,3,Single,8.2,Sales Manager,88258.24,13955.89,2,2,No,Yes
+EMP1229,Customer Service,Bachelor,Other,Female,39,1,Divorced,22.7,Service Manager,61343.3,10492.59,2,1,No,No
+EMP1230,Marketing,High School,Technical,Female,61,10,Divorced,9.7,Content Writer,43055.66,8250.69,2,3,Yes,Yes
+EMP1231,Sales,High School,Technical,Female,22,2,Single,10.3,BD Manager,77187.05,11580.72,5,1,Yes,No
+EMP1232,Technology,Bachelor,Medical,Male,32,3,Divorced,3.4,Software Engineer,90551.93,7462.39,5,5,No,No
+EMP1233,Marketing,High School,Technical,Female,49,2,Married,13.4,CMO,92757.88,16187.11,2,5,Yes,Yes
+EMP1234,Technology,PhD,Life Sciences,Male,46,4,Married,3.1,Software Engineer,138397.5,17428.55,5,3,Yes,No
+EMP1235,Technology,Master,Technical,Male,44,0,Single,6.0,Data Scientist,112682.42,16706.21,4,5,Yes,Yes
+EMP1236,Finance,PhD,Life Sciences,Male,52,2,Married,29.0,Financial Analyst,98883.24,14854.13,4,4,No,No
+EMP1237,R&D,Bachelor,Marketing,Male,51,17,Married,3.5,Research Director,129180.62,6164.77,5,3,No,No
+EMP1238,Technology,PhD,Life Sciences,Female,63,1,Divorced,1.1,CTO,248032.26,37402.03,5,4,No,No
+EMP1239,Finance,Bachelor,Medical,Female,56,5,Single,1.1,Controller,100569.23,21592.92,1,5,No,No
+EMP1240,Sales,PhD,Other,Male,28,1,Divorced,42.4,BD Manager,156834.55,6975.05,1,3,No,No
+EMP1241,Technology,PhD,Medical,Male,37,7,Married,10.6,IT Support,109545.25,5106.71,3,4,No,No
+EMP1242,R&D,High School,Medical,Female,47,0,Single,7.9,Research Director,69140.16,8258.98,3,5,No,Yes
+EMP1243,Operations,Bachelor,Medical,Male,23,17,Single,25.0,Supply Chain Analyst,73935.96,2022.11,3,2,No,No
+EMP1244,HR,Bachelor,Medical,Female,22,3,Married,27.1,HR Manager,72250.65,10194.84,2,2,No,Yes
+EMP1245,Finance,Master,Technical,Male,33,1,Married,6.1,Controller,105615.51,6061.19,4,1,No,No
+EMP1246,Operations,PhD,Marketing,Male,26,0,Single,17.7,Logistics Coordinator,72594.29,10516.05,2,2,No,Yes
+EMP1247,Finance,PhD,Other,Male,58,0,Married,22.1,Financial Analyst,107027.9,11632.95,5,4,No,No
+EMP1248,HR,Master,Life Sciences,Female,53,3,Married,15.9,HR Manager,93957.25,6646.62,1,2,No,Yes
+EMP1249,R&D,Bachelor,Life Sciences,Male,30,2,Single,2.5,Research Director,107612.38,17003.05,5,3,No,No
+EMP1250,Marketing,PhD,Marketing,Female,62,8,Single,31.3,Content Writer,89235.53,7624.76,5,3,No,No
+EMP1251,HR,Master,Medical,Male,56,2,Divorced,11.6,CHRO,142670.44,23507.63,1,3,No,No
+EMP1252,Customer Service,Master,Medical,Male,40,1,Divorced,5.0,Service Manager,72832.21,6364.36,5,2,No,No
+EMP1253,Operations,Master,Other,Male,37,4,Divorced,8.3,Supply Chain Analyst,78678.26,6828.59,3,2,No,Yes
+EMP1254,Technology,PhD,Life Sciences,Female,24,6,Married,0.6,Data Scientist,157538.2,9183.72,1,1,No,No
+EMP1255,Sales,Bachelor,Medical,Male,41,0,Divorced,2.1,BD Manager,87842.39,6767.43,5,5,No,No
+EMP1256,Customer Service,Bachelor,Technical,Female,45,0,Divorced,21.8,Support Specialist,45167.06,3861.21,3,1,No,No
+EMP1257,Technology,Master,Other,Male,54,0,Married,0.0,DevOps,104883.23,16170.44,3,4,No,Yes
+EMP1258,Technology,Master,Technical,Male,45,6,Married,8.1,IT Support,77807.97,3545.39,4,3,No,No
+EMP1259,Finance,Bachelor,Technical,Female,32,5,Married,11.1,Accountant,66423.01,2573.83,3,2,No,No
+EMP1260,HR,Master,Marketing,Male,29,3,Divorced,0.8,HR Manager,107159.78,4942.09,2,5,No,No
+EMP1261,Marketing,Master,Marketing,Male,57,9,Divorced,54.2,Marketing Specialist,91946.1,10614.52,1,5,No,No
+EMP1262,Operations,Bachelor,Technical,Male,59,8,Single,3.8,Operations Manager,75395.12,6833.1,1,2,Yes,Yes
+EMP1263,Technology,PhD,Marketing,Female,61,4,Divorced,5.4,CTO,253090.11,26099.01,1,1,No,Yes
+EMP1264,Finance,Master,Technical,Male,41,10,Divorced,5.4,Controller,134051.49,24949.44,5,5,No,No
+EMP1265,Operations,PhD,Medical,Female,56,1,Married,3.9,Logistics Coordinator,67223.42,3246.2,5,1,No,No
+EMP1266,HR,Master,Marketing,Female,46,0,Married,0.0,Recruiter,52698.99,5674.88,2,2,No,Yes
+EMP1267,Marketing,Master,Technical,Female,56,1,Divorced,19.6,SEO Analyst,82271.95,11375.41,3,1,Yes,Yes
+EMP1268,Customer Service,Master,Other,Male,46,0,Single,51.1,Customer Support,53474.92,5990.09,5,3,No,Yes
+EMP1269,HR,High School,Other,Male,50,3,Divorced,3.8,HR Specialist,41643.49,1289.14,3,2,No,Yes
+EMP1270,Sales,PhD,Marketing,Female,39,13,Married,16.3,Sales Manager,171005.08,25177.62,3,2,Yes,Yes
+EMP1271,HR,PhD,Other,Female,39,0,Single,20.3,HR Manager,117970.63,13219.24,5,5,No,No
+EMP1272,Technology,Master,Life Sciences,Male,23,0,Single,28.3,Data Scientist,111742.92,5111.37,5,5,No,Yes
+EMP1273,Marketing,Bachelor,Life Sciences,Female,56,3,Divorced,8.2,Marketing Specialist,56380.43,9414.41,2,5,No,Yes
+EMP1274,HR,Master,Other,Male,37,13,Divorced,5.4,HR Specialist,76610.61,2204.99,4,3,Yes,No
+EMP1275,Technology,High School,Technical,Female,62,1,Single,5.9,CTO,112569.42,2292.8,1,3,No,Yes
+EMP1276,Technology,Master,Other,Female,57,3,Married,18.7,CTO,225580.82,19788.37,5,4,No,No
+EMP1277,Marketing,High School,Other,Female,54,0,Single,25.5,SEO Analyst,48953.85,3538.07,5,2,Yes,No
+EMP1278,HR,Master,Other,Female,25,0,Married,3.0,Recruiter,61175.28,4239.18,3,5,Yes,No
+EMP1279,HR,PhD,Technical,Male,54,21,Divorced,7.0,HR Manager,164107.6,21348.04,4,2,Yes,No
+EMP1280,Finance,Master,Technical,Male,35,16,Single,34.8,CFO,218312.65,23614.92,5,1,No,No
+EMP1281,Operations,PhD,Life Sciences,Female,42,0,Married,24.7,Supply Chain Analyst,90948.94,8908.53,4,3,Yes,No
+EMP1282,Finance,Bachelor,Marketing,Female,41,15,Married,62.9,Financial Analyst,77688.72,1055.04,1,4,Yes,No
+EMP1283,HR,Bachelor,Life Sciences,Female,29,5,Single,21.1,HR Specialist,51469.35,7395.25,3,1,No,No
+EMP1284,Customer Service,Master,Technical,Female,28,10,Married,7.5,Service Manager,99169.46,10011.66,2,2,No,No
+EMP1285,HR,Master,Technical,Male,24,3,Single,13.4,HR Manager,107019.87,11473.05,1,3,No,No
+EMP1286,Sales,Bachelor,Technical,Male,38,3,Divorced,16.2,Sales Manager,90945.66,628.81,4,5,No,No
+EMP1287,Technology,High School,Technical,Male,54,3,Divorced,1.2,Software Engineer,67502.02,13129.01,4,1,Yes,No
+EMP1288,R&D,Bachelor,Technical,Female,33,5,Single,11.8,Research Scientist,89470.17,5918.67,1,3,No,No
+EMP1289,HR,Bachelor,Technical,Female,43,0,Divorced,18.5,HR Specialist,45727.35,815.61,4,2,Yes,Yes
+EMP1290,Sales,High School,Medical,Female,43,0,Divorced,2.7,BD Manager,72665.13,13668.44,2,2,No,Yes
+EMP1291,Sales,Bachelor,Medical,Female,51,1,Single,22.8,Sales Manager,84097.92,4150.36,2,1,No,No
+EMP1292,Operations,Bachelor,Other,Female,59,6,Married,13.1,Supply Chain Analyst,70995.8,11668.11,4,1,Yes,No
+EMP1293,Marketing,High School,Medical,Male,59,1,Single,45.6,Marketing Specialist,49300.81,5457.21,4,1,No,No
+EMP1294,HR,High School,Life Sciences,Female,29,5,Single,0.7,CHRO,91779.38,9674.05,2,4,No,No
+EMP1295,Marketing,PhD,Other,Male,48,17,Single,4.6,SEO Analyst,138270.18,8718.68,4,5,Yes,No
+EMP1296,Customer Service,Master,Marketing,Male,48,0,Divorced,13.8,Customer Support,55438.48,7247.69,5,3,No,No
+EMP1297,R&D,PhD,Technical,Female,55,5,Married,5.3,Research Director,157992.54,9189.17,3,2,No,No
+EMP1298,Sales,High School,Medical,Male,42,2,Divorced,18.8,Account Executive,52991.18,1684.4,5,2,No,Yes
+EMP1299,Technology,Bachelor,Life Sciences,Female,51,10,Divorced,21.3,DevOps,100157.33,6889.57,4,5,No,No
+EMP1300,Technology,High School,Marketing,Male,54,0,Single,1.6,DevOps,74503.8,9562.2,4,1,No,No
+EMP1301,Marketing,Bachelor,Technical,Female,49,5,Divorced,10.8,SEO Analyst,61787.77,5394.44,3,1,Yes,No
+EMP1302,Sales,PhD,Technical,Male,54,9,Married,10.7,Account Executive,130062.53,8752.1,4,2,Yes,Yes
+EMP1303,Operations,PhD,Marketing,Female,26,14,Single,6.9,Supply Chain Analyst,118805.12,8859.38,3,5,No,No
+EMP1304,Marketing,PhD,Marketing,Male,40,5,Married,40.5,CMO,220951.96,38107.3,2,2,Yes,No
+EMP1305,R&D,Bachelor,Marketing,Female,25,3,Married,26.4,Research Director,99089.02,4314.21,3,1,No,Yes
+EMP1306,Marketing,Master,Life Sciences,Female,56,4,Divorced,17.9,Content Writer,64170.15,7042.65,3,3,No,No
+EMP1307,Sales,Master,Other,Female,38,10,Divorced,18.8,Sales Representative,83188.74,14266.22,5,1,Yes,Yes
+EMP1308,HR,Master,Other,Female,49,4,Divorced,9.3,HR Manager,111705.73,14340.52,4,3,Yes,No
+EMP1309,Operations,High School,Medical,Male,51,0,Single,38.1,Supply Chain Analyst,51517.66,640.46,2,4,No,No
+EMP1310,Sales,High School,Technical,Male,50,13,Divorced,17.8,Account Executive,59749.23,2053.69,1,5,No,Yes
+EMP1311,Operations,Bachelor,Medical,Male,27,5,Married,19.6,Logistics Coordinator,51401.3,5286.07,3,4,No,No
+EMP1312,Finance,High School,Other,Male,56,5,Married,29.7,CFO,106162.91,10366.15,1,1,No,No
+EMP1313,Finance,Bachelor,Marketing,Male,62,1,Single,4.8,Financial Analyst,65183.75,2210.93,4,5,Yes,No
+EMP1314,Technology,PhD,Technical,Male,58,5,Divorced,24.7,Data Scientist,168824.8,5563.66,3,1,No,No
+EMP1315,Operations,Bachelor,Other,Male,45,2,Married,3.3,Supply Chain Analyst,61186.19,11077.47,1,5,Yes,Yes
+EMP1316,R&D,High School,Technical,Male,50,5,Married,6.4,Lab Technician,39755.32,8120.24,5,5,No,No
+EMP1317,Marketing,PhD,Medical,Male,52,0,Married,6.1,CMO,211066.61,24281.47,1,1,No,No
+EMP1318,Finance,PhD,Other,Female,56,5,Married,57.6,Financial Analyst,106053.77,7603.62,5,1,No,Yes
+EMP1319,Marketing,Bachelor,Medical,Male,54,37,Single,29.1,Marketing Specialist,99058.23,14593.95,2,5,No,Yes
+EMP1320,Marketing,Master,Technical,Male,42,0,Married,18.1,Marketing Specialist,70012.81,6707.26,4,5,No,Yes
+EMP1321,R&D,High School,Life Sciences,Male,53,18,Married,19.5,Lab Technician,45366.43,3117.68,1,1,No,No
+EMP1322,Sales,High School,Marketing,Female,44,2,Married,12.4,Account Executive,50388.9,5459.32,3,1,No,No
+EMP1323,Marketing,Master,Medical,Female,54,10,Married,44.1,CMO,204020.79,11986.23,4,2,No,Yes
+EMP1324,Operations,High School,Technical,Female,24,7,Married,10.3,Operations Manager,68686.75,3480.02,1,2,No,Yes
+EMP1325,R&D,Master,Other,Male,39,4,Divorced,7.2,Lab Technician,68323.38,5450.67,3,2,No,No
+EMP1326,Finance,Master,Medical,Female,46,6,Single,2.7,Financial Analyst,103943.73,9177.05,3,4,Yes,No
+EMP1327,HR,PhD,Technical,Male,63,10,Single,23.1,HR Manager,135599.48,2290.38,3,5,Yes,No
+EMP1328,Marketing,PhD,Life Sciences,Male,52,2,Divorced,19.9,CMO,193906.83,22912.63,3,3,Yes,No
+EMP1329,Technology,Bachelor,Medical,Male,24,1,Married,7.3,CTO,158178.1,6562.46,1,4,No,No
+EMP1330,R&D,PhD,Technical,Male,61,5,Divorced,0.4,Research Director,166658.36,13340.46,2,5,Yes,Yes
+EMP1331,Sales,Master,Medical,Female,45,8,Married,27.4,BD Manager,140921.7,16380.03,5,3,No,No
+EMP1332,Customer Service,Bachelor,Technical,Male,53,7,Married,0.2,Service Manager,66454.86,12052.3,5,2,No,No
+EMP1333,Finance,High School,Marketing,Female,43,7,Married,18.2,CFO,120783.73,4025.63,5,3,Yes,No
+EMP1334,Finance,Master,Technical,Male,44,2,Single,52.7,CFO,178417.26,11777.89,2,1,No,No
+EMP1335,Customer Service,Bachelor,Technical,Female,23,8,Divorced,8.6,Service Manager,64887.49,4724.83,3,1,Yes,Yes
+EMP1336,Operations,PhD,Technical,Female,48,0,Married,4.0,Supply Chain Analyst,95457.4,10590.85,3,5,No,Yes
+EMP1337,HR,Master,Other,Female,63,3,Divorced,18.3,CHRO,153201.05,20730.89,4,4,No,No
+EMP1338,Finance,Bachelor,Technical,Male,23,0,Married,25.5,CFO,131827.46,13423.7,5,2,No,Yes
+EMP1339,Finance,High School,Marketing,Female,47,1,Single,11.9,Accountant,42277.92,4692.68,5,5,Yes,No
+EMP1340,Sales,Master,Life Sciences,Male,38,2,Divorced,51.2,Account Executive,92138.16,319.6,3,2,No,No
+EMP1341,Finance,Master,Marketing,Male,61,2,Divorced,0.8,Accountant,67298.76,2259.76,5,1,No,No
+EMP1342,R&D,Bachelor,Life Sciences,Female,54,5,Single,10.5,Lab Technician,48062.84,2912.36,3,4,No,No
+EMP1343,Operations,Bachelor,Other,Male,30,2,Single,19.0,Supply Chain Analyst,65897.05,4752.29,3,4,No,No
+EMP1344,HR,PhD,Other,Male,64,2,Single,29.8,CHRO,185378.99,7932.79,3,1,Yes,No
+EMP1345,Technology,PhD,Other,Male,60,1,Married,3.0,Data Scientist,147634.12,4682.12,1,3,No,No
+EMP1346,HR,Master,Life Sciences,Male,50,2,Married,24.1,HR Specialist,70235.77,6175.59,1,4,No,Yes
+EMP1347,Operations,High School,Marketing,Male,63,1,Divorced,12.1,Supply Chain Analyst,49619.89,3178.96,1,3,Yes,No
+EMP1348,R&D,PhD,Medical,Female,47,0,Married,7.6,Research Scientist,127109.85,9196.52,1,2,No,Yes
+EMP1349,Operations,High School,Other,Male,56,4,Single,2.1,Logistics Coordinator,40707.56,363.49,2,4,No,No
+EMP1350,Sales,Bachelor,Life Sciences,Male,46,5,Divorced,30.1,BD Manager,106801.26,7861.2,4,1,No,No
+EMP1351,Technology,Bachelor,Marketing,Male,45,4,Married,2.6,Software Engineer,86195.71,1190.94,4,3,Yes,Yes
+EMP1352,HR,PhD,Other,Male,34,3,Single,5.6,Recruiter,70720.89,4908.6,3,2,Yes,No
+EMP1353,Marketing,Master,Technical,Female,28,2,Single,5.1,SEO Analyst,77247.87,4673.26,5,2,No,No
+EMP1354,HR,Bachelor,Marketing,Male,57,9,Married,30.8,HR Specialist,58045.37,2941.07,1,4,No,No
+EMP1355,Sales,High School,Life Sciences,Female,41,3,Divorced,16.8,BD Manager,82159.91,1898.3,4,4,Yes,No
+EMP1356,Technology,Master,Medical,Female,22,3,Married,23.9,Software Engineer,110542.23,17434.37,4,5,No,No
+EMP1357,R&D,PhD,Medical,Female,29,0,Married,4.3,Research Scientist,114916.43,8594.79,1,5,Yes,Yes
+EMP1358,Operations,Bachelor,Medical,Male,37,2,Single,14.7,Logistics Coordinator,42180.51,2033.48,2,4,No,Yes
+EMP1359,Operations,PhD,Technical,Male,35,2,Divorced,12.7,Supply Chain Analyst,99764.9,8320.57,2,5,No,Yes
+EMP1360,R&D,Master,Marketing,Male,33,2,Married,26.8,Lab Technician,58231.5,1418.05,4,1,No,Yes
+EMP1361,Technology,Master,Other,Female,44,4,Divorced,35.5,Software Engineer,117590.24,10084.18,2,1,No,Yes
+EMP1362,R&D,Master,Marketing,Female,36,3,Divorced,0.2,Research Director,118445.96,3607.24,1,5,No,No
+EMP1363,Finance,High School,Medical,Male,49,4,Single,16.8,Accountant,48326.2,394.46,4,4,No,Yes
+EMP1364,HR,Master,Technical,Female,55,7,Single,0.8,HR Specialist,80642.65,1910.0,1,1,No,No
+EMP1365,Sales,Master,Medical,Female,23,8,Single,11.9,Sales Manager,119833.16,17700.05,2,2,No,Yes
+EMP1366,R&D,Bachelor,Life Sciences,Female,53,6,Married,5.1,Lab Technician,50114.23,601.7,1,4,Yes,Yes
+EMP1367,Sales,High School,Marketing,Female,44,15,Married,5.5,Sales Manager,81176.34,1927.68,2,3,No,No
+EMP1368,Finance,High School,Technical,Female,43,0,Divorced,6.5,Controller,69709.27,523.76,2,3,Yes,Yes
+EMP1369,Operations,PhD,Medical,Female,46,1,Married,14.6,Logistics Coordinator,74182.21,5105.53,1,4,No,Yes
+EMP1370,R&D,Master,Technical,Female,43,0,Single,6.1,Lab Technician,57416.18,1244.61,2,5,Yes,No
+EMP1371,Technology,Bachelor,Life Sciences,Female,43,5,Married,19.8,Software Engineer,88376.24,675.44,3,1,No,No
+EMP1372,Operations,PhD,Life Sciences,Male,63,11,Divorced,7.8,Operations Manager,147477.59,24567.37,1,1,Yes,Yes
+EMP1373,Operations,Master,Marketing,Male,27,1,Married,1.1,Operations Manager,87182.01,15855.57,3,4,No,No
+EMP1374,Technology,High School,Technical,Female,36,13,Married,23.0,CTO,136762.35,16617.89,1,2,No,Yes
+EMP1375,HR,Master,Medical,Female,64,0,Divorced,5.0,CHRO,153343.62,9364.98,2,5,No,Yes
+EMP1376,HR,Master,Medical,Female,58,13,Divorced,8.5,HR Specialist,83163.18,2308.0,2,2,No,No
+EMP1377,R&D,Bachelor,Other,Female,54,2,Married,17.3,Lab Technician,50456.56,3908.13,4,4,No,Yes
+EMP1378,Operations,Bachelor,Medical,Female,29,0,Single,6.1,Logistics Coordinator,45872.51,2333.05,4,4,No,No
+EMP1379,R&D,Bachelor,Marketing,Female,26,3,Single,0.9,Research Scientist,84431.56,2117.49,3,2,No,No
+EMP1380,HR,PhD,Life Sciences,Male,60,1,Single,7.0,Recruiter,72407.04,3020.42,2,3,No,No
+EMP1381,Marketing,Bachelor,Medical,Male,25,1,Single,43.4,CMO,128516.57,13817.48,4,4,Yes,No
+EMP1382,Finance,PhD,Other,Female,27,1,Married,15.4,Financial Analyst,114843.09,11254.09,2,5,No,No
+EMP1383,R&D,Master,Marketing,Male,53,8,Married,16.7,Research Scientist,114731.42,16080.07,1,2,No,No
+EMP1384,R&D,PhD,Marketing,Male,51,3,Divorced,15.0,Research Director,150833.62,29434.7,4,3,No,No
+EMP1385,Marketing,PhD,Marketing,Female,56,1,Divorced,3.3,SEO Analyst,93392.13,1347.25,3,2,No,No
+EMP1386,HR,Bachelor,Marketing,Male,61,4,Married,8.1,HR Specialist,50745.36,3832.0,4,3,No,No
+EMP1387,R&D,Bachelor,Marketing,Female,37,6,Single,20.9,Research Scientist,79747.2,5229.71,2,3,Yes,Yes
+EMP1388,Sales,High School,Marketing,Male,34,1,Divorced,1.6,BD Manager,74518.67,11206.13,5,5,No,No
+EMP1389,HR,PhD,Life Sciences,Male,63,2,Divorced,4.9,CHRO,185058.34,2166.21,5,4,No,No
+EMP1390,HR,Master,Life Sciences,Female,51,0,Married,4.9,HR Manager,99215.84,4884.81,2,3,No,Yes
+EMP1391,Finance,High School,Other,Male,40,0,Married,8.5,CFO,102471.19,3381.95,1,4,No,No
+EMP1392,R&D,High School,Medical,Female,38,5,Single,59.0,Lab Technician,40514.13,4905.73,4,5,Yes,No
+EMP1393,Operations,High School,Technical,Male,40,1,Married,1.0,Logistics Coordinator,33647.09,5939.44,5,4,No,No
+EMP1394,Customer Service,Bachelor,Life Sciences,Male,49,3,Divorced,11.0,Service Manager,58356.67,1652.0,1,1,Yes,No
+EMP1395,Customer Service,Bachelor,Technical,Male,47,6,Divorced,3.0,Support Specialist,47092.04,3136.05,2,3,No,Yes
+EMP1396,Customer Service,Bachelor,Other,Female,58,0,Single,52.9,Support Specialist,45162.7,5652.06,1,5,No,Yes
+EMP1397,Finance,Master,Medical,Female,47,4,Single,1.8,Accountant,72802.93,1196.86,2,2,No,Yes
+EMP1398,Customer Service,PhD,Life Sciences,Male,44,1,Single,7.8,Customer Support,62450.56,10192.87,4,5,No,No
+EMP1399,Marketing,High School,Life Sciences,Male,30,16,Married,20.1,CMO,124193.53,2871.54,1,3,No,No
+EMP1400,Technology,Bachelor,Medical,Female,33,3,Married,18.3,IT Support,61936.36,1969.4,4,5,Yes,No
+EMP1401,HR,PhD,Medical,Female,22,8,Single,8.2,CHRO,184310.02,21993.83,1,2,No,Yes
+EMP1402,Operations,High School,Technical,Male,22,3,Divorced,6.4,Operations Manager,61133.43,8723.05,2,1,Yes,Yes
+EMP1403,Technology,PhD,Technical,Male,55,0,Divorced,7.6,DevOps,140593.44,20360.69,2,3,No,Yes
+EMP1404,Finance,High School,Medical,Female,53,5,Married,4.6,Financial Analyst,60616.62,248.9,1,3,Yes,Yes
+EMP1405,HR,PhD,Life Sciences,Female,46,15,Divorced,3.4,CHRO,248602.77,4028.62,2,5,No,Yes
+EMP1406,Finance,Bachelor,Marketing,Male,61,4,Married,9.9,CFO,126925.47,9137.82,3,4,Yes,No
+EMP1407,Finance,PhD,Other,Female,22,8,Divorced,4.7,Accountant,95011.65,15648.43,3,4,No,No
+EMP1408,Marketing,PhD,Other,Male,37,10,Married,5.1,CMO,248194.77,10767.67,4,2,No,No
+EMP1409,Sales,High School,Technical,Male,60,1,Married,16.0,Sales Manager,68784.57,6622.91,3,1,No,No
+EMP1410,Sales,PhD,Medical,Female,26,1,Divorced,51.9,Sales Representative,82654.12,2024.15,3,1,No,No
+EMP1411,Finance,Master,Life Sciences,Female,43,4,Divorced,13.9,CFO,188471.15,3354.45,5,5,No,No
+EMP1412,Customer Service,High School,Life Sciences,Male,50,2,Married,1.2,Support Specialist,38780.85,1216.87,5,5,No,Yes
+EMP1413,Technology,PhD,Technical,Female,24,9,Divorced,1.2,DevOps,174337.14,3250.91,5,4,No,No
+EMP1414,Customer Service,Master,Technical,Male,33,11,Single,45.4,Support Specialist,78463.46,4686.64,5,1,No,No
+EMP1415,R&D,High School,Marketing,Female,47,2,Married,5.3,Research Scientist,65147.57,11119.52,2,1,No,No
+EMP1416,Finance,Bachelor,Other,Male,37,1,Divorced,1.4,Accountant,53712.62,2455.49,4,1,Yes,No
+EMP1417,R&D,High School,Other,Female,58,7,Divorced,13.7,Research Director,93220.35,10744.41,4,2,No,No
+EMP1418,Customer Service,High School,Other,Male,43,1,Divorced,14.7,Customer Support,29697.31,487.74,3,2,No,Yes
+EMP1419,R&D,PhD,Technical,Male,50,8,Single,15.7,Research Director,166836.84,6579.35,4,5,Yes,Yes
+EMP1420,Finance,Master,Marketing,Female,35,2,Married,4.7,Controller,124053.51,3778.1,3,4,No,No
+EMP1421,Marketing,High School,Medical,Female,49,5,Single,0.2,Marketing Specialist,46039.93,3184.98,4,3,No,No
+EMP1422,Sales,High School,Technical,Female,26,0,Divorced,50.3,Sales Representative,37765.21,2118.98,1,4,Yes,Yes
+EMP1423,Technology,High School,Marketing,Female,51,4,Single,4.3,Data Scientist,76139.46,8782.36,1,2,No,No
+EMP1424,R&D,PhD,Technical,Male,26,3,Single,16.9,Research Director,172692.02,28112.95,4,2,No,Yes
+EMP1425,Finance,High School,Medical,Male,33,4,Married,18.4,Financial Analyst,56160.65,3148.16,2,5,Yes,No
+EMP1426,Marketing,Master,Medical,Male,37,0,Married,14.1,Content Writer,60546.25,1279.68,3,3,No,No
+EMP1427,Customer Service,PhD,Marketing,Female,47,6,Divorced,5.6,Service Manager,101908.88,13340.82,4,1,No,No
+EMP1428,Sales,Bachelor,Life Sciences,Male,47,9,Single,4.7,Sales Representative,62044.88,2142.74,3,3,Yes,No
+EMP1429,Finance,Bachelor,Medical,Female,42,1,Married,13.7,Financial Analyst,69747.67,9754.31,5,3,No,No
+EMP1430,Technology,PhD,Medical,Male,60,0,Single,30.2,CTO,231004.71,20003.61,4,3,No,No
+EMP1431,Customer Service,Master,Medical,Female,57,0,Single,44.0,Customer Support,51071.1,1773.43,2,5,No,Yes
+EMP1432,Marketing,PhD,Medical,Male,54,5,Married,1.7,Marketing Specialist,91179.6,15162.39,5,2,No,No
+EMP1433,Customer Service,PhD,Life Sciences,Female,51,4,Married,2.5,Service Manager,113561.97,21186.03,4,1,No,No
+EMP1434,Operations,PhD,Other,Male,58,3,Married,43.4,Operations Manager,122177.19,4423.91,1,3,No,No
+EMP1435,Customer Service,PhD,Other,Male,44,1,Divorced,20.0,Customer Support,70953.4,4767.58,4,1,Yes,No
+EMP1436,R&D,High School,Medical,Male,31,2,Married,32.2,Research Director,75931.92,10282.62,1,3,No,Yes
+EMP1437,Customer Service,Bachelor,Life Sciences,Female,26,4,Single,3.4,Support Specialist,51339.98,2689.64,1,2,No,No
+EMP1438,Marketing,Master,Technical,Female,57,3,Married,13.3,CMO,174152.48,14271.67,4,1,Yes,Yes
+EMP1439,Customer Service,High School,Life Sciences,Male,55,22,Married,18.1,Customer Support,47846.3,4252.58,4,4,No,No
+EMP1440,Customer Service,Bachelor,Marketing,Male,52,0,Divorced,17.1,Support Specialist,49190.75,2911.67,1,2,Yes,Yes
+EMP1441,HR,PhD,Technical,Female,31,5,Divorced,7.9,HR Manager,129189.86,10170.45,3,1,No,No
+EMP1442,Finance,Bachelor,Other,Female,40,2,Single,0.2,CFO,125214.6,10668.47,5,3,No,No
+EMP1443,HR,Bachelor,Other,Female,53,2,Divorced,13.1,HR Specialist,53785.77,1792.86,2,3,No,No
+EMP1444,Customer Service,High School,Life Sciences,Male,22,6,Single,4.4,Service Manager,56225.54,6707.94,4,2,Yes,Yes
+EMP1445,Finance,High School,Other,Male,26,5,Divorced,9.0,Financial Analyst,58058.69,9878.07,5,2,No,Yes
+EMP1446,HR,Master,Life Sciences,Female,25,23,Single,47.4,HR Manager,134003.11,21197.79,5,3,Yes,No
+EMP1447,Customer Service,PhD,Life Sciences,Male,37,0,Single,7.6,Service Manager,96085.55,7892.83,3,1,No,Yes
+EMP1448,Technology,PhD,Life Sciences,Female,45,0,Divorced,27.5,Data Scientist,146290.57,23170.47,5,4,No,Yes
+EMP1449,HR,PhD,Life Sciences,Male,37,6,Single,3.1,CHRO,194260.44,17439.66,4,5,No,No
+EMP1450,Finance,Bachelor,Life Sciences,Female,23,4,Divorced,16.7,Financial Analyst,72238.87,3812.76,5,2,No,No
+EMP1451,HR,Bachelor,Marketing,Female,49,1,Married,56.6,HR Manager,80251.79,1877.77,4,3,No,No
+EMP1452,Operations,PhD,Marketing,Male,53,0,Married,1.6,Logistics Coordinator,68144.04,5312.39,4,1,Yes,No
+EMP1453,Operations,Master,Marketing,Female,48,0,Divorced,0.1,Logistics Coordinator,57392.31,5492.98,1,2,No,No
+EMP1454,Technology,Bachelor,Life Sciences,Female,41,11,Married,8.5,Software Engineer,93094.03,3533.67,3,1,No,Yes
+EMP1455,Marketing,Master,Other,Male,45,1,Married,1.5,Marketing Specialist,68534.24,3830.35,2,2,No,Yes
+EMP1456,Marketing,Bachelor,Technical,Male,33,1,Divorced,20.7,Marketing Specialist,59279.6,5334.97,1,3,Yes,No
+EMP1457,Finance,High School,Marketing,Female,56,1,Divorced,36.9,Accountant,48553.45,5595.93,2,1,No,Yes
+EMP1458,R&D,High School,Medical,Male,54,2,Divorced,8.5,Lab Technician,36468.3,3799.86,4,3,No,No
+EMP1459,Marketing,PhD,Medical,Female,54,0,Married,4.5,Content Writer,75618.42,8383.97,1,1,No,Yes
+EMP1460,Finance,High School,Life Sciences,Female,64,3,Single,8.5,Accountant,50343.17,6476.31,5,2,No,No
+EMP1461,Technology,Bachelor,Technical,Male,58,0,Divorced,19.3,DevOps,90884.11,2605.18,5,5,No,No
+EMP1462,R&D,Bachelor,Marketing,Male,33,8,Divorced,0.1,Research Scientist,81480.95,3292.46,2,5,Yes,Yes
+EMP1463,R&D,High School,Life Sciences,Male,24,1,Married,13.4,Research Scientist,66785.01,2085.65,4,4,Yes,No
+EMP1464,Operations,High School,Other,Male,22,3,Single,14.3,Logistics Coordinator,37218.79,5419.59,2,4,No,No
+EMP1465,Customer Service,High School,Technical,Female,54,10,Single,15.2,Service Manager,55748.05,4803.99,3,3,No,No
+EMP1466,R&D,PhD,Other,Female,61,5,Single,4.2,Research Director,152567.7,7516.43,5,1,No,No
+EMP1467,Sales,High School,Other,Female,31,3,Divorced,18.8,Account Executive,54967.58,1512.03,1,4,No,Yes
+EMP1468,Finance,Bachelor,Medical,Male,64,1,Married,1.4,Financial Analyst,61115.52,4867.43,1,2,No,Yes
+EMP1469,R&D,High School,Marketing,Male,50,2,Married,3.3,Research Director,75064.92,3466.95,1,5,No,Yes
+EMP1470,R&D,PhD,Life Sciences,Female,34,5,Married,31.5,Lab Technician,76300.37,10188.81,5,1,No,Yes
+EMP1471,Sales,PhD,Other,Female,33,25,Married,20.1,Account Executive,165635.38,22499.39,4,5,No,No
+EMP1472,R&D,Bachelor,Other,Female,52,5,Married,0.2,Research Scientist,88695.56,6172.98,5,1,No,No
+EMP1473,Customer Service,Bachelor,Life Sciences,Female,23,4,Single,4.3,Support Specialist,46679.97,3501.43,5,4,No,Yes
+EMP1474,Sales,High School,Technical,Male,56,6,Single,3.6,Sales Representative,48013.94,7952.79,1,4,Yes,No
+EMP1475,Operations,Bachelor,Life Sciences,Female,44,3,Single,4.7,Logistics Coordinator,51107.98,6640.9,5,3,Yes,Yes
+EMP1476,HR,Master,Life Sciences,Female,38,0,Single,4.3,CHRO,150569.02,19934.37,1,1,No,No
+EMP1477,R&D,Bachelor,Marketing,Male,47,4,Divorced,1.0,Research Scientist,75276.46,9919.0,4,2,No,No
+EMP1478,R&D,Master,Medical,Female,29,15,Single,9.2,Lab Technician,78944.81,1987.15,3,4,No,No
+EMP1479,Finance,Master,Other,Male,50,0,Single,19.8,Accountant,77863.84,2241.64,1,3,No,No
+EMP1480,Customer Service,Bachelor,Medical,Female,47,5,Divorced,14.0,Service Manager,68409.53,2552.93,2,4,Yes,Yes
+EMP1481,Finance,Master,Technical,Female,31,1,Divorced,16.8,Controller,108914.31,9697.65,3,5,Yes,No
+EMP1482,HR,Bachelor,Other,Male,47,3,Divorced,1.3,HR Manager,79509.21,8346.45,4,4,No,No
+EMP1483,R&D,Bachelor,Medical,Female,55,0,Divorced,45.4,Lab Technician,46311.53,2607.22,3,1,No,Yes
+EMP1484,Customer Service,PhD,Technical,Male,62,2,Divorced,27.3,Customer Support,66700.71,12086.55,1,3,No,Yes
+EMP1485,Sales,Master,Marketing,Male,28,7,Divorced,24.5,Sales Representative,68467.7,2835.87,4,1,Yes,No
+EMP1486,R&D,Master,Technical,Male,25,2,Divorced,26.0,Research Scientist,97588.66,16989.21,2,2,No,Yes
+EMP1487,Operations,High School,Medical,Female,32,5,Divorced,40.5,Operations Manager,65325.52,1659.39,1,2,No,Yes
+EMP1488,R&D,Bachelor,Life Sciences,Male,50,7,Single,11.8,Research Director,116128.31,9293.46,1,4,No,No
+EMP1489,Marketing,PhD,Other,Male,57,13,Married,3.4,Content Writer,84139.17,1176.15,4,3,No,No
+EMP1490,Customer Service,PhD,Marketing,Male,46,1,Married,14.4,Service Manager,106779.54,1920.73,4,3,Yes,No
+EMP1491,Marketing,High School,Medical,Male,42,2,Single,20.4,CMO,96421.93,13929.5,3,3,No,No
+EMP1492,Sales,Master,Marketing,Male,57,0,Single,20.1,Sales Representative,67110.08,5189.33,2,3,No,Yes
+EMP1493,R&D,PhD,Technical,Male,31,24,Single,11.1,Lab Technician,111926.9,2051.51,3,4,No,No
+EMP1494,Sales,Master,Medical,Female,58,13,Single,1.1,Sales Representative,87009.68,5968.82,3,1,No,No
+EMP1495,Technology,PhD,Life Sciences,Male,30,3,Married,7.0,DevOps,157011.86,5875.64,1,4,Yes,Yes
+EMP1496,R&D,PhD,Life Sciences,Female,45,9,Married,38.0,Lab Technician,81781.13,18109.73,4,1,No,No
+EMP1497,Marketing,Bachelor,Life Sciences,Male,56,3,Married,13.2,CMO,136320.4,21437.42,1,5,No,No
+EMP1498,Customer Service,Master,Life Sciences,Female,56,4,Divorced,11.6,Customer Support,52023.11,10204.99,2,5,Yes,No
+EMP1499,Marketing,PhD,Other,Female,57,0,Married,4.7,CMO,199873.57,24872.0,3,1,Yes,No
+EMP1500,Sales,Bachelor,Marketing,Female,39,7,Single,6.9,Sales Representative,59758.55,6574.78,2,4,No,Yes
+EMP1501,HR,PhD,Medical,Male,60,0,Married,33.9,CHRO,182255.86,8064.7,4,2,Yes,No
+EMP1502,R&D,Bachelor,Life Sciences,Female,53,8,Divorced,16.5,Research Director,104741.02,1037.36,4,4,No,No
+EMP1503,Operations,Bachelor,Other,Male,45,7,Divorced,23.2,Operations Manager,85753.77,9035.06,5,2,No,Yes
+EMP1504,Finance,Master,Life Sciences,Male,44,6,Married,9.1,Financial Analyst,88372.15,11425.1,2,4,No,No
+EMP1505,Customer Service,Bachelor,Life Sciences,Male,53,0,Single,14.9,Service Manager,54643.62,5798.45,1,3,No,Yes
+EMP1506,Operations,PhD,Technical,Female,58,1,Divorced,4.3,Supply Chain Analyst,102178.83,15907.64,2,3,Yes,Yes
+EMP1507,Operations,High School,Medical,Female,33,1,Married,18.3,Supply Chain Analyst,48719.86,2634.77,3,5,Yes,No
+EMP1508,R&D,PhD,Marketing,Male,34,2,Single,8.4,Research Director,169117.08,14963.49,4,5,No,No
+EMP1509,HR,PhD,Technical,Male,44,0,Divorced,8.8,HR Specialist,78134.35,2432.07,4,1,No,No
+EMP1510,R&D,Bachelor,Technical,Female,46,13,Single,15.7,Research Scientist,88230.47,7926.15,2,2,No,No
+EMP1511,HR,PhD,Marketing,Male,56,4,Single,41.3,Recruiter,82992.35,12201.58,2,3,No,No
+EMP1512,Technology,Bachelor,Life Sciences,Female,62,1,Single,1.0,DevOps,87548.09,7896.17,2,4,Yes,Yes
+EMP1513,Customer Service,Master,Life Sciences,Male,51,2,Divorced,26.1,Support Specialist,57058.13,4197.11,3,1,Yes,Yes
+EMP1514,Sales,Bachelor,Medical,Male,38,2,Single,5.2,BD Manager,103154.79,5723.46,3,4,No,No
+EMP1515,Sales,Master,Life Sciences,Female,41,4,Divorced,8.8,BD Manager,133676.47,16385.0,1,3,No,No
+EMP1516,Operations,High School,Technical,Male,46,3,Single,0.3,Operations Manager,60598.4,2858.37,2,3,No,No
+EMP1517,Finance,PhD,Technical,Female,43,12,Married,5.4,Accountant,108266.65,17681.82,1,3,Yes,No
+EMP1518,Technology,Master,Technical,Male,34,3,Single,10.5,Data Scientist,139516.26,27450.78,5,3,Yes,No
+EMP1519,Sales,High School,Marketing,Female,40,24,Single,0.9,Sales Manager,107273.44,4598.32,3,4,No,No
+EMP1520,Sales,Bachelor,Life Sciences,Male,57,9,Single,10.1,Account Executive,79912.02,4538.65,4,1,No,No
+EMP1521,Finance,High School,Life Sciences,Male,33,1,Single,39.3,Accountant,41338.08,1259.52,5,3,No,No
+EMP1522,Finance,Master,Life Sciences,Female,62,13,Married,1.7,CFO,227371.11,32308.35,4,5,No,No
+EMP1523,Sales,PhD,Life Sciences,Female,40,0,Divorced,21.7,BD Manager,157198.79,3411.99,5,1,No,Yes
+EMP1524,Marketing,High School,Medical,Female,33,8,Single,7.9,Marketing Specialist,53051.22,4223.26,1,5,No,No
+EMP1525,Finance,High School,Medical,Male,30,2,Single,16.0,Financial Analyst,52598.02,1687.27,1,4,No,No
+EMP1526,Marketing,Bachelor,Technical,Male,28,10,Single,4.5,CMO,154923.25,16122.21,3,3,Yes,No
+EMP1527,Customer Service,Bachelor,Technical,Female,49,10,Married,2.6,Support Specialist,56434.01,7288.38,4,1,No,Yes
+EMP1528,Technology,PhD,Marketing,Female,35,8,Married,2.6,DevOps,145536.45,12827.81,5,3,Yes,No
+EMP1529,Finance,Bachelor,Other,Male,52,7,Single,1.1,Accountant,61543.54,500.31,2,3,Yes,Yes
+EMP1530,Customer Service,Master,Technical,Female,40,1,Single,3.1,Customer Support,57138.72,5982.28,2,1,Yes,Yes
+EMP1531,HR,Master,Life Sciences,Male,37,0,Single,16.4,HR Specialist,59113.56,562.06,3,3,No,No
+EMP1532,Operations,High School,Technical,Female,26,2,Single,32.0,Logistics Coordinator,40895.09,3045.74,4,3,No,Yes
+EMP1533,Marketing,Bachelor,Technical,Female,56,0,Divorced,25.2,SEO Analyst,62149.95,5770.88,2,2,Yes,No
+EMP1534,Technology,Bachelor,Medical,Male,33,5,Divorced,17.3,CTO,169335.41,4902.55,3,2,No,Yes
+EMP1535,Marketing,High School,Life Sciences,Male,46,2,Divorced,1.8,SEO Analyst,47629.26,2306.91,3,1,No,No
+EMP1536,HR,PhD,Marketing,Male,42,18,Single,5.1,CHRO,227334.16,22528.37,4,1,No,No
+EMP1537,Technology,Bachelor,Marketing,Female,57,5,Married,5.6,DevOps,101766.49,18836.76,2,3,No,No
+EMP1538,Sales,Bachelor,Marketing,Male,44,8,Single,4.3,Account Executive,72357.95,13013.56,2,5,Yes,No
+EMP1539,HR,PhD,Technical,Male,37,0,Married,10.9,HR Manager,126612.13,9998.72,2,1,Yes,Yes
+EMP1540,R&D,Bachelor,Marketing,Male,60,9,Single,11.5,Research Scientist,86608.26,6335.94,1,3,No,No
+EMP1541,R&D,Master,Marketing,Female,63,12,Single,6.6,Research Scientist,112177.16,3205.42,2,5,No,No
+EMP1542,Finance,Master,Marketing,Female,60,3,Married,6.5,Financial Analyst,80804.95,2939.85,5,2,No,No
+EMP1543,Technology,PhD,Medical,Female,35,4,Divorced,26.5,DevOps,148180.1,11443.04,1,1,No,No
+EMP1544,Finance,PhD,Life Sciences,Female,52,7,Single,23.4,Financial Analyst,129841.67,19297.14,1,3,No,Yes
+EMP1545,Technology,Master,Medical,Male,26,0,Single,5.5,IT Support,69628.65,6096.27,1,2,No,Yes
+EMP1546,HR,Master,Life Sciences,Male,56,3,Single,36.8,HR Specialist,66932.11,3149.83,1,4,No,No
+EMP1547,Technology,Master,Medical,Female,44,2,Divorced,45.8,Data Scientist,124435.03,5733.18,3,2,Yes,No
+EMP1548,Sales,Master,Life Sciences,Female,50,0,Single,5.9,Sales Manager,110954.02,6699.16,5,3,No,Yes
+EMP1549,Operations,PhD,Marketing,Female,64,2,Divorced,6.6,Logistics Coordinator,73991.4,2997.82,4,5,Yes,No
+EMP1550,R&D,PhD,Other,Female,32,0,Single,10.6,Research Scientist,129117.95,4005.07,2,4,Yes,No
+EMP1551,Operations,High School,Marketing,Male,39,0,Single,42.5,Supply Chain Analyst,48053.0,1840.68,1,4,Yes,No
+EMP1552,Technology,PhD,Other,Female,33,0,Divorced,31.4,CTO,240372.38,18786.51,4,4,No,No
+EMP1553,Operations,Master,Marketing,Male,30,16,Married,1.6,Logistics Coordinator,71635.01,1682.3,3,1,Yes,No
+EMP1554,Sales,Bachelor,Medical,Female,31,3,Single,7.5,Sales Manager,98798.97,1368.34,4,3,Yes,Yes
+EMP1555,R&D,Master,Other,Female,38,16,Single,12.1,Research Director,154868.12,13753.65,1,4,No,No
+EMP1556,Customer Service,Master,Marketing,Male,59,2,Single,10.5,Service Manager,74198.26,5247.95,5,2,No,No
+EMP1557,Technology,PhD,Technical,Female,28,1,Divorced,3.2,IT Support,92688.8,12843.93,4,5,No,Yes
+EMP1558,R&D,High School,Other,Male,34,3,Married,29.4,Lab Technician,38887.84,6510.67,1,3,No,No
+EMP1559,Operations,Bachelor,Life Sciences,Male,61,2,Divorced,16.9,Operations Manager,71564.52,2974.67,1,2,Yes,No
+EMP1560,Customer Service,Bachelor,Medical,Female,63,0,Married,27.3,Support Specialist,44299.73,4695.66,2,1,Yes,No
+EMP1561,Marketing,High School,Marketing,Female,30,5,Married,29.4,SEO Analyst,55810.28,1257.33,2,4,Yes,No
+EMP1562,R&D,Master,Marketing,Male,48,1,Single,20.7,Lab Technician,56038.63,2085.59,5,2,No,No
+EMP1563,Marketing,PhD,Life Sciences,Male,23,4,Divorced,8.7,Content Writer,82740.58,7053.03,2,3,No,No
+EMP1564,HR,Master,Marketing,Female,26,5,Divorced,14.1,CHRO,161979.58,15437.74,5,2,Yes,No
+EMP1565,Customer Service,Bachelor,Marketing,Male,50,0,Divorced,2.6,Support Specialist,44270.73,1332.65,3,1,No,Yes
+EMP1566,Customer Service,Bachelor,Life Sciences,Female,58,0,Single,16.8,Service Manager,59496.34,7845.31,3,5,No,No
+EMP1567,R&D,Master,Life Sciences,Male,59,7,Divorced,3.0,Research Scientist,105740.27,16539.54,2,4,No,No
+EMP1568,HR,Bachelor,Technical,Male,40,3,Divorced,17.8,Recruiter,50105.17,3685.92,3,3,No,No
+EMP1569,Operations,PhD,Technical,Female,29,0,Single,3.9,Supply Chain Analyst,96247.2,2947.14,4,4,Yes,No
+EMP1570,Finance,Bachelor,Life Sciences,Female,22,26,Single,1.9,Financial Analyst,95260.09,1543.77,4,4,Yes,No
+EMP1571,Technology,PhD,Other,Female,43,0,Divorced,2.7,CTO,244610.41,59959.63,4,4,No,No
+EMP1572,HR,Master,Other,Female,38,5,Single,0.0,CHRO,172895.81,3029.44,3,2,No,Yes
+EMP1573,Customer Service,Master,Other,Male,28,20,Divorced,19.0,Customer Support,71857.42,981.19,4,2,No,No
+EMP1574,Finance,PhD,Medical,Male,46,1,Single,19.8,Financial Analyst,115005.39,7523.39,5,5,No,No
+EMP1575,Customer Service,PhD,Technical,Male,25,0,Divorced,10.9,Support Specialist,69768.24,3861.73,1,1,No,No
+EMP1576,R&D,PhD,Other,Male,57,0,Single,2.6,Research Scientist,109313.58,6705.03,2,3,No,Yes
+EMP1577,Operations,Bachelor,Other,Male,27,1,Married,1.3,Logistics Coordinator,43184.94,2026.21,5,2,Yes,No
+EMP1578,Sales,Master,Other,Female,52,0,Single,0.3,BD Manager,121491.77,23991.09,4,4,No,Yes
+EMP1579,Customer Service,Bachelor,Life Sciences,Male,40,5,Divorced,2.7,Service Manager,62299.18,12066.34,1,1,No,No
+EMP1580,Operations,Bachelor,Marketing,Female,60,0,Single,33.2,Supply Chain Analyst,54002.72,6960.92,2,3,No,Yes
+EMP1581,Marketing,PhD,Medical,Male,48,3,Divorced,4.1,Marketing Specialist,101022.27,13452.78,5,3,No,No
+EMP1582,Customer Service,Bachelor,Marketing,Male,31,28,Single,6.6,Support Specialist,75028.07,8518.91,2,3,No,No
+EMP1583,Finance,High School,Technical,Female,47,8,Single,1.7,Financial Analyst,63243.01,3129.26,3,3,No,No
+EMP1584,Operations,High School,Marketing,Male,40,4,Divorced,3.8,Supply Chain Analyst,48395.9,2031.24,4,5,No,No
+EMP1585,HR,High School,Medical,Male,60,1,Divorced,11.0,HR Specialist,37702.17,3624.83,5,3,No,No
+EMP1586,Operations,High School,Other,Male,24,4,Married,14.0,Supply Chain Analyst,47356.93,1235.87,5,1,No,No
+EMP1587,HR,High School,Other,Female,34,3,Married,4.2,CHRO,97459.49,9222.67,1,2,No,Yes
+EMP1588,HR,PhD,Life Sciences,Male,49,2,Divorced,0.9,HR Specialist,90335.36,10094.47,1,1,No,No
+EMP1589,Sales,Bachelor,Life Sciences,Male,41,0,Divorced,7.4,Sales Manager,83819.11,1991.06,1,4,No,No
+EMP1590,Finance,Bachelor,Medical,Female,49,10,Single,4.0,CFO,144117.19,7243.08,2,5,No,No
+EMP1591,Technology,High School,Other,Female,29,2,Married,3.7,CTO,125109.32,9484.79,4,5,No,No
+EMP1592,Finance,Bachelor,Marketing,Female,62,1,Divorced,48.2,Controller,84078.75,3224.46,2,4,No,No
+EMP1593,R&D,High School,Marketing,Female,60,2,Single,14.4,Lab Technician,36502.69,738.96,4,1,No,No
+EMP1594,Customer Service,Bachelor,Medical,Female,22,2,Single,12.2,Customer Support,42609.47,1675.09,5,1,Yes,Yes
+EMP1595,Finance,PhD,Life Sciences,Female,24,8,Married,8.1,Financial Analyst,125917.23,27217.43,2,4,No,Yes
+EMP1596,Customer Service,Master,Marketing,Male,34,6,Married,8.4,Customer Support,53704.31,2519.12,2,3,No,No
+EMP1597,Customer Service,High School,Technical,Male,49,7,Married,11.7,Service Manager,49637.5,9453.89,2,3,No,Yes
+EMP1598,Customer Service,PhD,Medical,Male,46,0,Single,17.9,Service Manager,105491.14,10544.78,3,2,No,No
+EMP1599,Sales,PhD,Technical,Male,54,2,Divorced,18.2,Account Executive,102378.38,13902.16,4,1,No,Yes
+EMP1600,Technology,High School,Technical,Male,59,3,Single,2.8,IT Support,42478.13,2869.38,4,1,Yes,Yes
+EMP1601,HR,High School,Life Sciences,Male,27,0,Married,10.4,HR Specialist,37519.0,5295.46,2,4,No,No
+EMP1602,Finance,PhD,Other,Female,53,1,Single,8.0,Accountant,81483.37,3031.95,3,4,Yes,No
+EMP1603,R&D,High School,Medical,Male,42,7,Married,30.7,Research Director,84765.3,11298.77,2,3,No,Yes
+EMP1604,Finance,High School,Other,Male,37,0,Single,15.0,Financial Analyst,55144.98,3324.37,4,1,No,Yes
+EMP1605,HR,Master,Marketing,Male,42,3,Married,11.4,HR Manager,100068.52,5629.63,5,1,No,No
+EMP1606,Operations,Master,Marketing,Male,32,1,Single,1.8,Supply Chain Analyst,78671.85,5937.7,3,5,No,Yes
+EMP1607,Customer Service,High School,Medical,Female,58,0,Divorced,14.0,Support Specialist,37264.22,4390.76,3,2,No,Yes
+EMP1608,Operations,PhD,Life Sciences,Male,57,1,Single,1.9,Logistics Coordinator,73570.64,1984.62,2,2,Yes,Yes
+EMP1609,R&D,Bachelor,Marketing,Female,56,18,Married,6.2,Research Scientist,109373.49,3790.52,5,3,Yes,Yes
+EMP1610,Operations,High School,Marketing,Male,40,8,Married,2.3,Operations Manager,69715.54,5532.47,4,1,No,No
+EMP1611,Operations,High School,Other,Female,41,16,Divorced,17.7,Supply Chain Analyst,57149.59,6379.88,1,5,No,Yes
+EMP1612,Customer Service,Bachelor,Marketing,Female,39,3,Married,3.5,Support Specialist,50352.56,5242.03,4,1,No,No
+EMP1613,HR,Bachelor,Life Sciences,Male,62,0,Divorced,7.5,HR Manager,74411.0,4177.3,4,4,Yes,No
+EMP1614,HR,Bachelor,Marketing,Female,35,3,Divorced,33.9,Recruiter,52363.54,5863.59,5,3,Yes,No
+EMP1615,HR,Master,Marketing,Female,36,3,Single,3.4,Recruiter,61802.04,7145.57,3,2,Yes,No
+EMP1616,Finance,Master,Technical,Female,52,9,Single,10.6,CFO,218839.36,11437.13,4,1,Yes,No
+EMP1617,Technology,Master,Life Sciences,Male,22,0,Married,8.2,DevOps,116125.98,10207.86,3,3,No,Yes
+EMP1618,Finance,PhD,Marketing,Male,24,3,Married,0.3,Financial Analyst,104697.24,6597.0,5,2,Yes,Yes
+EMP1619,Operations,High School,Life Sciences,Male,37,0,Single,23.6,Logistics Coordinator,36276.44,4248.97,5,1,No,Yes
+EMP1620,Technology,Master,Life Sciences,Male,44,1,Married,1.1,IT Support,80108.29,2199.58,2,5,Yes,No
+EMP1621,Marketing,PhD,Marketing,Male,32,6,Married,9.6,Content Writer,86406.25,4500.29,1,3,No,Yes
+EMP1622,Finance,PhD,Marketing,Female,33,3,Married,12.3,Financial Analyst,101362.75,11023.73,5,1,No,No
+EMP1623,Finance,Bachelor,Life Sciences,Male,31,2,Divorced,14.9,Accountant,59560.9,6499.68,5,2,Yes,Yes
+EMP1624,Customer Service,Bachelor,Other,Female,53,2,Divorced,17.5,Support Specialist,45354.62,2602.52,3,2,No,No
+EMP1625,HR,Master,Other,Female,37,3,Married,4.4,CHRO,136633.67,4988.25,5,5,No,No
+EMP1626,HR,High School,Life Sciences,Male,29,7,Divorced,0.2,HR Specialist,44719.75,3940.01,4,3,Yes,No
+EMP1627,Technology,High School,Life Sciences,Male,59,11,Married,19.3,DevOps,78559.05,8238.55,2,3,No,No
+EMP1628,Finance,High School,Other,Male,33,15,Single,11.5,CFO,143822.23,7996.56,2,1,No,No
+EMP1629,HR,PhD,Other,Male,45,7,Divorced,27.1,Recruiter,79409.62,4276.86,4,2,No,Yes
+EMP1630,Finance,PhD,Technical,Male,49,1,Married,25.8,Accountant,95639.71,10285.89,5,2,No,Yes
+EMP1631,Operations,PhD,Other,Female,29,5,Married,27.8,Supply Chain Analyst,95052.63,13359.84,1,5,No,Yes
+EMP1632,Marketing,PhD,Other,Female,49,2,Married,10.0,Content Writer,72001.9,8180.45,5,5,Yes,Yes
+EMP1633,HR,High School,Medical,Female,57,1,Single,6.1,HR Specialist,38687.91,2105.85,2,3,No,Yes
+EMP1634,Sales,High School,Marketing,Female,47,9,Single,23.5,Account Executive,58090.34,3149.23,1,2,Yes,Yes
+EMP1635,Marketing,Bachelor,Technical,Male,29,0,Married,9.0,Marketing Specialist,50250.05,2737.29,3,1,No,No
+EMP1636,HR,High School,Technical,Female,49,11,Divorced,3.0,Recruiter,41171.7,2213.79,3,4,No,No
+EMP1637,Sales,PhD,Life Sciences,Female,49,3,Married,29.0,Sales Manager,145761.61,4680.05,5,1,Yes,No
+EMP1638,Sales,PhD,Medical,Male,58,5,Single,32.1,Account Executive,109626.34,11378.75,5,5,No,No
+EMP1639,HR,Master,Marketing,Female,62,5,Single,9.4,HR Manager,105478.12,8389.72,1,1,No,Yes
+EMP1640,Marketing,High School,Technical,Female,57,11,Divorced,1.2,Content Writer,42838.4,5179.37,1,2,No,No
+EMP1641,Customer Service,High School,Other,Female,48,5,Married,7.4,Support Specialist,42577.17,2091.43,5,3,No,No
+EMP1642,Technology,Bachelor,Other,Male,38,4,Divorced,24.4,Software Engineer,93403.57,7393.59,2,4,No,No
+EMP1643,Sales,Bachelor,Other,Male,30,0,Single,34.8,Sales Manager,84880.27,7352.19,3,3,No,No
+EMP1644,HR,PhD,Marketing,Female,54,3,Married,3.4,CHRO,180222.78,3685.8,1,4,No,Yes
+EMP1645,Customer Service,Master,Technical,Female,41,0,Married,1.0,Customer Support,47910.73,5246.51,2,4,No,No
+EMP1646,Customer Service,High School,Marketing,Male,34,6,Divorced,31.5,Service Manager,58634.99,9497.53,5,2,Yes,Yes
+EMP1647,Customer Service,High School,Life Sciences,Male,49,3,Divorced,7.4,Support Specialist,34803.65,2698.68,4,2,Yes,No
+EMP1648,Operations,Master,Life Sciences,Female,50,5,Divorced,11.7,Supply Chain Analyst,82327.68,10336.98,1,5,No,No
+EMP1649,Marketing,High School,Medical,Male,34,0,Single,51.7,Marketing Specialist,42222.98,696.86,4,5,No,No
+EMP1650,Sales,Bachelor,Life Sciences,Female,56,0,Single,1.0,Sales Manager,81946.82,7738.92,2,4,No,No
+EMP1651,HR,Master,Technical,Male,27,6,Single,15.7,CHRO,149406.44,4030.84,3,5,No,No
+EMP1652,Customer Service,High School,Technical,Male,39,0,Married,1.2,Service Manager,50718.35,10487.93,2,2,Yes,No
+EMP1653,Technology,Bachelor,Technical,Female,26,0,Married,7.1,DevOps,78582.46,1930.35,3,5,Yes,No
+EMP1654,Technology,Bachelor,Other,Female,46,0,Divorced,24.4,Software Engineer,82158.51,2090.82,2,4,No,No
+EMP1655,R&D,PhD,Other,Female,23,15,Divorced,8.5,Research Director,182734.39,12030.96,1,3,Yes,No
+EMP1656,Customer Service,High School,Technical,Female,31,6,Single,88.1,Support Specialist,36856.8,343.79,1,1,No,No
+EMP1657,Technology,Master,Life Sciences,Female,51,2,Divorced,12.3,IT Support,80449.04,5484.78,4,5,No,No
+EMP1658,Sales,Bachelor,Life Sciences,Female,26,1,Single,5.8,BD Manager,90894.7,5510.75,2,2,Yes,Yes
+EMP1659,Marketing,Bachelor,Medical,Male,54,2,Single,3.7,SEO Analyst,66409.2,9333.3,2,3,Yes,No
+EMP1660,Marketing,PhD,Marketing,Female,22,7,Married,6.5,Marketing Specialist,101215.47,11733.15,4,2,No,No
+EMP1661,HR,Master,Medical,Female,39,5,Single,7.0,Recruiter,58917.01,3008.25,5,5,No,No
+EMP1662,Technology,PhD,Marketing,Male,53,1,Married,1.1,Software Engineer,142452.66,6958.63,2,4,No,No
+EMP1663,Finance,Bachelor,Life Sciences,Male,32,0,Single,6.9,Controller,80698.34,1002.45,2,1,No,Yes
+EMP1664,Technology,High School,Technical,Female,42,0,Divorced,9.4,IT Support,47164.88,5015.95,2,1,No,No
+EMP1665,R&D,Master,Other,Female,47,5,Married,19.2,Research Director,126851.57,11200.23,5,3,Yes,No
+EMP1666,Finance,High School,Medical,Male,46,7,Single,16.0,CFO,126952.69,2437.93,1,1,Yes,No
+EMP1667,R&D,High School,Medical,Male,43,1,Single,18.5,Lab Technician,33145.15,1330.27,4,4,No,No
+EMP1668,Customer Service,PhD,Life Sciences,Male,48,0,Married,0.1,Customer Support,64150.79,9835.9,5,2,Yes,No
+EMP1669,Customer Service,Bachelor,Marketing,Male,34,0,Divorced,3.7,Service Manager,63233.31,6257.2,3,4,Yes,No
+EMP1670,HR,High School,Medical,Female,54,17,Married,16.3,Recruiter,52434.91,6740.44,3,3,No,No
+EMP1671,R&D,Master,Marketing,Female,55,1,Married,9.9,Lab Technician,64553.42,6478.95,5,3,No,No
+EMP1672,HR,PhD,Medical,Female,62,7,Divorced,0.1,HR Specialist,97029.96,3405.79,5,1,Yes,No
+EMP1673,Sales,Master,Technical,Female,56,4,Divorced,24.5,Sales Representative,75650.21,2178.97,1,4,No,Yes
+EMP1674,Technology,High School,Life Sciences,Male,22,2,Divorced,22.2,Data Scientist,74285.26,4108.09,3,2,No,Yes
+EMP1675,Finance,Master,Marketing,Male,42,1,Married,11.9,CFO,164939.54,3749.1,4,4,Yes,No
+EMP1676,Finance,PhD,Life Sciences,Female,27,0,Divorced,1.0,Financial Analyst,99610.55,14688.13,2,2,No,Yes
+EMP1677,HR,PhD,Other,Male,49,4,Married,21.8,Recruiter,75847.94,3492.92,2,2,Yes,Yes
+EMP1678,Technology,Bachelor,Life Sciences,Female,38,7,Married,13.1,Data Scientist,105989.33,5497.56,1,4,No,No
+EMP1679,Marketing,Master,Marketing,Male,26,5,Married,22.8,Content Writer,64923.43,7600.78,1,5,Yes,Yes
+EMP1680,Finance,PhD,Marketing,Female,52,3,Divorced,20.9,Controller,134353.65,8709.38,3,4,No,No
+EMP1681,Marketing,PhD,Other,Female,26,0,Divorced,24.4,SEO Analyst,99671.94,12395.6,4,2,Yes,No
+EMP1682,Technology,Bachelor,Other,Male,59,17,Married,10.9,Software Engineer,100072.63,3906.33,4,3,No,No
+EMP1683,Marketing,PhD,Medical,Male,24,8,Married,2.3,Marketing Specialist,98207.26,5627.67,5,3,No,No
+EMP1684,Sales,High School,Marketing,Male,44,1,Divorced,16.7,Sales Representative,40827.3,2338.35,1,1,No,Yes
+EMP1685,R&D,Master,Life Sciences,Male,58,19,Married,14.5,Lab Technician,85516.33,11399.17,2,3,No,No
+EMP1686,Customer Service,Bachelor,Other,Female,58,4,Single,20.3,Service Manager,67903.52,6945.67,2,5,Yes,Yes
+EMP1687,Customer Service,High School,Life Sciences,Female,31,4,Married,2.8,Customer Support,35565.93,1118.16,3,2,No,Yes
+EMP1688,HR,High School,Other,Male,31,6,Single,3.3,HR Manager,62573.59,2199.9,2,4,Yes,Yes
+EMP1689,Sales,Master,Marketing,Female,40,8,Single,33.2,Sales Manager,129386.05,17226.88,4,4,No,Yes
+EMP1690,Finance,Bachelor,Other,Male,38,5,Married,20.8,Accountant,55508.1,2463.6,4,5,Yes,No
+EMP1691,HR,PhD,Marketing,Female,42,0,Married,35.8,HR Specialist,78037.81,5938.64,1,3,No,Yes
+EMP1692,HR,Bachelor,Other,Female,35,2,Married,21.3,CHRO,112421.26,20968.09,3,2,No,Yes
+EMP1693,Customer Service,PhD,Medical,Male,30,13,Single,13.6,Customer Support,73218.08,14598.03,2,3,No,No
+EMP1694,Technology,Master,Other,Male,22,1,Divorced,15.9,DevOps,107615.24,18982.3,1,1,Yes,Yes
+EMP1695,Finance,Master,Medical,Female,34,2,Single,33.0,Financial Analyst,95888.5,7155.76,5,3,No,No
+EMP1696,HR,High School,Medical,Male,25,2,Single,13.0,HR Manager,68061.33,7491.87,5,1,No,No
+EMP1697,Finance,High School,Life Sciences,Male,22,2,Single,15.0,Accountant,44408.5,4855.04,2,4,No,Yes
+EMP1698,R&D,High School,Marketing,Male,61,4,Divorced,2.6,Research Scientist,58878.58,2861.52,2,2,No,No
+EMP1699,Technology,Master,Other,Male,53,14,Single,9.6,CTO,233580.42,20066.41,2,1,No,No
+EMP1700,Finance,PhD,Other,Male,55,1,Single,18.9,CFO,207586.59,12198.39,4,3,No,No
+EMP1701,Marketing,Master,Technical,Female,49,0,Married,4.7,Marketing Specialist,77903.25,5918.65,2,3,Yes,Yes
+EMP1702,HR,Master,Other,Female,52,1,Divorced,3.4,CHRO,135393.06,5377.64,5,4,No,No
+EMP1703,Marketing,High School,Marketing,Female,29,10,Single,5.6,Marketing Specialist,55582.73,1455.96,2,5,No,Yes
+EMP1704,Technology,Bachelor,Marketing,Female,60,5,Single,4.1,Software Engineer,81112.81,9469.17,3,5,No,Yes
+EMP1705,Sales,High School,Other,Female,47,1,Married,3.6,Sales Representative,44727.06,2923.36,5,3,No,No
+EMP1706,Marketing,Bachelor,Medical,Male,55,8,Divorced,8.3,Marketing Specialist,62289.43,3650.81,3,5,No,No
+EMP1707,HR,PhD,Technical,Male,24,9,Divorced,35.8,CHRO,219112.14,22138.45,5,2,No,No
+EMP1708,HR,PhD,Marketing,Male,33,9,Married,10.6,HR Manager,137142.18,10924.84,1,5,No,No
+EMP1709,Customer Service,PhD,Technical,Male,22,12,Single,3.1,Support Specialist,91559.66,6104.83,5,2,No,No
+EMP1710,Technology,High School,Technical,Male,26,1,Married,1.2,Software Engineer,61258.96,2743.62,5,3,No,No
+EMP1711,Customer Service,High School,Marketing,Female,51,7,Divorced,17.9,Customer Support,33897.37,2685.68,3,3,No,No
+EMP1712,HR,High School,Medical,Male,51,3,Divorced,7.2,HR Specialist,46114.78,4793.5,3,3,Yes,Yes
+EMP1713,R&D,Master,Medical,Female,38,9,Single,25.9,Lab Technician,74796.04,6693.74,5,4,Yes,Yes
+EMP1714,HR,High School,Marketing,Female,44,6,Single,16.2,HR Specialist,48271.72,12722.93,5,5,Yes,Yes
+EMP1715,Customer Service,Master,Other,Female,36,7,Divorced,23.9,Service Manager,91150.71,5614.63,4,1,No,No
+EMP1716,Customer Service,PhD,Other,Male,58,5,Divorced,4.8,Support Specialist,84082.97,4822.77,1,1,No,No
+EMP1717,Technology,High School,Technical,Female,42,0,Married,17.7,IT Support,40207.53,2817.48,1,3,No,Yes
+EMP1718,Sales,Master,Other,Male,35,3,Married,4.6,Sales Representative,66623.39,5474.15,2,5,No,No
+EMP1719,R&D,PhD,Technical,Male,23,20,Single,42.0,Research Scientist,161740.42,8154.41,5,2,No,No
+EMP1720,Operations,PhD,Other,Female,32,13,Married,15.2,Supply Chain Analyst,124241.53,16830.26,5,1,No,Yes
+EMP1721,HR,High School,Medical,Female,60,0,Divorced,5.9,HR Specialist,38847.66,3198.66,5,3,No,No
+EMP1722,Sales,Bachelor,Medical,Female,59,0,Married,4.7,Sales Representative,46485.07,717.05,5,1,Yes,No
+EMP1723,Technology,Bachelor,Medical,Female,55,0,Married,3.2,DevOps,86639.94,836.6,1,1,Yes,No
+EMP1724,Finance,PhD,Other,Male,59,6,Divorced,17.8,CFO,247607.78,16687.62,3,1,Yes,Yes
+EMP1725,Sales,Bachelor,Technical,Male,55,8,Married,3.7,BD Manager,107602.0,158.83,4,3,Yes,No
+EMP1726,HR,Bachelor,Technical,Male,39,1,Divorced,13.6,HR Specialist,47249.14,3647.34,3,3,Yes,No
+EMP1727,Sales,Master,Medical,Female,51,3,Married,4.6,BD Manager,122968.69,1996.69,3,4,No,No
+EMP1728,Marketing,Master,Medical,Male,36,9,Divorced,16.3,Content Writer,65405.69,653.86,1,4,Yes,No
+EMP1729,Customer Service,Master,Other,Male,48,6,Divorced,25.3,Support Specialist,62897.86,10124.6,4,4,Yes,Yes
+EMP1730,Customer Service,PhD,Other,Male,55,3,Single,22.6,Support Specialist,78499.62,5239.63,5,1,Yes,No
+EMP1731,HR,Bachelor,Technical,Male,59,4,Single,21.5,HR Specialist,55090.21,991.06,1,5,No,No
+EMP1732,Marketing,High School,Life Sciences,Male,54,3,Married,3.1,CMO,105750.62,1633.59,1,3,No,No
+EMP1733,R&D,Bachelor,Technical,Female,45,1,Single,1.4,Lab Technician,44637.77,6723.22,4,4,No,No
+EMP1734,Customer Service,PhD,Other,Male,36,4,Married,18.0,Service Manager,110398.42,5043.79,2,5,Yes,No
+EMP1735,Technology,Master,Marketing,Male,51,5,Married,6.9,IT Support,73995.3,1067.44,1,4,No,No
+EMP1736,Customer Service,PhD,Other,Male,63,10,Married,8.5,Support Specialist,85865.02,1798.34,3,4,Yes,Yes
+EMP1737,Operations,Master,Other,Female,38,5,Married,0.5,Supply Chain Analyst,90964.11,14766.72,3,5,Yes,No
+EMP1738,R&D,PhD,Marketing,Female,26,7,Married,4.5,Research Scientist,128049.14,2782.67,5,4,No,No
+EMP1739,Operations,High School,Other,Male,50,0,Married,0.5,Logistics Coordinator,33191.01,1546.78,1,1,No,Yes
+EMP1740,Operations,Master,Technical,Male,25,3,Single,31.7,Supply Chain Analyst,89024.6,7239.16,5,1,No,No
+EMP1741,Technology,Master,Marketing,Male,31,0,Single,4.2,Software Engineer,100732.94,12222.71,1,1,No,Yes
+EMP1742,Marketing,Bachelor,Life Sciences,Female,38,1,Single,12.2,CMO,126901.14,13032.93,4,2,No,No
+EMP1743,Operations,PhD,Other,Male,31,6,Divorced,0.6,Supply Chain Analyst,97313.1,5210.29,1,4,Yes,No
+EMP1744,R&D,Bachelor,Life Sciences,Male,38,24,Divorced,16.5,Lab Technician,69131.42,4433.84,2,2,No,Yes
+EMP1745,Customer Service,PhD,Life Sciences,Female,41,0,Married,5.9,Support Specialist,69351.86,5753.46,3,3,Yes,No
+EMP1746,HR,High School,Marketing,Male,45,2,Divorced,34.2,Recruiter,34113.39,717.48,4,5,No,No
+EMP1747,R&D,Bachelor,Medical,Female,26,8,Single,32.9,Research Scientist,88910.74,3032.28,3,3,Yes,No
+EMP1748,Sales,Master,Life Sciences,Female,55,1,Married,5.9,Sales Representative,62863.06,6022.77,5,2,No,Yes
+EMP1749,Customer Service,High School,Life Sciences,Male,27,4,Married,34.7,Customer Support,33777.61,2766.53,4,1,No,No
+EMP1750,Technology,PhD,Medical,Male,23,6,Single,83.4,CTO,246252.02,7392.34,2,4,No,No
+EMP1751,Operations,Master,Technical,Female,34,4,Married,26.2,Supply Chain Analyst,78295.41,1188.16,3,4,Yes,No
+EMP1752,HR,PhD,Medical,Female,64,1,Divorced,28.0,HR Specialist,78302.99,3612.5,1,1,No,Yes
+EMP1753,Operations,Master,Technical,Female,64,2,Married,4.3,Supply Chain Analyst,74464.26,15448.78,1,4,No,Yes
+EMP1754,Technology,PhD,Technical,Female,32,7,Married,12.9,Data Scientist,187517.6,7890.83,1,5,No,No
+EMP1755,R&D,Master,Medical,Male,44,4,Single,1.0,Research Director,120203.31,5177.27,4,5,No,No
+EMP1756,Sales,PhD,Life Sciences,Female,37,0,Divorced,1.5,Account Executive,103664.29,13651.74,2,5,No,Yes
+EMP1757,Customer Service,Bachelor,Technical,Male,52,7,Divorced,102.1,Support Specialist,47434.52,1239.93,2,3,Yes,Yes
+EMP1758,R&D,Master,Medical,Female,32,0,Married,5.9,Research Director,118749.67,7407.6,2,1,No,No
+EMP1759,Sales,Master,Other,Female,37,6,Divorced,20.7,Sales Manager,134305.83,13068.56,3,5,Yes,No
+EMP1760,Finance,Bachelor,Life Sciences,Male,29,1,Divorced,24.6,Controller,80833.78,7769.29,4,2,Yes,Yes
+EMP1761,Operations,PhD,Technical,Male,25,15,Divorced,29.3,Logistics Coordinator,102320.38,16479.26,1,5,No,Yes
+EMP1762,Customer Service,Master,Marketing,Female,61,2,Divorced,90.7,Service Manager,76346.81,7849.73,3,3,No,No
+EMP1763,Customer Service,Bachelor,Life Sciences,Female,25,1,Divorced,4.1,Support Specialist,48117.58,6860.59,2,2,Yes,Yes
+EMP1764,Sales,PhD,Other,Female,46,0,Married,0.6,BD Manager,153418.99,4848.79,1,1,Yes,No
+EMP1765,Finance,Master,Other,Male,24,1,Married,7.9,Accountant,78538.01,3599.91,4,1,No,No
+EMP1766,HR,Master,Medical,Male,53,10,Divorced,2.1,Recruiter,70958.07,6480.71,5,5,Yes,No
+EMP1767,Marketing,PhD,Other,Male,24,28,Single,0.3,Content Writer,113096.34,11180.96,2,2,No,Yes
+EMP1768,HR,Bachelor,Marketing,Male,48,2,Divorced,6.7,HR Specialist,48832.76,6187.23,2,2,No,Yes
+EMP1769,Customer Service,Master,Medical,Male,50,2,Single,23.0,Customer Support,50469.94,2207.46,2,5,No,Yes
+EMP1770,Customer Service,PhD,Other,Female,53,6,Married,12.5,Customer Support,77650.79,4432.53,2,5,Yes,No
+EMP1771,Technology,Master,Technical,Female,40,10,Married,5.6,DevOps,128034.27,22538.48,1,4,Yes,No
+EMP1772,Sales,PhD,Life Sciences,Female,42,4,Married,15.9,BD Manager,159960.2,7893.48,4,4,No,No
+EMP1773,Finance,Master,Marketing,Female,26,2,Divorced,4.0,Controller,120891.79,13051.28,3,5,No,No
+EMP1774,Marketing,High School,Marketing,Female,39,2,Married,0.2,SEO Analyst,48310.81,4579.26,1,3,Yes,Yes
+EMP1775,HR,Bachelor,Marketing,Female,49,5,Divorced,21.7,Recruiter,53975.42,2478.11,4,4,Yes,No
+EMP1776,Sales,Bachelor,Technical,Male,63,0,Divorced,14.7,Account Executive,68093.06,2123.39,3,5,Yes,No
+EMP1777,R&D,High School,Other,Female,43,4,Married,21.6,Lab Technician,39637.61,1298.37,2,2,No,No
+EMP1778,Technology,PhD,Life Sciences,Female,42,2,Married,0.6,DevOps,152214.76,14679.91,4,4,No,No
+EMP1779,Finance,Bachelor,Life Sciences,Female,27,7,Married,27.2,Controller,88171.36,4982.31,2,3,No,No
+EMP1780,Technology,PhD,Technical,Male,22,0,Single,14.5,DevOps,129392.11,7268.25,4,1,No,Yes
+EMP1781,Customer Service,Master,Medical,Male,26,4,Single,12.4,Service Manager,83650.93,3346.41,5,2,No,No
+EMP1782,Technology,High School,Other,Female,62,3,Divorced,14.7,Software Engineer,64135.64,10635.07,2,3,No,No
+EMP1783,Marketing,PhD,Marketing,Male,33,5,Single,30.0,Content Writer,83063.46,9045.26,2,3,Yes,Yes
+EMP1784,Customer Service,PhD,Medical,Male,47,0,Single,13.3,Customer Support,69365.86,6697.83,2,3,Yes,Yes
+EMP1785,HR,Bachelor,Technical,Male,55,4,Married,13.0,Recruiter,47859.05,2790.25,1,2,Yes,Yes
+EMP1786,HR,Master,Other,Male,35,4,Married,70.1,HR Specialist,67983.54,5008.55,3,3,No,No
+EMP1787,R&D,Bachelor,Other,Female,47,4,Divorced,21.2,Lab Technician,53086.27,8133.1,2,1,No,Yes
+EMP1788,Customer Service,Master,Other,Male,48,4,Divorced,8.8,Service Manager,83310.87,10158.13,2,4,No,No
+EMP1789,Customer Service,Bachelor,Medical,Male,30,5,Single,18.4,Customer Support,43903.63,7160.64,1,2,Yes,Yes
+EMP1790,Finance,PhD,Medical,Female,47,8,Divorced,7.4,Accountant,99051.28,7883.71,1,3,Yes,Yes
+EMP1791,Customer Service,PhD,Technical,Female,43,1,Married,3.9,Support Specialist,79455.45,4843.83,5,5,Yes,No
+EMP1792,Marketing,High School,Marketing,Male,51,8,Married,13.6,Content Writer,42335.92,7374.51,4,4,No,No
+EMP1793,R&D,PhD,Medical,Female,64,3,Single,39.5,Research Scientist,133869.72,7991.56,2,2,Yes,No
+EMP1794,Finance,PhD,Life Sciences,Female,38,0,Married,39.7,Controller,144481.14,11298.12,4,5,Yes,No
+EMP1795,Marketing,PhD,Medical,Male,47,0,Married,6.3,Content Writer,69722.63,5056.44,1,5,No,Yes
+EMP1796,Technology,PhD,Medical,Male,57,2,Married,11.3,IT Support,90306.34,12379.12,1,3,Yes,Yes
+EMP1797,HR,High School,Other,Male,22,7,Married,3.6,CHRO,107311.74,11216.63,5,2,No,No
+EMP1798,R&D,Master,Life Sciences,Female,29,6,Married,81.5,Research Director,134537.1,10659.61,3,3,Yes,Yes
+EMP1799,Operations,High School,Marketing,Female,56,7,Single,59.5,Supply Chain Analyst,57936.83,8829.3,1,1,No,Yes
+EMP1800,HR,High School,Life Sciences,Male,36,3,Divorced,15.7,HR Manager,69209.42,2705.34,2,5,No,Yes
+EMP1801,Sales,Bachelor,Marketing,Female,43,2,Single,24.5,Sales Manager,90578.36,15813.91,5,1,No,No
+EMP1802,HR,Master,Technical,Female,35,0,Single,18.8,HR Manager,102211.73,19649.82,3,3,No,No
+EMP1803,HR,Bachelor,Other,Female,47,1,Single,13.5,CHRO,119046.38,8170.52,5,4,No,No
+EMP1804,Customer Service,High School,Technical,Male,49,2,Divorced,0.8,Service Manager,53364.88,4348.01,1,5,No,No
+EMP1805,Marketing,PhD,Medical,Male,44,0,Married,9.1,Content Writer,70488.77,2666.98,3,4,No,No
+EMP1806,Customer Service,Master,Medical,Female,35,1,Divorced,16.8,Customer Support,48279.8,7259.21,4,2,No,Yes
+EMP1807,Customer Service,PhD,Other,Female,45,4,Single,17.0,Service Manager,101645.31,18424.91,3,5,No,No
+EMP1808,Operations,High School,Technical,Female,23,6,Divorced,7.0,Operations Manager,64899.6,4705.93,2,1,No,Yes
+EMP1809,Operations,High School,Life Sciences,Male,47,32,Single,42.6,Logistics Coordinator,58453.74,7573.04,4,4,Yes,No
+EMP1810,R&D,High School,Technical,Male,35,13,Married,2.7,Research Scientist,79364.32,7139.46,4,2,No,No
+EMP1811,Customer Service,Master,Marketing,Male,28,5,Single,10.4,Customer Support,55563.88,2650.94,2,5,No,No
+EMP1812,Operations,Bachelor,Medical,Female,24,2,Married,17.6,Supply Chain Analyst,64081.61,4750.4,4,2,No,No
+EMP1813,Finance,Bachelor,Life Sciences,Female,44,5,Single,17.9,Accountant,56705.68,4976.87,1,1,Yes,Yes
+EMP1814,Finance,PhD,Medical,Female,64,7,Single,15.7,Accountant,105323.35,16423.08,3,5,No,No
+EMP1815,R&D,Master,Technical,Female,39,0,Divorced,4.8,Lab Technician,59034.64,10485.36,3,2,Yes,Yes
+EMP1816,Finance,PhD,Other,Male,59,2,Married,2.5,Accountant,86103.19,10771.3,2,3,No,Yes
+EMP1817,R&D,PhD,Life Sciences,Male,56,9,Single,15.2,Research Scientist,135706.92,3726.04,1,5,Yes,Yes
+EMP1818,Sales,Bachelor,Other,Female,36,2,Married,13.7,BD Manager,103712.51,16117.78,4,5,No,No
+EMP1819,Operations,Master,Technical,Male,46,4,Divorced,3.0,Supply Chain Analyst,83946.87,14459.31,3,5,Yes,No
+EMP1820,Customer Service,High School,Marketing,Female,58,4,Married,18.3,Service Manager,48895.81,1507.34,3,5,Yes,No
+EMP1821,R&D,PhD,Other,Female,49,1,Divorced,9.1,Research Director,169529.15,5126.09,3,3,No,No
+EMP1822,R&D,High School,Other,Female,31,2,Divorced,16.5,Lab Technician,39050.86,4159.37,3,1,No,No
+EMP1823,Marketing,Master,Technical,Female,60,2,Married,27.2,Content Writer,66402.42,10182.37,5,3,Yes,Yes
+EMP1824,Customer Service,PhD,Life Sciences,Male,38,0,Married,2.8,Service Manager,94600.42,12588.28,2,3,No,Yes
+EMP1825,Sales,High School,Technical,Female,60,0,Single,0.3,Account Executive,51741.04,1749.9,4,2,Yes,Yes
+EMP1826,Marketing,High School,Other,Female,43,8,Divorced,22.7,Marketing Specialist,55102.33,4719.52,4,4,No,No
+EMP1827,Operations,Bachelor,Medical,Male,47,1,Married,14.1,Logistics Coordinator,46129.95,2705.09,2,4,No,Yes
+EMP1828,Technology,Master,Medical,Male,46,3,Divorced,18.0,Software Engineer,114810.09,4165.69,1,2,Yes,Yes
+EMP1829,Customer Service,Master,Other,Female,38,1,Single,27.3,Customer Support,50411.05,4278.79,2,3,No,Yes
+EMP1830,Technology,Master,Life Sciences,Female,34,14,Married,24.4,DevOps,139933.0,23871.74,3,2,Yes,Yes
+EMP1831,Customer Service,PhD,Other,Male,41,1,Married,48.6,Customer Support,60363.76,7155.6,3,5,No,No
+EMP1832,Sales,Bachelor,Medical,Male,46,2,Divorced,11.5,Sales Representative,48942.19,749.77,2,2,No,No
+EMP1833,Marketing,PhD,Marketing,Female,25,10,Married,10.1,Content Writer,77776.3,1587.85,2,2,No,No
+EMP1834,R&D,Master,Other,Male,31,9,Married,7.7,Lab Technician,62669.09,4744.53,4,5,No,No
+EMP1835,Marketing,PhD,Other,Female,24,1,Divorced,2.5,CMO,214534.25,21120.11,4,4,No,No
+EMP1836,Technology,High School,Marketing,Female,62,8,Single,12.8,Data Scientist,83617.18,8891.67,5,5,Yes,No
+EMP1837,Customer Service,PhD,Life Sciences,Male,39,3,Married,4.9,Support Specialist,78812.77,6628.53,5,1,No,No
+EMP1838,HR,PhD,Technical,Female,57,3,Single,38.1,HR Manager,135826.7,3020.77,3,2,No,No
+EMP1839,Operations,Master,Medical,Male,43,0,Divorced,13.1,Operations Manager,91922.02,541.92,5,2,No,No
+EMP1840,R&D,High School,Medical,Male,55,0,Divorced,13.5,Research Scientist,55837.73,1596.53,5,4,No,Yes
+EMP1841,Technology,Master,Technical,Female,29,6,Single,6.6,Data Scientist,144630.61,9456.2,1,3,Yes,No
+EMP1842,Operations,High School,Technical,Female,61,3,Married,0.8,Operations Manager,60550.18,11175.65,2,5,Yes,No
+EMP1843,R&D,High School,Technical,Male,40,2,Married,0.5,Lab Technician,39171.6,2798.62,4,3,Yes,Yes
+EMP1844,Operations,High School,Technical,Female,63,6,Divorced,8.3,Operations Manager,66103.7,1418.24,5,1,Yes,No
+EMP1845,Customer Service,Master,Medical,Female,62,7,Divorced,1.3,Customer Support,64916.47,8924.33,4,5,Yes,No
+EMP1846,Sales,High School,Other,Male,58,0,Married,14.0,Sales Manager,69000.46,9509.29,5,1,No,Yes
+EMP1847,Technology,Bachelor,Other,Female,27,4,Single,31.9,Data Scientist,99350.48,6212.3,5,1,No,No
+EMP1848,Finance,Bachelor,Marketing,Male,47,0,Divorced,32.2,Controller,87523.9,6961.89,3,1,Yes,Yes
+EMP1849,HR,Bachelor,Other,Female,55,6,Married,16.1,Recruiter,46049.88,2686.58,1,5,No,No
+EMP1850,Finance,Bachelor,Life Sciences,Female,27,5,Married,3.6,Accountant,65308.51,4629.9,2,5,Yes,Yes
+EMP1851,Technology,Master,Life Sciences,Female,58,15,Married,29.8,Data Scientist,148328.32,26486.39,2,4,No,No
+EMP1852,R&D,PhD,Technical,Male,54,0,Single,32.6,Research Scientist,115868.23,7293.21,3,2,No,No
+EMP1853,Technology,PhD,Marketing,Female,43,0,Married,3.3,Data Scientist,161598.66,5564.27,3,3,No,No
+EMP1854,Technology,Bachelor,Medical,Male,42,1,Divorced,20.1,DevOps,88387.4,7481.89,2,3,No,No
+EMP1855,Customer Service,PhD,Other,Male,27,1,Single,5.1,Customer Support,63891.31,4827.43,2,1,Yes,No
+EMP1856,Marketing,Bachelor,Other,Female,27,1,Divorced,24.3,Marketing Specialist,55801.95,2164.66,1,5,No,Yes
+EMP1857,HR,Bachelor,Medical,Male,25,11,Single,88.4,Recruiter,58792.93,1520.85,5,5,No,Yes
+EMP1858,Sales,PhD,Life Sciences,Male,51,1,Married,0.5,BD Manager,150078.86,20733.32,1,1,No,No
+EMP1859,Sales,PhD,Technical,Male,32,1,Married,34.1,Sales Representative,87632.68,6512.06,2,2,Yes,Yes
+EMP1860,Operations,High School,Marketing,Female,51,7,Single,14.6,Logistics Coordinator,37659.41,1943.84,5,3,No,Yes
+EMP1861,Sales,Bachelor,Life Sciences,Male,52,2,Married,54.4,Account Executive,71342.31,7116.1,2,4,No,No
+EMP1862,HR,PhD,Marketing,Female,45,7,Divorced,9.4,HR Manager,146308.9,29512.35,1,2,No,No
+EMP1863,Operations,PhD,Technical,Male,30,0,Married,28.2,Logistics Coordinator,67418.17,5612.72,1,5,Yes,Yes
+EMP1864,Operations,PhD,Other,Male,24,3,Single,1.0,Operations Manager,117066.15,7136.47,1,1,Yes,No
+EMP1865,R&D,High School,Technical,Female,52,0,Divorced,6.1,Lab Technician,33591.6,2819.68,5,3,No,No
+EMP1866,Marketing,Bachelor,Life Sciences,Female,61,0,Divorced,1.0,SEO Analyst,62479.25,5006.71,4,1,Yes,Yes
+EMP1867,Finance,Bachelor,Other,Female,58,11,Single,55.5,Accountant,67574.37,7680.58,4,5,Yes,No
+EMP1868,R&D,Master,Technical,Female,57,0,Divorced,25.5,Research Director,126842.49,15791.35,2,1,Yes,No
+EMP1869,Marketing,High School,Other,Male,45,3,Divorced,28.7,CMO,95582.9,3508.59,5,3,Yes,No
+EMP1870,Marketing,High School,Other,Male,52,2,Single,41.7,Marketing Specialist,43121.9,7945.3,3,1,Yes,Yes
+EMP1871,Marketing,Bachelor,Marketing,Male,27,2,Divorced,1.3,Marketing Specialist,51954.73,5219.66,4,3,No,No
+EMP1872,Technology,Master,Marketing,Male,23,11,Married,7.3,Data Scientist,145308.18,18065.04,5,1,Yes,No
+EMP1873,R&D,Master,Life Sciences,Male,41,0,Married,1.1,Research Scientist,98665.02,13486.22,5,1,Yes,No
+EMP1874,Finance,Bachelor,Technical,Female,49,5,Single,3.6,Accountant,64831.01,3578.01,4,3,Yes,No
+EMP1875,Customer Service,PhD,Medical,Female,32,16,Divorced,3.9,Customer Support,87300.41,11546.53,5,1,No,No
+EMP1876,Marketing,High School,Technical,Male,25,4,Divorced,9.5,CMO,102340.38,4068.91,5,2,No,No
+EMP1877,Finance,Master,Other,Male,36,13,Married,4.7,Controller,151847.58,2647.07,4,4,No,No
+EMP1878,Customer Service,PhD,Life Sciences,Female,27,0,Married,1.6,Service Manager,100209.51,4832.5,1,2,Yes,Yes
+EMP1879,HR,Master,Life Sciences,Male,51,2,Single,2.7,CHRO,161514.83,5176.74,2,4,No,No
+EMP1880,Customer Service,PhD,Medical,Male,59,1,Married,2.4,Support Specialist,73845.21,4178.34,3,2,No,Yes
+EMP1881,HR,PhD,Other,Female,23,6,Single,54.2,Recruiter,76751.61,9854.81,2,4,Yes,Yes
+EMP1882,Sales,High School,Other,Female,36,19,Divorced,21.4,Sales Representative,50263.21,4074.83,1,1,No,Yes
+EMP1883,Customer Service,Master,Life Sciences,Male,32,1,Married,51.5,Support Specialist,62368.1,593.24,1,3,No,No
+EMP1884,HR,Master,Life Sciences,Male,29,5,Divorced,8.7,Recruiter,59476.17,10127.3,5,3,No,No
+EMP1885,Marketing,PhD,Medical,Female,47,1,Married,4.9,SEO Analyst,94057.55,5961.89,2,5,No,Yes
+EMP1886,Technology,Bachelor,Medical,Male,26,4,Married,24.0,Data Scientist,103266.3,7952.68,1,4,No,No
+EMP1887,Customer Service,Master,Marketing,Female,27,3,Divorced,5.9,Service Manager,83745.19,10686.71,2,5,Yes,No
+EMP1888,Operations,High School,Life Sciences,Male,47,17,Divorced,5.3,Operations Manager,76549.55,16193.32,1,5,No,Yes
+EMP1889,HR,Bachelor,Medical,Female,25,4,Married,4.0,HR Specialist,50395.56,2968.72,3,4,Yes,No
+EMP1890,R&D,Master,Other,Male,40,2,Single,2.1,Research Director,125350.69,20765.27,1,3,No,No
+EMP1891,HR,High School,Marketing,Male,41,0,Married,4.4,HR Manager,61406.33,3528.63,2,4,Yes,Yes
+EMP1892,Customer Service,Bachelor,Life Sciences,Female,54,0,Married,6.6,Customer Support,43758.55,5973.99,5,1,No,No
+EMP1893,HR,Master,Medical,Female,41,1,Married,16.8,CHRO,152500.46,17807.95,2,5,No,Yes
+EMP1894,Finance,High School,Life Sciences,Female,33,1,Divorced,1.0,Accountant,48673.29,2948.47,4,5,No,No
+EMP1895,R&D,Bachelor,Marketing,Female,22,9,Divorced,3.5,Research Director,117978.79,12313.24,2,4,Yes,Yes
+EMP1896,Customer Service,Master,Technical,Male,47,4,Married,24.8,Customer Support,57190.16,9324.68,3,5,No,Yes
+EMP1897,Technology,Bachelor,Life Sciences,Female,35,3,Divorced,2.4,IT Support,54708.99,6909.0,3,3,No,No
+EMP1898,Finance,PhD,Life Sciences,Male,59,0,Divorced,6.3,Financial Analyst,107467.06,13914.15,3,5,Yes,No
+EMP1899,R&D,PhD,Life Sciences,Male,58,9,Single,30.0,Research Scientist,145094.11,12954.66,1,4,No,No
+EMP1900,Operations,Bachelor,Life Sciences,Female,32,6,Single,2.5,Supply Chain Analyst,68577.19,4822.13,3,3,Yes,No
+EMP1901,HR,PhD,Medical,Male,57,0,Divorced,1.3,CHRO,175640.46,22302.51,2,3,No,No
+EMP1902,HR,PhD,Technical,Male,34,6,Divorced,9.9,HR Manager,135170.29,20762.8,5,5,Yes,No
+EMP1903,Sales,Bachelor,Other,Male,64,3,Divorced,5.4,BD Manager,97365.67,1239.9,3,4,Yes,No
+EMP1904,R&D,PhD,Life Sciences,Male,24,0,Single,12.4,Research Director,152587.11,9884.66,2,5,No,Yes
+EMP1905,HR,Bachelor,Other,Female,54,3,Divorced,24.4,CHRO,109547.0,14448.98,1,1,No,Yes
+EMP1906,Sales,Bachelor,Medical,Female,27,3,Married,2.2,Account Executive,73105.3,4642.05,1,1,Yes,Yes
+EMP1907,Sales,PhD,Technical,Female,31,0,Single,13.0,Sales Manager,127453.13,13940.14,5,3,No,Yes
+EMP1908,Customer Service,Master,Marketing,Male,26,14,Divorced,10.6,Support Specialist,68664.46,4850.93,5,5,Yes,No
+EMP1909,HR,Bachelor,Marketing,Female,44,9,Divorced,2.3,HR Manager,87371.55,7557.09,2,1,Yes,Yes
+EMP1910,Finance,Bachelor,Marketing,Male,31,5,Married,14.7,CFO,147527.59,5429.46,5,2,No,No
+EMP1911,Operations,Master,Marketing,Male,23,3,Married,4.8,Supply Chain Analyst,81650.09,5924.37,5,1,Yes,No
+EMP1912,Finance,PhD,Marketing,Male,34,2,Divorced,10.0,CFO,206661.49,39599.97,1,5,No,No
+EMP1913,Finance,High School,Technical,Female,61,5,Divorced,1.3,CFO,115730.96,14700.26,2,5,No,No
+EMP1914,HR,Master,Life Sciences,Female,23,3,Divorced,9.2,HR Manager,100187.54,14123.35,5,1,No,No
+EMP1915,Marketing,High School,Marketing,Female,41,0,Married,5.5,CMO,104311.06,15661.01,2,5,No,Yes
+EMP1916,Technology,PhD,Life Sciences,Male,22,3,Divorced,25.9,CTO,275904.18,12512.36,3,5,Yes,No
+EMP1917,Sales,Bachelor,Other,Male,58,8,Divorced,0.9,Sales Representative,58027.51,11757.24,1,2,No,Yes
+EMP1918,HR,Bachelor,Life Sciences,Male,30,3,Divorced,8.1,Recruiter,46058.01,5560.1,1,3,No,No
+EMP1919,Customer Service,PhD,Other,Female,38,0,Single,9.2,Customer Support,67035.29,668.38,1,5,Yes,Yes
+EMP1920,Sales,PhD,Life Sciences,Male,30,7,Divorced,19.4,Account Executive,107574.54,12077.06,4,4,No,No
+EMP1921,Operations,PhD,Other,Male,32,1,Single,12.8,Logistics Coordinator,73069.41,5580.36,2,3,No,Yes
+EMP1922,Marketing,PhD,Life Sciences,Female,36,1,Married,16.5,Content Writer,71035.92,10585.94,3,3,No,No
+EMP1923,Technology,PhD,Life Sciences,Male,45,0,Married,22.5,IT Support,95401.43,16543.84,5,4,No,No
+EMP1924,HR,PhD,Technical,Male,59,2,Single,29.7,Recruiter,67571.76,6820.04,3,1,Yes,No
+EMP1925,Operations,PhD,Other,Female,56,7,Single,5.7,Logistics Coordinator,82947.01,5577.75,2,2,No,Yes
+EMP1926,R&D,Bachelor,Life Sciences,Female,51,3,Single,11.6,Lab Technician,49995.93,1327.67,1,5,No,No
+EMP1927,Marketing,High School,Technical,Male,52,1,Divorced,27.5,CMO,97626.59,9155.8,4,1,No,No
+EMP1928,Finance,High School,Technical,Female,26,10,Divorced,68.3,Accountant,48421.86,6726.31,2,4,Yes,Yes
+EMP1929,Marketing,Bachelor,Other,Female,35,10,Married,33.0,SEO Analyst,78803.44,3372.65,2,2,No,Yes
+EMP1930,Operations,Master,Life Sciences,Female,32,10,Married,7.0,Logistics Coordinator,70452.87,6534.86,5,2,No,No
+EMP1931,HR,High School,Technical,Female,30,1,Married,3.3,HR Specialist,41731.76,9660.24,3,2,No,No
+EMP1932,Marketing,Master,Marketing,Male,55,3,Married,10.1,Content Writer,58743.43,2655.15,3,4,No,No
+EMP1933,HR,Bachelor,Marketing,Male,33,20,Single,20.3,HR Specialist,69768.97,12918.92,5,1,No,Yes
+EMP1934,Customer Service,Master,Marketing,Female,56,7,Divorced,10.2,Service Manager,87659.99,5826.9,4,5,No,No
+EMP1935,HR,Bachelor,Life Sciences,Male,56,0,Single,9.9,CHRO,100647.71,6689.88,1,2,No,No
+EMP1936,Operations,PhD,Marketing,Male,22,0,Married,27.3,Supply Chain Analyst,88438.28,10644.35,1,2,Yes,Yes
+EMP1937,Technology,PhD,Medical,Female,61,3,Married,6.7,DevOps,153890.01,4110.64,4,1,No,No
+EMP1938,Customer Service,High School,Other,Male,43,11,Married,29.5,Customer Support,37008.51,4077.08,5,2,No,No
+EMP1939,Technology,High School,Medical,Female,50,3,Divorced,7.8,CTO,119439.74,4539.7,2,2,No,Yes
+EMP1940,Marketing,Master,Medical,Female,29,3,Single,6.0,Marketing Specialist,75864.45,2282.01,3,4,No,No
+EMP1941,Finance,Master,Marketing,Female,32,0,Married,9.1,CFO,178083.65,33886.14,2,3,No,No
+EMP1942,R&D,High School,Other,Female,62,5,Divorced,21.6,Research Director,76275.75,4630.09,3,1,No,Yes
+EMP1943,Operations,PhD,Technical,Male,58,8,Divorced,2.0,Supply Chain Analyst,113070.67,9961.99,2,1,Yes,Yes
+EMP1944,Technology,Bachelor,Medical,Male,35,2,Single,3.3,DevOps,81667.64,17299.51,5,1,Yes,No
+EMP1945,R&D,PhD,Technical,Male,51,7,Married,45.4,Lab Technician,74470.54,8539.69,5,4,No,No
+EMP1946,Sales,High School,Technical,Female,56,16,Single,2.9,BD Manager,91346.25,13286.36,4,4,No,No
+EMP1947,HR,Bachelor,Life Sciences,Female,42,1,Single,12.6,CHRO,119698.64,10777.36,2,5,No,Yes
+EMP1948,Technology,Master,Other,Female,58,3,Single,13.0,IT Support,69999.23,9914.19,2,4,No,No
+EMP1949,Customer Service,High School,Other,Male,26,1,Single,10.1,Service Manager,44506.12,1606.43,4,1,No,Yes
+EMP1950,Operations,PhD,Medical,Female,40,7,Single,15.5,Logistics Coordinator,81060.56,8188.69,4,5,No,No
+EMP1951,HR,Master,Life Sciences,Female,35,4,Single,3.9,CHRO,165065.27,16105.68,5,3,No,No
+EMP1952,R&D,Master,Life Sciences,Female,47,5,Married,12.1,Lab Technician,61292.2,3761.88,5,2,No,No
+EMP1953,Operations,High School,Life Sciences,Female,25,7,Married,7.0,Logistics Coordinator,40397.42,4231.92,2,2,No,No
+EMP1954,Technology,PhD,Other,Male,46,2,Married,16.3,IT Support,83098.74,8067.11,5,5,No,No
+EMP1955,Finance,High School,Other,Male,63,12,Divorced,2.3,Financial Analyst,63823.32,4776.95,5,3,No,No
+EMP1956,Customer Service,Bachelor,Marketing,Female,46,3,Married,12.7,Customer Support,43058.16,926.69,2,2,No,Yes
+EMP1957,Sales,Bachelor,Other,Male,39,0,Married,3.1,BD Manager,96347.23,11914.56,4,5,No,Yes
+EMP1958,Operations,Master,Other,Female,61,5,Divorced,4.9,Operations Manager,96745.18,5100.66,2,4,No,No
+EMP1959,Finance,PhD,Life Sciences,Female,29,7,Single,3.7,Controller,149320.05,8098.93,1,1,No,Yes
+EMP1960,Technology,Bachelor,Technical,Female,60,1,Single,3.0,Software Engineer,75180.1,4511.49,2,3,Yes,Yes
+EMP1961,Customer Service,Bachelor,Medical,Male,61,9,Single,26.2,Service Manager,68913.86,9361.35,1,2,No,Yes
+EMP1962,HR,Bachelor,Technical,Female,35,11,Married,5.0,HR Specialist,56113.83,9173.02,2,1,No,Yes
+EMP1963,R&D,Bachelor,Medical,Female,53,1,Single,39.3,Lab Technician,48347.35,2412.6,1,5,No,No
+EMP1964,Technology,High School,Marketing,Male,59,20,Single,52.6,CTO,183666.82,20284.97,1,2,No,No
+EMP1965,Marketing,Master,Other,Male,54,0,Married,12.7,Marketing Specialist,78222.06,3769.1,2,1,Yes,Yes
+EMP1966,Sales,Master,Medical,Female,44,1,Married,2.3,Sales Manager,120939.43,8162.96,5,4,Yes,No
+EMP1967,Sales,Bachelor,Medical,Male,36,1,Divorced,7.0,Account Executive,67636.5,1461.68,3,3,No,No
+EMP1968,HR,Master,Medical,Female,54,11,Divorced,24.0,HR Specialist,82485.73,1252.56,5,5,Yes,No
+EMP1969,Customer Service,Master,Medical,Male,46,5,Single,6.9,Customer Support,54742.75,5680.1,1,2,No,Yes
+EMP1970,Technology,Master,Other,Female,38,0,Divorced,1.4,Software Engineer,106720.02,5759.11,2,4,Yes,No
+EMP1971,Technology,Master,Technical,Female,54,2,Single,12.2,DevOps,113900.65,7890.23,2,3,No,No
+EMP1972,Finance,High School,Medical,Female,23,4,Divorced,28.0,Financial Analyst,55958.02,5762.03,2,3,Yes,No
+EMP1973,Marketing,Bachelor,Life Sciences,Female,35,0,Married,23.8,Content Writer,47319.99,3630.86,2,4,No,Yes
+EMP1974,R&D,PhD,Medical,Male,61,10,Single,2.9,Lab Technician,82631.55,5505.36,3,2,No,Yes
+EMP1975,Customer Service,High School,Other,Male,61,8,Single,16.8,Customer Support,35769.13,4270.37,4,3,Yes,No
+EMP1976,Operations,Master,Life Sciences,Male,60,3,Single,3.7,Supply Chain Analyst,89701.88,1767.01,1,5,No,No
+EMP1977,R&D,Bachelor,Other,Female,27,17,Married,3.7,Lab Technician,54948.06,7556.13,3,1,No,No
+EMP1978,Marketing,Bachelor,Marketing,Female,27,2,Divorced,31.1,SEO Analyst,62220.72,3772.33,5,5,No,No
+EMP1979,R&D,Bachelor,Other,Male,24,20,Married,4.3,Lab Technician,68201.29,5752.32,4,3,Yes,No
+EMP1980,Technology,Bachelor,Life Sciences,Female,28,5,Single,4.6,DevOps,95563.79,10996.72,4,1,No,Yes
+EMP1981,Customer Service,Master,Technical,Male,29,5,Married,0.0,Customer Support,57730.9,3203.99,2,4,No,Yes
+EMP1982,R&D,Bachelor,Life Sciences,Female,63,0,Married,30.7,Research Director,90245.14,10030.91,3,1,No,No
+EMP1983,HR,PhD,Technical,Female,36,10,Divorced,23.6,Recruiter,83691.8,5927.61,5,1,No,Yes
+EMP1984,Sales,PhD,Life Sciences,Female,50,2,Divorced,14.8,Sales Manager,151398.75,1332.58,2,1,No,Yes
+EMP1985,Operations,Bachelor,Medical,Male,54,0,Single,20.8,Operations Manager,70829.05,1150.58,2,3,No,Yes
+EMP1986,Finance,Master,Other,Male,51,0,Married,2.5,Controller,110825.8,11085.88,1,2,No,Yes
+EMP1987,Customer Service,PhD,Marketing,Male,60,4,Divorced,9.2,Service Manager,95376.88,3241.29,4,3,Yes,No
+EMP1988,Customer Service,PhD,Technical,Female,48,3,Single,6.5,Service Manager,91910.21,6392.19,5,2,No,Yes
+EMP1989,Finance,PhD,Technical,Male,57,6,Single,1.5,CFO,254564.02,11242.51,4,4,No,No
+EMP1990,Operations,High School,Medical,Female,50,11,Single,10.0,Logistics Coordinator,42839.45,5148.8,3,4,No,No
+EMP1991,Technology,High School,Medical,Female,59,0,Divorced,38.0,CTO,122477.11,15463.27,1,4,No,Yes
+EMP1992,Operations,PhD,Life Sciences,Male,54,6,Divorced,0.6,Supply Chain Analyst,98482.19,3252.64,2,4,No,Yes
+EMP1993,Operations,Master,Technical,Female,58,1,Divorced,5.2,Operations Manager,96219.33,4605.22,1,4,Yes,Yes
+EMP1994,Sales,Master,Other,Male,48,9,Single,3.5,BD Manager,158337.59,9713.96,2,5,No,No
+EMP1995,R&D,PhD,Life Sciences,Female,54,8,Divorced,4.1,Research Director,178988.26,13303.42,1,3,No,No
+EMP1996,HR,PhD,Medical,Female,25,3,Divorced,35.9,Recruiter,70613.02,452.91,2,2,Yes,Yes
+EMP1997,Finance,Master,Technical,Male,43,6,Divorced,9.5,CFO,192373.65,18177.3,4,4,No,No
+EMP1998,Technology,High School,Marketing,Male,23,1,Divorced,9.4,Data Scientist,81649.45,804.28,4,5,No,No
+EMP1999,Customer Service,High School,Marketing,Female,31,3,Married,21.4,Customer Support,33285.13,1751.68,4,5,No,Yes
+EMP2000,Technology,PhD,Technical,Female,26,8,Married,2.5,Data Scientist,189714.6,11461.85,4,5,No,No
+EMP2001,Finance,Master,Other,Female,31,3,Single,10.0,CFO,184467.01,3260.54,1,3,No,No
+EMP2002,Sales,High School,Technical,Male,54,2,Single,8.4,Account Executive,58398.28,2921.76,2,4,No,Yes
+EMP2003,Sales,PhD,Other,Male,59,3,Divorced,13.6,BD Manager,165099.84,8915.68,4,5,No,No
+EMP2004,Operations,Bachelor,Medical,Male,34,8,Single,115.9,Supply Chain Analyst,64467.53,8761.92,1,5,No,No
+EMP2005,Finance,PhD,Other,Male,52,2,Married,22.0,CFO,208086.5,26579.91,2,4,Yes,Yes
+EMP2006,Marketing,Bachelor,Other,Male,57,0,Married,7.6,SEO Analyst,56421.54,1014.31,1,3,No,No
+EMP2007,Finance,PhD,Technical,Male,45,6,Divorced,26.4,Financial Analyst,126004.02,16335.28,4,5,Yes,No
+EMP2008,Technology,Master,Technical,Male,36,8,Divorced,2.8,DevOps,134855.62,3379.24,3,2,No,Yes
+EMP2009,Finance,Master,Marketing,Female,50,0,Married,0.5,Accountant,74022.5,2903.88,1,1,No,Yes
+EMP2010,Finance,Master,Medical,Female,29,1,Divorced,3.4,CFO,165518.11,5865.96,4,1,No,No
+EMP2011,Finance,Master,Life Sciences,Female,26,0,Divorced,6.2,CFO,158320.71,28839.3,5,1,No,Yes
+EMP2012,Operations,Bachelor,Technical,Female,50,2,Single,10.7,Operations Manager,76533.93,6003.99,2,3,Yes,No
+EMP2013,Marketing,PhD,Medical,Male,25,2,Married,14.3,CMO,198647.97,14809.21,4,5,No,No
+EMP2014,Sales,Master,Medical,Male,33,6,Single,36.2,BD Manager,130734.24,11476.0,5,1,No,No
+EMP2015,HR,High School,Marketing,Female,23,5,Single,10.7,HR Specialist,45026.27,2425.04,1,1,No,Yes
+EMP2016,Marketing,High School,Technical,Female,48,4,Single,10.4,SEO Analyst,47074.18,2244.55,1,4,No,No
+EMP2017,Marketing,High School,Technical,Female,52,2,Single,0.8,Content Writer,36138.36,714.63,5,5,No,No
+EMP2018,HR,PhD,Medical,Female,57,9,Single,0.5,Recruiter,84425.72,11999.02,5,5,No,No
+EMP2019,Marketing,High School,Technical,Female,57,3,Married,12.0,SEO Analyst,47297.62,8241.81,2,4,No,Yes
+EMP2020,Technology,High School,Marketing,Male,47,19,Married,8.6,Software Engineer,96880.94,5898.88,1,5,No,No
+EMP2021,Sales,Bachelor,Marketing,Male,64,5,Married,27.4,BD Manager,98420.13,10255.78,5,2,No,No
+EMP2022,Marketing,PhD,Marketing,Female,48,0,Married,2.6,SEO Analyst,88902.78,18122.89,3,3,No,No
+EMP2023,Sales,PhD,Technical,Male,26,5,Divorced,0.4,Sales Manager,140729.76,6124.48,3,4,No,No
+EMP2024,Operations,High School,Technical,Female,41,1,Single,8.9,Operations Manager,60193.75,2997.54,5,1,Yes,Yes
+EMP2025,Finance,PhD,Marketing,Male,32,5,Married,4.1,CFO,225391.14,33238.77,2,5,No,No
+EMP2026,Operations,Bachelor,Other,Female,31,0,Divorced,0.8,Logistics Coordinator,45588.74,535.47,1,2,Yes,Yes
+EMP2027,Sales,Bachelor,Life Sciences,Male,61,0,Married,19.3,BD Manager,85899.17,7185.33,3,2,Yes,Yes
+EMP2028,Marketing,Master,Medical,Male,59,9,Divorced,1.8,SEO Analyst,83469.81,11571.07,5,3,Yes,No
+EMP2029,HR,Bachelor,Other,Female,27,1,Single,14.1,HR Manager,75671.13,2046.94,5,2,Yes,Yes
+EMP2030,Sales,Master,Life Sciences,Male,29,9,Married,4.9,Sales Representative,81557.49,5837.88,4,5,No,No
+EMP2031,Marketing,High School,Technical,Female,44,1,Divorced,2.9,Marketing Specialist,48337.9,7266.63,5,5,Yes,No
+EMP2032,R&D,Master,Medical,Male,47,5,Married,7.2,Research Scientist,98384.86,4577.93,2,2,Yes,No
+EMP2033,Technology,Master,Other,Male,64,5,Married,24.3,Data Scientist,136892.33,3959.66,3,5,Yes,No
+EMP2034,Technology,High School,Medical,Female,33,3,Divorced,7.5,DevOps,78037.12,5971.68,4,5,Yes,No
+EMP2035,Customer Service,Master,Technical,Female,47,1,Single,20.8,Support Specialist,58333.07,6586.92,3,1,Yes,Yes
+EMP2036,Customer Service,Bachelor,Life Sciences,Female,34,1,Married,2.0,Support Specialist,48925.41,4747.71,3,4,No,Yes
+EMP2037,Operations,High School,Life Sciences,Female,61,0,Single,22.2,Supply Chain Analyst,44483.48,4244.23,2,5,No,No
+EMP2038,Technology,PhD,Life Sciences,Female,39,1,Married,4.1,CTO,266116.91,56223.68,5,5,No,No
+EMP2039,Customer Service,Master,Other,Female,46,5,Married,17.0,Support Specialist,67585.82,2833.28,2,3,No,No
+EMP2040,Finance,Bachelor,Life Sciences,Female,54,13,Divorced,12.5,CFO,178258.11,11036.25,5,4,Yes,No
+EMP2041,Sales,PhD,Other,Male,61,10,Married,39.7,BD Manager,188843.0,23046.27,4,4,Yes,No
+EMP2042,HR,High School,Other,Male,64,7,Married,7.3,Recruiter,39918.82,2668.82,2,4,Yes,Yes
+EMP2043,Customer Service,High School,Marketing,Female,33,7,Single,1.0,Service Manager,59515.45,7409.3,2,2,No,Yes
+EMP2044,Sales,High School,Other,Male,57,5,Divorced,0.3,Sales Representative,42024.99,8820.25,1,1,Yes,No
+EMP2045,Sales,Bachelor,Medical,Male,25,1,Divorced,26.3,BD Manager,93647.5,4877.64,2,1,No,Yes
+EMP2046,Customer Service,PhD,Life Sciences,Female,26,11,Single,11.2,Customer Support,81215.82,6584.52,1,3,Yes,No
+EMP2047,R&D,High School,Other,Female,58,5,Divorced,22.4,Lab Technician,41701.31,4420.87,5,4,Yes,No
+EMP2048,R&D,Bachelor,Technical,Female,29,4,Divorced,4.0,Research Scientist,87956.34,4380.99,5,4,No,No
+EMP2049,Technology,Bachelor,Other,Male,63,0,Single,6.3,DevOps,79981.64,2801.47,5,5,No,No
+EMP2050,Customer Service,PhD,Other,Female,49,2,Divorced,0.5,Support Specialist,79342.82,8554.24,1,2,No,Yes
+EMP2051,Customer Service,High School,Marketing,Male,52,3,Divorced,48.9,Service Manager,53307.44,5141.74,5,2,No,Yes
+EMP2052,Technology,High School,Medical,Male,30,9,Single,16.5,DevOps,73239.78,5699.52,3,3,No,No
+EMP2053,Technology,Master,Technical,Male,50,3,Married,40.6,Software Engineer,107753.5,9022.14,2,1,No,Yes
+EMP2054,Operations,High School,Marketing,Male,35,2,Divorced,4.6,Operations Manager,55709.65,1504.42,1,4,No,Yes
+EMP2055,Marketing,PhD,Medical,Male,61,18,Married,14.2,Marketing Specialist,115000.28,18155.81,5,3,Yes,No
+EMP2056,Technology,Bachelor,Other,Male,62,0,Married,17.0,CTO,164488.41,8828.45,3,2,No,Yes
+EMP2057,Marketing,PhD,Technical,Female,43,2,Divorced,5.7,Content Writer,77018.23,5107.16,2,2,No,Yes
+EMP2058,HR,High School,Medical,Female,32,0,Divorced,28.3,HR Specialist,41741.41,9638.71,2,2,No,Yes
+EMP2059,Operations,Bachelor,Marketing,Male,44,6,Married,44.1,Supply Chain Analyst,73605.74,1573.89,5,4,No,No
+EMP2060,R&D,PhD,Other,Male,22,12,Divorced,32.4,Research Director,183851.0,9368.39,3,4,No,No
+EMP2061,HR,High School,Other,Male,58,1,Single,20.2,CHRO,95178.63,2408.82,1,4,No,No
+EMP2062,Customer Service,High School,Life Sciences,Female,42,9,Divorced,4.9,Customer Support,37265.58,3499.28,5,5,No,No
+EMP2063,R&D,High School,Marketing,Female,47,1,Single,5.0,Research Scientist,65723.09,5264.15,2,1,No,No
+EMP2064,Technology,Master,Technical,Female,57,12,Married,49.6,Data Scientist,143359.18,2558.07,2,2,No,No
+EMP2065,Technology,Master,Other,Male,44,7,Married,0.2,Software Engineer,129175.53,15037.81,2,2,No,Yes
+EMP2066,Finance,Master,Life Sciences,Female,22,8,Single,18.9,CFO,185013.6,17141.71,5,5,Yes,No
+EMP2067,R&D,Bachelor,Medical,Female,61,0,Married,18.4,Lab Technician,43435.98,2550.19,4,2,No,No
+EMP2068,Customer Service,PhD,Other,Female,36,16,Married,14.6,Customer Support,88808.62,9911.84,4,2,Yes,No
+EMP2069,Finance,Bachelor,Medical,Female,42,6,Married,69.2,Accountant,60291.06,4595.25,4,4,No,No
+EMP2070,R&D,Bachelor,Other,Female,30,1,Single,5.6,Lab Technician,46893.38,4365.89,3,4,No,No
+EMP2071,Operations,High School,Medical,Male,30,8,Single,6.2,Supply Chain Analyst,55062.77,10071.72,5,1,No,No
+EMP2072,Customer Service,High School,Marketing,Male,31,1,Married,1.2,Support Specialist,38499.96,4905.41,2,2,No,Yes
+EMP2073,R&D,Bachelor,Medical,Female,47,10,Single,8.8,Research Scientist,85109.96,12097.63,3,3,Yes,No
+EMP2074,R&D,PhD,Medical,Male,62,0,Single,4.5,Lab Technician,65641.8,13824.74,4,2,Yes,No
+EMP2075,Technology,Master,Other,Female,56,6,Married,6.3,Software Engineer,111819.16,8794.29,1,2,No,Yes
+EMP2076,Operations,Bachelor,Other,Male,46,3,Divorced,27.0,Logistics Coordinator,47454.9,4932.59,3,1,Yes,No
+EMP2077,R&D,Bachelor,Medical,Female,47,0,Married,41.1,Research Director,88692.38,11068.49,3,3,No,No
+EMP2078,Operations,PhD,Marketing,Female,32,1,Divorced,3.1,Operations Manager,110922.41,8515.49,5,2,No,No
+EMP2079,HR,PhD,Technical,Female,59,0,Married,7.0,Recruiter,70559.76,6602.71,3,3,No,No
+EMP2080,Operations,Bachelor,Life Sciences,Male,23,3,Single,39.6,Logistics Coordinator,43477.52,1063.07,5,4,No,No
+EMP2081,Marketing,High School,Medical,Male,28,1,Married,1.0,CMO,99551.49,4501.86,1,4,No,No
+EMP2082,Customer Service,High School,Marketing,Female,39,4,Single,1.5,Service Manager,55824.87,10477.16,2,3,No,Yes
+EMP2083,Technology,Bachelor,Medical,Female,48,1,Married,2.7,Data Scientist,90150.78,1711.64,2,2,Yes,No
+EMP2084,Technology,High School,Life Sciences,Male,55,1,Married,13.6,Software Engineer,66556.98,7908.51,4,3,Yes,No
+EMP2085,Technology,PhD,Technical,Female,48,6,Divorced,2.4,Data Scientist,175849.04,19198.27,4,3,No,No
+EMP2086,Technology,Master,Technical,Male,38,0,Married,51.7,CTO,191854.05,31531.67,1,4,No,Yes
+EMP2087,R&D,PhD,Medical,Male,64,11,Married,8.9,Lab Technician,91372.88,20423.24,2,3,Yes,Yes
+EMP2088,Technology,Master,Life Sciences,Female,45,9,Divorced,10.4,IT Support,82863.68,7665.8,4,5,No,Yes
+EMP2089,Operations,Bachelor,Medical,Female,46,5,Married,4.2,Supply Chain Analyst,66061.21,1317.73,3,5,No,No
+EMP2090,Marketing,Bachelor,Other,Male,28,4,Single,9.6,Marketing Specialist,53547.35,2627.31,5,4,No,No
+EMP2091,Sales,Master,Technical,Male,27,11,Single,16.3,BD Manager,156447.29,6945.18,4,2,No,No
+EMP2092,Operations,High School,Marketing,Male,45,1,Divorced,20.9,Operations Manager,58963.18,5900.29,1,2,No,Yes
+EMP2093,Technology,Bachelor,Marketing,Female,54,0,Married,21.0,Data Scientist,86229.62,1588.83,2,4,No,Yes
+EMP2094,R&D,Master,Marketing,Male,50,1,Divorced,12.9,Research Scientist,96829.49,12259.59,1,2,No,No
+EMP2095,Operations,High School,Life Sciences,Female,64,7,Single,35.2,Logistics Coordinator,44971.89,1682.57,5,1,No,Yes
+EMP2096,R&D,Master,Life Sciences,Male,43,0,Married,25.5,Lab Technician,57572.62,2272.22,5,5,No,No
+EMP2097,Sales,Bachelor,Technical,Female,47,4,Married,21.2,BD Manager,102639.92,11375.78,1,1,No,Yes
+EMP2098,HR,Bachelor,Life Sciences,Male,49,26,Divorced,0.9,Recruiter,74007.84,2837.37,4,1,Yes,Yes
+EMP2099,HR,PhD,Other,Female,42,9,Divorced,0.1,HR Manager,147752.86,19331.62,4,1,Yes,No
+EMP2100,Operations,Master,Technical,Female,28,3,Divorced,3.6,Supply Chain Analyst,84037.11,2373.09,2,4,No,No
+EMP2101,Technology,High School,Technical,Female,38,0,Divorced,16.3,Data Scientist,80526.63,2391.51,2,1,No,Yes
+EMP2102,Finance,Bachelor,Other,Female,41,8,Married,7.9,CFO,161789.29,25749.18,3,3,No,No
+EMP2103,Marketing,PhD,Other,Female,62,4,Married,7.7,SEO Analyst,102786.03,6268.61,3,2,No,No
+EMP2104,Customer Service,PhD,Other,Female,41,0,Divorced,32.4,Customer Support,63681.39,5582.21,2,4,Yes,No
+EMP2105,Finance,High School,Medical,Female,43,0,Single,33.9,Financial Analyst,50814.93,3047.29,3,3,No,No
+EMP2106,Technology,Bachelor,Marketing,Female,49,12,Single,36.0,Data Scientist,128795.6,20867.44,1,3,Yes,Yes
+EMP2107,Operations,PhD,Marketing,Male,61,5,Divorced,5.7,Logistics Coordinator,82323.11,12228.22,4,5,No,No
+EMP2108,Operations,High School,Technical,Male,28,8,Divorced,17.6,Operations Manager,59545.23,5632.26,3,5,No,No
+EMP2109,Technology,High School,Other,Female,22,10,Single,4.8,IT Support,56632.85,11784.78,3,3,No,Yes
+EMP2110,HR,Master,Life Sciences,Female,53,4,Divorced,3.2,Recruiter,62934.36,6614.61,1,5,Yes,Yes
+EMP2111,Finance,Master,Other,Male,34,3,Married,3.1,Controller,107027.63,6902.47,5,2,No,No
+EMP2112,R&D,Bachelor,Technical,Female,51,2,Divorced,6.3,Research Director,99782.41,5728.43,2,2,No,No
+EMP2113,Sales,PhD,Marketing,Male,44,1,Single,8.4,BD Manager,152471.43,1707.62,1,5,No,No
+EMP2114,HR,PhD,Medical,Male,40,2,Single,26.7,CHRO,196868.65,25996.03,5,1,No,Yes
+EMP2115,Sales,Master,Other,Female,53,7,Married,1.9,BD Manager,132455.08,11253.7,1,3,No,No
+EMP2116,Marketing,Bachelor,Marketing,Male,51,4,Single,19.9,Marketing Specialist,63278.4,3419.45,4,2,No,No
+EMP2117,HR,PhD,Technical,Female,50,11,Divorced,11.4,HR Specialist,98726.08,5480.15,1,5,No,No
+EMP2118,HR,High School,Technical,Female,50,2,Married,5.1,HR Manager,56841.54,2657.8,1,5,Yes,No
+EMP2119,Operations,High School,Marketing,Male,51,4,Married,10.2,Supply Chain Analyst,56732.09,3083.09,4,2,No,No
+EMP2120,Operations,High School,Marketing,Male,37,4,Divorced,5.3,Logistics Coordinator,38978.1,1215.92,2,2,No,No
+EMP2121,Sales,High School,Other,Male,61,4,Single,13.6,Sales Manager,70368.4,8033.18,5,1,No,No
+EMP2122,Marketing,Master,Life Sciences,Female,40,6,Single,8.5,SEO Analyst,86825.48,13272.75,3,5,Yes,Yes
+EMP2123,Marketing,Bachelor,Other,Female,39,1,Single,2.7,CMO,131160.36,12660.93,2,5,Yes,No
+EMP2124,R&D,High School,Medical,Male,22,3,Single,1.9,Research Director,77416.6,7013.68,1,4,Yes,Yes
+EMP2125,Technology,High School,Marketing,Female,35,0,Divorced,11.9,Data Scientist,71328.68,5988.7,3,1,No,No
+EMP2126,Marketing,PhD,Medical,Female,23,2,Divorced,34.9,CMO,184866.59,2925.61,4,2,No,No
+EMP2127,Sales,Master,Medical,Female,49,3,Divorced,6.3,Account Executive,85948.85,7232.65,2,2,No,No
+EMP2128,Technology,PhD,Life Sciences,Male,51,5,Single,19.8,Data Scientist,176564.81,12098.2,5,3,No,Yes
+EMP2129,Finance,PhD,Other,Male,59,15,Divorced,16.1,CFO,268865.55,34537.12,2,2,No,No
+EMP2130,R&D,PhD,Technical,Male,25,4,Divorced,40.2,Lab Technician,73521.79,4809.92,2,5,No,No
+EMP2131,R&D,High School,Medical,Male,22,6,Married,25.8,Lab Technician,37628.12,4206.75,3,2,No,No
+EMP2132,Customer Service,Bachelor,Medical,Female,29,3,Married,12.5,Support Specialist,46104.24,4019.32,4,5,No,No
+EMP2133,Operations,Master,Medical,Female,50,5,Married,16.1,Operations Manager,108907.29,6709.96,4,5,No,No
+EMP2134,Marketing,High School,Medical,Male,60,0,Married,34.3,Marketing Specialist,42618.64,4808.75,2,1,No,Yes
+EMP2135,Operations,Master,Technical,Female,24,1,Divorced,7.7,Logistics Coordinator,65495.27,11504.79,4,2,Yes,No
+EMP2136,HR,High School,Other,Male,53,2,Single,5.9,HR Specialist,41477.12,659.65,3,1,No,Yes
+EMP2137,Operations,Bachelor,Life Sciences,Female,31,3,Married,0.2,Operations Manager,69438.79,6747.58,3,5,No,No
+EMP2138,Technology,Bachelor,Medical,Male,31,0,Single,26.3,Data Scientist,102431.66,16121.0,5,2,No,No
+EMP2139,Sales,Master,Marketing,Male,40,0,Divorced,24.2,Sales Manager,109623.85,3762.12,4,2,No,No
+EMP2140,Marketing,PhD,Technical,Female,55,1,Divorced,1.7,SEO Analyst,102026.2,2531.91,5,1,Yes,No
+EMP2141,Marketing,High School,Life Sciences,Male,54,17,Married,12.9,Marketing Specialist,64663.93,2636.63,1,1,No,No
+EMP2142,Sales,Master,Marketing,Male,44,2,Married,9.4,Account Executive,79973.88,9855.41,3,5,No,No
+EMP2143,Technology,PhD,Marketing,Male,49,3,Single,1.9,IT Support,85755.93,2294.51,2,5,No,No
+EMP2144,HR,Bachelor,Marketing,Female,53,1,Single,59.1,CHRO,117147.05,21860.47,3,2,Yes,No
+EMP2145,Customer Service,High School,Medical,Female,28,4,Married,3.6,Support Specialist,37183.47,462.37,1,2,No,Yes
+EMP2146,R&D,Bachelor,Other,Female,50,1,Married,1.0,Research Scientist,71669.81,8575.96,2,4,No,Yes
+EMP2147,Customer Service,High School,Medical,Male,29,1,Single,13.6,Service Manager,44449.43,1714.62,4,4,No,No
+EMP2148,Customer Service,PhD,Marketing,Female,22,3,Married,20.1,Customer Support,61352.42,5316.12,4,3,Yes,No
+EMP2149,R&D,High School,Life Sciences,Male,24,0,Married,0.5,Research Scientist,63293.83,3711.67,3,5,Yes,No
+EMP2150,HR,PhD,Medical,Male,45,0,Divorced,16.1,HR Manager,111226.4,4129.18,2,3,No,Yes
+EMP2151,Finance,High School,Life Sciences,Female,44,1,Single,11.4,CFO,105395.16,4847.69,2,3,No,No
+EMP2152,Technology,Master,Medical,Male,29,0,Single,1.6,IT Support,73014.32,3213.66,5,1,No,Yes
+EMP2153,Operations,Bachelor,Other,Female,58,0,Single,2.8,Operations Manager,68996.93,8658.24,1,1,No,No
+EMP2154,R&D,High School,Other,Male,24,2,Divorced,12.6,Lab Technician,33898.97,4445.07,4,4,No,No
+EMP2155,Technology,High School,Medical,Male,54,8,Divorced,5.3,Data Scientist,93158.7,9984.75,3,3,No,No
+EMP2156,HR,Bachelor,Medical,Male,49,4,Divorced,41.8,HR Specialist,48713.54,1797.11,2,4,Yes,Yes
+EMP2157,Customer Service,High School,Other,Female,29,3,Divorced,25.6,Service Manager,53544.99,6191.41,4,5,No,Yes
+EMP2158,HR,Bachelor,Life Sciences,Female,55,1,Single,61.6,HR Specialist,55011.71,5151.18,3,2,No,No
+EMP2159,Sales,PhD,Other,Female,56,13,Single,4.5,Sales Representative,99446.05,13004.3,4,1,No,No
+EMP2160,Finance,Master,Medical,Female,53,2,Married,52.5,CFO,177009.39,4576.32,3,5,No,No
+EMP2161,R&D,Master,Life Sciences,Female,45,0,Single,8.5,Lab Technician,58230.71,7422.61,4,5,No,No
+EMP2162,Sales,Bachelor,Medical,Male,35,4,Married,6.4,Sales Manager,89765.87,6589.31,5,1,Yes,Yes
+EMP2163,Sales,Master,Technical,Female,53,0,Divorced,0.8,BD Manager,133069.39,9784.35,1,1,No,Yes
+EMP2164,Finance,Bachelor,Medical,Female,64,2,Single,0.8,Accountant,61706.6,4127.27,4,3,No,No
+EMP2165,HR,Master,Other,Female,37,3,Single,17.7,CHRO,146602.61,34200.05,1,4,No,Yes
+EMP2166,Finance,High School,Marketing,Female,25,10,Married,9.2,Financial Analyst,63836.07,1302.91,4,5,No,No
+EMP2167,Marketing,High School,Other,Male,58,3,Divorced,3.9,Marketing Specialist,50622.19,2789.05,2,3,Yes,Yes
+EMP2168,HR,Master,Other,Female,42,6,Married,14.3,HR Manager,119291.36,12057.25,5,3,No,No
+EMP2169,HR,PhD,Life Sciences,Male,35,24,Divorced,4.4,HR Specialist,118612.15,7307.42,5,5,No,No
+EMP2170,Operations,Master,Technical,Female,52,0,Married,12.9,Supply Chain Analyst,77264.07,10831.22,1,5,Yes,No
+EMP2171,Technology,High School,Life Sciences,Female,39,1,Single,6.7,Data Scientist,74088.88,1117.11,2,2,No,No
+EMP2172,Sales,Master,Medical,Female,28,2,Single,26.0,Sales Manager,125466.71,3525.64,3,4,Yes,No
+EMP2173,Customer Service,High School,Marketing,Female,31,2,Married,25.8,Support Specialist,34765.39,426.06,5,5,No,Yes
+EMP2174,R&D,PhD,Other,Male,28,2,Single,9.7,Research Director,160603.89,18111.15,2,1,No,Yes
+EMP2175,Marketing,PhD,Marketing,Male,54,11,Divorced,6.5,CMO,224052.91,2477.19,2,2,No,Yes
+EMP2176,Marketing,Master,Marketing,Female,44,6,Single,6.8,CMO,166997.67,35553.72,1,4,Yes,Yes
+EMP2177,R&D,High School,Medical,Female,42,4,Single,24.6,Lab Technician,38141.04,5976.4,2,1,No,No
+EMP2178,Finance,PhD,Medical,Female,40,1,Divorced,6.0,Financial Analyst,116662.39,1816.83,2,1,No,Yes
+EMP2179,Operations,Bachelor,Marketing,Female,40,8,Divorced,3.5,Operations Manager,73972.65,4419.64,3,4,No,No
+EMP2180,Technology,Master,Other,Female,57,15,Married,1.3,CTO,257482.07,24706.7,1,2,No,Yes
+EMP2181,R&D,Bachelor,Medical,Female,50,8,Married,9.4,Research Director,100999.89,867.5,1,1,Yes,Yes
+EMP2182,Sales,Master,Other,Male,39,0,Divorced,9.9,Account Executive,78661.4,8169.09,2,3,No,No
+EMP2183,R&D,High School,Medical,Female,23,5,Married,27.6,Research Director,82589.49,7888.45,3,4,No,No
+EMP2184,Sales,High School,Other,Female,22,0,Single,3.8,BD Manager,76158.99,3414.79,4,4,No,No
+EMP2185,Customer Service,Bachelor,Other,Female,26,1,Single,7.2,Customer Support,38831.75,3431.23,5,5,No,Yes
+EMP2186,Technology,High School,Technical,Male,41,0,Divorced,24.8,IT Support,42384.82,6164.07,1,2,No,Yes
+EMP2187,Operations,High School,Medical,Male,32,4,Single,26.0,Logistics Coordinator,35668.26,3206.71,3,3,No,No
+EMP2188,R&D,High School,Technical,Female,63,5,Single,7.3,Research Scientist,63402.5,6265.27,3,3,No,No
+EMP2189,R&D,Bachelor,Marketing,Male,23,0,Married,9.2,Research Scientist,81998.38,6813.31,2,5,Yes,No
+EMP2190,R&D,High School,Other,Female,24,2,Married,5.4,Research Scientist,67949.95,4311.3,5,1,No,Yes
+EMP2191,HR,PhD,Other,Male,44,3,Divorced,40.4,HR Specialist,81999.54,6202.98,1,1,Yes,Yes
+EMP2192,Technology,Master,Life Sciences,Male,33,2,Married,1.9,Data Scientist,130260.1,4107.41,4,3,No,No
+EMP2193,R&D,PhD,Medical,Male,41,0,Married,40.7,Lab Technician,77898.17,938.03,2,2,Yes,Yes
+EMP2194,Sales,Bachelor,Marketing,Male,26,2,Single,17.3,Sales Representative,46864.31,4667.59,1,1,No,Yes
+EMP2195,Operations,Bachelor,Marketing,Female,58,6,Married,11.4,Supply Chain Analyst,71375.59,1686.11,1,4,Yes,No
+EMP2196,Marketing,High School,Medical,Male,59,0,Single,0.5,CMO,104608.7,3234.58,3,5,Yes,No
+EMP2197,Customer Service,PhD,Life Sciences,Male,51,0,Divorced,9.7,Customer Support,58768.97,7435.92,5,2,No,No
+EMP2198,Operations,Bachelor,Life Sciences,Female,30,2,Single,7.9,Operations Manager,67870.68,5769.91,4,1,Yes,No
+EMP2199,Technology,Master,Medical,Female,55,14,Married,2.6,Software Engineer,145386.91,15278.6,5,3,No,No
+EMP2200,R&D,Bachelor,Other,Male,56,5,Divorced,16.0,Research Director,105284.59,2214.89,3,5,No,No
+EMP2201,Technology,PhD,Other,Female,43,5,Divorced,53.2,DevOps,135064.76,9894.32,4,1,Yes,Yes
+EMP2202,Finance,Master,Marketing,Female,45,2,Single,12.4,Accountant,70755.5,9230.11,4,3,No,No
+EMP2203,R&D,Master,Medical,Male,38,4,Married,18.8,Lab Technician,62547.49,12894.1,2,1,No,Yes
+EMP2204,R&D,High School,Other,Male,31,0,Single,1.1,Lab Technician,37388.94,2959.59,4,5,No,No
+EMP2205,Technology,Master,Life Sciences,Male,51,5,Married,8.1,Data Scientist,142184.97,6144.13,1,4,No,No
+EMP2206,R&D,High School,Medical,Male,44,12,Single,1.9,Research Scientist,81771.87,8984.45,5,4,No,No
+EMP2207,HR,High School,Marketing,Male,53,4,Single,14.2,HR Specialist,41364.1,2083.66,5,3,No,No
+EMP2208,Operations,Bachelor,Other,Male,38,10,Married,41.8,Supply Chain Analyst,72550.37,3945.94,2,4,Yes,Yes
+EMP2209,Finance,Bachelor,Other,Male,38,6,Married,16.3,Accountant,62010.55,9417.06,4,5,No,No
+EMP2210,Operations,High School,Life Sciences,Male,35,0,Single,1.2,Logistics Coordinator,35320.65,960.51,3,3,No,No
+EMP2211,Marketing,PhD,Other,Male,30,11,Divorced,6.6,Marketing Specialist,100256.24,5208.32,1,1,No,No
+EMP2212,Technology,High School,Other,Male,61,0,Married,12.0,CTO,131458.96,9626.55,2,2,No,Yes
+EMP2213,Technology,PhD,Life Sciences,Female,23,3,Single,7.7,Software Engineer,145267.62,6266.81,4,1,No,No
+EMP2214,Finance,Master,Life Sciences,Male,46,0,Married,26.9,CFO,168943.66,10131.65,3,5,Yes,No
+EMP2215,Operations,Master,Marketing,Male,60,0,Divorced,25.3,Supply Chain Analyst,79610.63,4148.45,4,3,No,No
+EMP2216,Operations,Master,Medical,Male,30,2,Divorced,14.2,Logistics Coordinator,57521.31,7227.62,2,1,No,Yes
+EMP2217,Marketing,High School,Other,Female,43,1,Divorced,7.0,CMO,98777.53,17743.76,3,3,Yes,No
+EMP2218,Finance,PhD,Other,Female,64,3,Married,4.4,Financial Analyst,114538.7,8534.08,3,4,Yes,No
+EMP2219,Technology,High School,Life Sciences,Female,25,4,Single,1.7,CTO,129993.13,7767.34,3,2,Yes,No
+EMP2220,Marketing,Master,Marketing,Male,47,0,Single,6.6,Marketing Specialist,78511.08,4274.04,3,5,No,No
+EMP2221,HR,Bachelor,Other,Female,50,0,Married,8.0,HR Specialist,51113.42,1678.7,4,1,No,Yes
+EMP2222,Finance,Master,Marketing,Female,55,4,Single,16.9,CFO,177810.02,19030.49,3,2,Yes,Yes
+EMP2223,Marketing,Master,Technical,Female,44,2,Married,16.1,Content Writer,64151.55,11553.62,4,5,Yes,No
+EMP2224,Marketing,Bachelor,Life Sciences,Female,58,6,Divorced,1.1,Content Writer,47078.26,4030.22,3,5,No,No
+EMP2225,Technology,PhD,Other,Female,32,5,Married,7.5,DevOps,146144.71,15962.32,3,4,No,No
+EMP2226,Marketing,Master,Marketing,Male,27,9,Divorced,3.0,Content Writer,66917.12,8350.65,2,3,No,Yes
+EMP2227,Customer Service,PhD,Medical,Male,39,5,Single,2.6,Customer Support,69439.84,6955.27,4,3,No,No
+EMP2228,Customer Service,Bachelor,Marketing,Female,42,2,Divorced,26.3,Customer Support,43944.41,5963.72,4,2,No,No
+EMP2229,Customer Service,Bachelor,Marketing,Male,63,5,Married,0.6,Customer Support,43860.72,5473.0,5,4,Yes,No
+EMP2230,Operations,Bachelor,Technical,Female,57,1,Divorced,8.1,Logistics Coordinator,48599.05,992.93,2,5,No,No
+EMP2231,Operations,High School,Other,Female,62,1,Married,2.8,Operations Manager,57993.81,5453.96,4,4,No,No
+EMP2232,Marketing,PhD,Other,Female,59,7,Divorced,31.7,Marketing Specialist,97151.28,7596.58,2,4,No,Yes
+EMP2233,Customer Service,High School,Life Sciences,Male,55,2,Divorced,12.2,Service Manager,53014.83,2016.07,2,2,No,Yes
+EMP2234,Technology,Bachelor,Marketing,Female,38,8,Married,3.9,Data Scientist,104431.9,4376.84,2,3,No,Yes
+EMP2235,Customer Service,Master,Medical,Female,58,8,Single,10.5,Support Specialist,64119.33,6038.03,1,4,No,Yes
+EMP2236,Customer Service,High School,Technical,Male,46,9,Single,19.7,Support Specialist,42518.26,2346.23,4,4,No,No
+EMP2237,HR,Master,Marketing,Female,59,12,Divorced,47.6,HR Specialist,76744.89,5747.09,2,4,No,No
+EMP2238,HR,High School,Medical,Male,33,2,Single,3.7,Recruiter,33764.04,4279.34,1,1,No,Yes
+EMP2239,Sales,PhD,Life Sciences,Female,44,1,Single,32.6,Sales Representative,84020.22,2416.76,1,4,No,Yes
+EMP2240,Operations,Master,Technical,Male,63,4,Married,40.8,Supply Chain Analyst,84426.91,6130.08,3,4,Yes,No
+EMP2241,Technology,High School,Other,Female,43,2,Single,37.2,Data Scientist,78178.75,3511.66,3,5,Yes,Yes
+EMP2242,HR,Bachelor,Other,Male,42,4,Married,15.1,Recruiter,53138.93,6796.8,4,1,No,No
+EMP2243,Customer Service,Bachelor,Marketing,Female,48,6,Married,14.9,Customer Support,45437.94,2299.96,3,4,Yes,No
+EMP2244,Customer Service,PhD,Technical,Male,52,5,Divorced,7.7,Service Manager,113275.67,16170.85,4,4,No,No
+EMP2245,Sales,PhD,Medical,Male,27,2,Divorced,20.9,Sales Representative,77200.45,7848.73,1,2,Yes,Yes
+EMP2246,Sales,High School,Life Sciences,Female,48,0,Divorced,11.4,Sales Manager,68941.21,7950.51,1,2,No,Yes
+EMP2247,Operations,Bachelor,Life Sciences,Male,61,2,Divorced,17.0,Logistics Coordinator,50244.29,6488.14,4,1,No,No
+EMP2248,HR,Master,Other,Male,55,0,Divorced,8.4,Recruiter,59472.34,4305.44,3,5,No,No
+EMP2249,Technology,High School,Other,Female,33,11,Single,19.7,CTO,152783.46,3950.37,3,1,Yes,No
+EMP2250,Technology,High School,Life Sciences,Female,28,2,Single,26.1,Data Scientist,77017.26,2483.21,4,1,No,No
+EMP2251,R&D,Bachelor,Other,Male,31,0,Married,2.4,Research Director,87256.54,11659.92,5,2,No,No
+EMP2252,Customer Service,PhD,Life Sciences,Male,38,0,Divorced,26.8,Service Manager,95191.69,4496.34,3,2,No,No
+EMP2253,Sales,Master,Marketing,Male,47,5,Divorced,11.7,BD Manager,132983.01,12288.52,2,5,Yes,No
+EMP2254,Customer Service,PhD,Medical,Male,42,5,Married,27.9,Customer Support,75568.21,11519.42,3,4,Yes,No
+EMP2255,Finance,High School,Technical,Female,49,2,Married,8.5,Accountant,43417.05,2937.32,5,5,No,Yes
+EMP2256,Operations,High School,Marketing,Female,23,0,Married,7.1,Operations Manager,61227.42,4002.77,1,4,Yes,Yes
+EMP2257,Customer Service,Bachelor,Technical,Male,64,2,Divorced,37.0,Customer Support,45411.71,4460.91,1,3,No,No
+EMP2258,Marketing,PhD,Life Sciences,Female,22,1,Married,4.3,SEO Analyst,92977.62,4868.42,1,2,No,No
+EMP2259,Sales,High School,Medical,Male,57,5,Single,27.9,Sales Manager,72526.86,13120.68,3,3,Yes,Yes
+EMP2260,Customer Service,High School,Marketing,Male,47,4,Divorced,9.9,Customer Support,37294.08,1063.76,1,3,No,No
+EMP2261,Technology,PhD,Other,Male,50,2,Single,10.8,Software Engineer,145543.35,25819.06,5,2,Yes,No
+EMP2262,Operations,Bachelor,Technical,Female,42,1,Divorced,5.5,Logistics Coordinator,45380.77,1201.19,5,3,No,No
+EMP2263,Technology,Bachelor,Technical,Female,32,22,Single,12.8,DevOps,118018.01,25023.84,3,1,No,No
+EMP2264,Marketing,Master,Other,Male,61,3,Married,5.9,Marketing Specialist,76185.53,2225.61,2,4,No,Yes
+EMP2265,Sales,Master,Marketing,Female,32,5,Single,0.6,BD Manager,140951.69,15851.56,3,5,No,Yes
+EMP2266,Finance,Master,Other,Female,57,0,Divorced,4.8,Accountant,68260.69,3854.42,1,2,No,No
+EMP2267,Customer Service,PhD,Technical,Male,60,3,Married,0.1,Service Manager,106572.7,4712.12,3,1,No,No
+EMP2268,Customer Service,Master,Other,Female,61,0,Married,57.5,Customer Support,47337.24,6101.43,5,5,No,No
+EMP2269,Marketing,Master,Technical,Female,56,3,Married,50.6,Marketing Specialist,68958.21,1803.39,3,5,No,Yes
+EMP2270,Operations,PhD,Marketing,Female,55,16,Single,7.5,Supply Chain Analyst,123838.08,17935.16,3,5,No,No
+EMP2271,Operations,Master,Medical,Female,45,2,Single,19.5,Logistics Coordinator,59057.06,7675.26,2,3,Yes,No
+EMP2272,HR,Bachelor,Marketing,Male,43,0,Married,6.4,HR Manager,72234.5,8189.47,5,3,Yes,Yes
+EMP2273,R&D,High School,Other,Male,26,0,Divorced,16.7,Research Scientist,59892.24,2669.28,4,3,No,No
+EMP2274,R&D,Bachelor,Other,Male,54,2,Divorced,24.6,Research Scientist,75203.44,10817.45,4,3,No,No
+EMP2275,Operations,Bachelor,Marketing,Female,57,0,Married,44.0,Operations Manager,65691.61,1035.24,5,1,No,Yes
+EMP2276,Sales,High School,Medical,Female,41,0,Single,7.7,BD Manager,73103.94,5973.68,4,3,No,No
+EMP2277,Operations,Bachelor,Technical,Male,40,7,Married,22.9,Logistics Coordinator,56172.52,3441.7,1,2,Yes,Yes
+EMP2278,Technology,High School,Other,Female,56,3,Single,4.6,CTO,124938.73,12355.04,4,5,Yes,No
+EMP2279,Operations,Bachelor,Other,Female,64,1,Married,69.6,Logistics Coordinator,45392.46,5557.69,1,1,Yes,Yes
+EMP2280,Technology,PhD,Marketing,Female,38,11,Single,0.4,Software Engineer,158550.65,7173.28,5,3,No,No
+EMP2281,R&D,PhD,Technical,Female,64,0,Single,13.9,Research Director,166693.56,24889.54,4,5,No,No
+EMP2282,HR,Master,Technical,Male,55,15,Married,16.2,Recruiter,72119.76,2902.93,4,1,No,No
+EMP2283,HR,PhD,Other,Male,30,1,Married,17.5,HR Manager,126837.79,5805.69,1,5,Yes,Yes
+EMP2284,Marketing,High School,Technical,Female,47,10,Divorced,1.9,Marketing Specialist,55080.8,7280.78,1,1,No,Yes
+EMP2285,Operations,Master,Marketing,Female,23,4,Married,41.8,Supply Chain Analyst,86048.2,6554.25,3,4,No,No
+EMP2286,Technology,Bachelor,Medical,Male,30,8,Married,3.0,DevOps,90486.76,7380.44,2,1,No,Yes
+EMP2287,Marketing,PhD,Life Sciences,Female,30,20,Married,14.6,CMO,278308.65,9278.04,4,3,No,No
+EMP2288,Operations,Master,Medical,Female,61,1,Married,3.8,Supply Chain Analyst,72623.88,9032.82,2,5,No,No
+EMP2289,HR,PhD,Marketing,Male,38,16,Divorced,5.5,Recruiter,96867.48,7310.0,2,5,No,No
+EMP2290,R&D,Master,Medical,Male,22,2,Married,11.9,Lab Technician,63755.22,2409.76,4,5,Yes,No
+EMP2291,Marketing,High School,Life Sciences,Male,46,2,Divorced,8.1,Content Writer,35275.74,4363.46,1,2,Yes,Yes
+EMP2292,Technology,High School,Medical,Female,64,2,Married,2.6,DevOps,75551.9,2580.41,3,2,Yes,No
+EMP2293,HR,Bachelor,Other,Male,61,3,Married,2.8,CHRO,105647.85,13167.0,5,3,No,No
+EMP2294,R&D,Master,Marketing,Female,63,0,Single,8.1,Research Scientist,104204.35,1061.62,4,4,No,No
+EMP2295,Operations,High School,Technical,Female,46,4,Married,21.2,Logistics Coordinator,38571.52,2988.39,4,2,Yes,No
+EMP2296,Marketing,Bachelor,Other,Male,60,3,Divorced,34.2,Marketing Specialist,55007.08,11145.84,5,1,No,No
+EMP2297,Technology,Master,Other,Female,56,7,Married,1.3,CTO,206017.78,18066.85,2,3,No,No
+EMP2298,R&D,Bachelor,Life Sciences,Female,24,8,Single,7.5,Research Director,120190.89,3396.77,3,4,No,No
+EMP2299,Operations,High School,Medical,Male,58,2,Divorced,1.6,Logistics Coordinator,34240.12,2391.18,2,1,No,Yes
+EMP2300,Sales,Bachelor,Marketing,Female,51,1,Divorced,0.3,BD Manager,91068.43,4107.55,5,5,No,No
+EMP2301,Operations,Master,Life Sciences,Male,59,1,Divorced,16.3,Supply Chain Analyst,77138.55,7682.53,5,2,No,No
+EMP2302,HR,PhD,Life Sciences,Male,55,1,Married,13.8,Recruiter,75206.01,3601.52,3,1,No,No
+EMP2303,Marketing,High School,Medical,Male,33,0,Single,2.7,Marketing Specialist,44394.25,4158.84,5,4,No,Yes
+EMP2304,Finance,Master,Marketing,Male,40,2,Single,4.0,Accountant,68792.57,9263.87,5,3,No,No
+EMP2305,Operations,Master,Other,Male,58,1,Single,0.4,Operations Manager,88916.51,6446.68,3,1,Yes,Yes
+EMP2306,Customer Service,Bachelor,Marketing,Male,38,16,Single,27.0,Support Specialist,56296.37,2630.56,4,3,No,No
+EMP2307,Finance,High School,Life Sciences,Female,31,4,Single,55.1,Financial Analyst,52942.51,4044.14,2,5,No,Yes
+EMP2308,Finance,PhD,Life Sciences,Female,33,2,Single,2.2,Controller,138926.45,16665.92,4,4,No,No
+EMP2309,Marketing,PhD,Technical,Male,37,4,Single,3.9,Content Writer,80933.1,10108.59,4,4,No,Yes
+EMP2310,Marketing,Bachelor,Medical,Female,45,0,Married,30.4,CMO,113218.87,14014.28,2,2,No,Yes
+EMP2311,Technology,High School,Technical,Female,40,2,Married,39.1,Data Scientist,76932.46,5130.71,4,4,No,No
+EMP2312,HR,PhD,Life Sciences,Female,29,4,Single,8.2,HR Specialist,84515.05,5124.29,3,1,Yes,No
+EMP2313,Technology,High School,Other,Male,52,3,Divorced,0.8,Software Engineer,74304.56,10476.25,2,1,No,Yes
+EMP2314,Sales,Bachelor,Life Sciences,Male,42,2,Married,0.6,Account Executive,73747.09,6724.03,1,1,Yes,No
+EMP2315,Operations,High School,Marketing,Female,38,25,Married,12.8,Logistics Coordinator,57241.49,6768.99,4,5,Yes,Yes
+EMP2316,Marketing,High School,Marketing,Male,44,10,Single,7.5,CMO,109247.82,19585.76,5,4,No,Yes
+EMP2317,R&D,High School,Other,Female,58,4,Married,0.4,Lab Technician,35521.06,1986.62,2,4,Yes,No
+EMP2318,Marketing,Bachelor,Other,Male,37,4,Single,13.1,Content Writer,46820.31,7239.09,1,1,No,Yes
+EMP2319,Marketing,Bachelor,Technical,Female,27,4,Married,0.2,Content Writer,46333.24,781.03,5,2,No,No
+EMP2320,Marketing,Bachelor,Other,Male,29,1,Married,23.2,CMO,122545.06,17334.35,1,2,No,No
+EMP2321,Marketing,PhD,Life Sciences,Male,46,2,Divorced,5.5,Content Writer,79039.25,9199.49,4,4,Yes,No
+EMP2322,Customer Service,Master,Medical,Female,39,0,Divorced,0.6,Support Specialist,62692.38,6129.49,5,4,No,No
+EMP2323,Sales,High School,Marketing,Male,46,3,Married,13.3,Sales Representative,45324.45,7296.62,4,3,No,No
+EMP2324,R&D,Master,Marketing,Male,33,3,Married,7.6,Research Scientist,100449.49,11013.65,5,4,No,No
+EMP2325,Operations,High School,Life Sciences,Male,36,1,Married,54.6,Supply Chain Analyst,50793.4,3936.69,2,1,No,No
+EMP2326,Finance,High School,Medical,Male,47,16,Single,11.8,CFO,132141.18,7337.89,3,5,Yes,No
+EMP2327,Customer Service,High School,Other,Male,62,12,Divorced,4.8,Support Specialist,40719.76,874.62,3,4,No,No
+EMP2328,HR,Bachelor,Technical,Female,47,6,Single,18.5,HR Manager,87386.3,7438.36,1,4,No,No
+EMP2329,Customer Service,PhD,Medical,Male,53,3,Single,4.8,Customer Support,61189.34,557.98,5,1,Yes,Yes
+EMP2330,Finance,Bachelor,Life Sciences,Female,31,10,Married,35.2,Controller,100147.32,11804.6,4,3,No,No
+EMP2331,Finance,High School,Other,Male,37,0,Single,7.0,Controller,65679.56,2340.12,2,4,No,No
+EMP2332,HR,Master,Other,Male,28,7,Single,12.0,HR Specialist,76965.86,8739.2,2,2,Yes,Yes
+EMP2333,Customer Service,High School,Other,Male,38,0,Married,0.8,Support Specialist,37916.97,2791.81,2,2,No,Yes
+EMP2334,Finance,High School,Medical,Male,44,7,Single,8.3,CFO,113914.69,15899.54,3,2,Yes,No
+EMP2335,Operations,PhD,Other,Male,47,1,Single,26.8,Supply Chain Analyst,104022.9,2390.74,4,5,No,No
+EMP2336,Customer Service,High School,Medical,Male,42,10,Divorced,24.6,Service Manager,55225.92,3713.18,2,5,No,Yes
+EMP2337,Customer Service,Bachelor,Life Sciences,Female,43,14,Divorced,3.8,Customer Support,50650.38,4722.07,2,4,No,Yes
+EMP2338,HR,PhD,Technical,Male,28,0,Married,3.8,Recruiter,75269.07,4686.11,1,4,No,No
+EMP2339,R&D,PhD,Medical,Female,35,3,Divorced,25.5,Research Director,167336.66,11184.49,5,4,Yes,No
+EMP2340,R&D,PhD,Life Sciences,Male,36,19,Divorced,40.0,Lab Technician,109044.99,12450.62,5,5,Yes,No
+EMP2341,Marketing,High School,Medical,Male,28,3,Divorced,1.5,SEO Analyst,48083.24,1835.69,5,4,Yes,No
+EMP2342,Finance,PhD,Life Sciences,Male,30,9,Single,9.0,Accountant,107211.02,6413.57,1,1,No,Yes
+EMP2343,Marketing,PhD,Technical,Male,29,4,Divorced,6.2,Content Writer,79465.77,12194.49,3,3,No,No
+EMP2344,HR,Bachelor,Marketing,Female,44,2,Single,30.7,HR Specialist,56317.02,4832.24,1,2,No,Yes
+EMP2345,Sales,Master,Technical,Male,50,1,Divorced,1.3,Account Executive,80266.37,2414.76,2,2,Yes,Yes
+EMP2346,Customer Service,Bachelor,Marketing,Male,39,1,Divorced,3.6,Support Specialist,48211.51,9652.09,4,1,No,Yes
+EMP2347,Operations,Bachelor,Marketing,Male,52,7,Single,20.9,Supply Chain Analyst,69333.91,4561.0,2,4,No,No
+EMP2348,Technology,Master,Other,Female,51,2,Married,0.8,Data Scientist,122651.62,9521.91,2,5,No,Yes
+EMP2349,Technology,Master,Medical,Female,60,3,Single,10.2,CTO,205643.14,38573.5,4,4,No,No
+EMP2350,HR,PhD,Other,Female,56,3,Single,8.8,CHRO,180357.87,1750.54,5,4,Yes,No
+EMP2351,Technology,Bachelor,Life Sciences,Female,39,4,Married,6.1,CTO,164569.75,12503.28,1,2,Yes,Yes
+EMP2352,Marketing,High School,Life Sciences,Male,63,10,Divorced,7.5,SEO Analyst,62081.29,11117.5,3,2,No,No
+EMP2353,HR,Bachelor,Life Sciences,Male,60,19,Single,11.3,Recruiter,62960.77,322.66,2,5,No,Yes
+EMP2354,Customer Service,Master,Other,Female,38,2,Married,2.6,Service Manager,83257.06,1999.11,2,2,Yes,No
+EMP2355,Marketing,PhD,Technical,Male,35,8,Single,12.7,Marketing Specialist,102462.76,8634.52,3,4,Yes,No
+EMP2356,R&D,PhD,Other,Male,52,7,Married,24.6,Research Scientist,124519.89,11106.1,1,1,No,No
+EMP2357,Technology,PhD,Other,Male,45,4,Divorced,21.4,IT Support,89962.18,3955.97,2,5,No,Yes
+EMP2358,Finance,High School,Technical,Female,56,15,Divorced,2.5,Financial Analyst,67491.86,8290.63,3,1,Yes,Yes
+EMP2359,Customer Service,High School,Technical,Male,55,1,Single,2.4,Customer Support,31401.22,1335.91,2,4,No,No
+EMP2360,Operations,Master,Technical,Male,24,0,Married,4.7,Operations Manager,85208.1,3388.08,5,5,No,No
+EMP2361,Sales,PhD,Medical,Female,58,9,Married,6.7,Account Executive,122821.44,12691.46,5,1,No,No
+EMP2362,R&D,Bachelor,Other,Male,64,2,Divorced,7.9,Research Scientist,75235.83,4863.83,2,5,No,Yes
+EMP2363,Sales,PhD,Medical,Female,61,9,Single,17.1,Account Executive,116782.99,5048.72,2,4,Yes,Yes
+EMP2364,R&D,Bachelor,Marketing,Male,47,11,Married,0.9,Research Scientist,90840.93,11878.15,5,5,No,No
+EMP2365,Operations,Bachelor,Marketing,Female,44,0,Single,0.5,Operations Manager,64865.98,3743.23,2,4,No,No
+EMP2366,Finance,High School,Other,Male,60,10,Single,7.5,Accountant,57316.99,1769.36,1,5,No,No
+EMP2367,R&D,PhD,Life Sciences,Female,36,2,Single,17.9,Research Scientist,133977.84,7655.46,1,5,No,Yes
+EMP2368,Technology,Master,Technical,Male,25,3,Married,3.2,CTO,215283.04,17967.23,4,2,No,No
+EMP2369,Operations,PhD,Medical,Male,50,4,Divorced,15.4,Operations Manager,111433.52,1763.16,1,4,No,No
+EMP2370,Finance,PhD,Marketing,Male,43,13,Divorced,4.5,CFO,276540.38,28053.37,2,3,No,Yes
+EMP2371,Sales,Master,Other,Male,46,0,Married,32.6,BD Manager,131106.55,10330.44,2,5,Yes,Yes
+EMP2372,Operations,Master,Life Sciences,Female,34,3,Married,33.9,Logistics Coordinator,65330.82,3715.8,3,1,Yes,No
+EMP2373,Technology,PhD,Other,Male,39,5,Divorced,5.3,Data Scientist,154291.02,19265.57,1,2,No,No
+EMP2374,Operations,Master,Life Sciences,Male,54,6,Married,3.9,Supply Chain Analyst,89874.36,4261.49,5,2,No,No
+EMP2375,Marketing,Bachelor,Other,Female,37,5,Divorced,7.9,Content Writer,52809.82,4851.1,5,5,No,No
+EMP2376,Marketing,High School,Technical,Male,63,0,Divorced,4.1,Content Writer,36556.94,2423.83,4,3,No,No
+EMP2377,Sales,Master,Technical,Male,23,1,Single,16.7,BD Manager,129658.59,1073.0,3,2,No,No
+EMP2378,HR,Bachelor,Life Sciences,Male,56,2,Married,26.2,Recruiter,46410.28,7476.0,5,4,No,Yes
+EMP2379,Customer Service,High School,Other,Male,63,8,Single,16.8,Support Specialist,41999.76,787.4,4,5,No,No
+EMP2380,Marketing,Master,Technical,Male,55,1,Divorced,26.1,Content Writer,54113.25,8062.55,1,5,No,No
+EMP2381,Customer Service,High School,Other,Female,51,1,Divorced,7.6,Service Manager,50320.73,8456.57,3,3,No,No
+EMP2382,Customer Service,PhD,Other,Female,34,15,Married,2.5,Service Manager,114352.92,8779.43,3,4,No,No
+EMP2383,Sales,Master,Technical,Female,34,0,Married,20.1,BD Manager,121894.86,11147.63,2,4,No,No
+EMP2384,Technology,Bachelor,Marketing,Male,39,30,Divorced,6.7,Data Scientist,145696.71,5821.49,1,3,No,Yes
+EMP2385,Sales,Bachelor,Marketing,Male,53,5,Divorced,16.7,Sales Manager,94349.5,5912.14,3,1,No,No
+EMP2386,HR,High School,Other,Male,53,8,Divorced,4.7,CHRO,94595.83,5115.54,4,4,Yes,Yes
+EMP2387,Finance,Bachelor,Marketing,Female,56,1,Single,1.3,Financial Analyst,68841.19,870.61,5,1,Yes,No
+EMP2388,Marketing,Bachelor,Medical,Female,60,0,Single,73.6,SEO Analyst,63540.14,7370.14,1,1,No,No
+EMP2389,R&D,Master,Technical,Female,50,6,Single,2.5,Lab Technician,61108.6,5885.37,1,5,No,No
+EMP2390,Technology,High School,Marketing,Male,50,8,Divorced,66.9,IT Support,47000.83,3025.7,3,5,No,No
+EMP2391,HR,Bachelor,Marketing,Male,37,6,Married,56.8,Recruiter,46826.8,2554.55,3,2,Yes,No
+EMP2392,Finance,PhD,Other,Male,31,0,Married,23.7,CFO,223688.51,19219.32,3,5,No,No
+EMP2393,HR,Master,Life Sciences,Male,51,7,Single,16.2,CHRO,163939.08,18832.09,4,4,No,No
+EMP2394,Technology,Bachelor,Marketing,Female,46,7,Divorced,12.9,IT Support,62289.45,7939.71,2,4,No,Yes
+EMP2395,Sales,Bachelor,Life Sciences,Male,60,5,Single,30.2,BD Manager,96280.28,14018.27,3,1,Yes,Yes
+EMP2396,Finance,Bachelor,Technical,Female,41,7,Divorced,5.1,Accountant,64575.43,1738.83,2,4,No,No
+EMP2397,R&D,Master,Life Sciences,Female,26,9,Divorced,9.5,Lab Technician,74110.6,9096.2,2,5,No,No
+EMP2398,Customer Service,Master,Marketing,Female,22,4,Married,14.5,Customer Support,59846.18,3605.39,1,5,Yes,No
+EMP2399,Technology,High School,Medical,Male,51,0,Single,7.9,IT Support,45109.28,6381.25,5,5,No,Yes
+EMP2400,Technology,Master,Medical,Male,24,3,Married,8.4,IT Support,69352.07,3258.18,5,3,No,No
+EMP2401,Customer Service,Bachelor,Technical,Male,35,0,Married,6.0,Customer Support,36899.18,1126.49,4,4,No,No
+EMP2402,Sales,Bachelor,Marketing,Male,51,2,Single,12.5,Sales Manager,80431.78,3498.44,4,2,No,No
+EMP2403,Finance,PhD,Technical,Male,25,2,Single,28.5,Accountant,87080.9,11450.44,5,4,No,Yes
+EMP2404,Marketing,Master,Other,Female,39,0,Married,3.4,Content Writer,54237.24,1857.91,5,4,No,Yes
+EMP2405,HR,Bachelor,Other,Male,58,2,Single,40.9,HR Manager,74256.75,1071.44,1,3,No,No
+EMP2406,R&D,PhD,Life Sciences,Female,46,0,Single,17.5,Lab Technician,70344.84,11283.22,1,4,Yes,Yes
+EMP2407,Sales,High School,Technical,Male,22,8,Single,26.0,BD Manager,95970.67,3469.0,5,1,Yes,Yes
+EMP2408,Operations,High School,Medical,Female,36,14,Single,12.2,Logistics Coordinator,47097.23,6556.06,3,5,No,No
+EMP2409,Finance,High School,Technical,Male,30,0,Married,22.7,CFO,110967.45,15959.38,3,5,Yes,No
+EMP2410,R&D,Bachelor,Life Sciences,Male,36,15,Married,0.2,Lab Technician,60961.11,1677.36,1,3,No,No
+EMP2411,Marketing,Bachelor,Marketing,Male,45,3,Married,25.6,CMO,117342.08,10661.29,2,5,No,No
+EMP2412,Technology,High School,Technical,Male,25,1,Divorced,0.6,CTO,128175.33,9362.92,5,1,No,No
+EMP2413,Operations,PhD,Life Sciences,Female,33,0,Divorced,33.1,Supply Chain Analyst,91681.9,6150.16,4,3,No,No
+EMP2414,Technology,High School,Other,Female,58,3,Single,72.4,IT Support,47937.6,11381.67,3,2,No,No
+EMP2415,Sales,Master,Medical,Male,58,7,Single,5.2,Sales Representative,71743.06,9544.82,2,5,No,Yes
+EMP2416,R&D,Bachelor,Marketing,Male,64,6,Married,3.5,Lab Technician,55416.54,2882.79,3,4,Yes,No
+EMP2417,Customer Service,Bachelor,Technical,Male,27,0,Married,21.7,Customer Support,38108.41,6252.62,2,1,Yes,Yes
+EMP2418,Sales,Master,Technical,Male,60,0,Married,4.4,BD Manager,118044.52,13731.77,5,1,No,No
+EMP2419,R&D,Bachelor,Medical,Female,45,2,Divorced,30.1,Research Scientist,84718.49,7825.34,5,5,Yes,Yes
+EMP2420,Operations,Master,Other,Female,32,1,Married,1.6,Operations Manager,83995.5,183.04,5,2,No,Yes
+EMP2421,HR,High School,Technical,Male,34,1,Divorced,2.0,Recruiter,38164.48,1582.98,1,4,No,No
+EMP2422,Sales,High School,Medical,Female,55,1,Divorced,58.1,Sales Representative,42638.66,3109.24,2,2,No,No
+EMP2423,Operations,Bachelor,Medical,Female,46,8,Single,16.8,Operations Manager,86662.79,4070.02,4,2,Yes,No
+EMP2424,Technology,Bachelor,Marketing,Female,28,13,Married,28.1,CTO,206933.81,5523.86,4,5,No,Yes
+EMP2425,Operations,High School,Medical,Female,25,2,Divorced,5.9,Supply Chain Analyst,54668.41,6385.42,5,4,Yes,No
+EMP2426,Finance,Master,Medical,Male,29,11,Single,16.9,Controller,123088.99,6680.39,4,5,No,No
+EMP2427,Technology,High School,Medical,Male,41,1,Married,13.5,IT Support,47768.83,8430.42,3,5,Yes,No
+EMP2428,Operations,Master,Technical,Male,50,3,Divorced,13.9,Logistics Coordinator,63824.54,5016.21,2,1,No,Yes
+EMP2429,Marketing,PhD,Medical,Male,31,1,Single,17.2,CMO,201611.1,13560.55,2,5,Yes,Yes
+EMP2430,Sales,High School,Medical,Male,64,5,Married,12.8,BD Manager,77386.01,8148.67,2,3,Yes,Yes
+EMP2431,Operations,Master,Medical,Male,55,19,Married,8.4,Supply Chain Analyst,110873.23,9688.86,3,4,No,No
+EMP2432,Operations,Master,Medical,Female,47,4,Married,4.8,Logistics Coordinator,69276.65,13117.67,1,1,Yes,Yes
+EMP2433,Marketing,Master,Other,Male,62,2,Married,22.0,CMO,175602.69,10722.74,3,4,No,No
+EMP2434,Customer Service,Bachelor,Technical,Male,24,5,Married,3.8,Service Manager,65196.52,4224.69,2,1,Yes,Yes
+EMP2435,Customer Service,Bachelor,Medical,Male,27,0,Divorced,17.7,Service Manager,54479.38,4260.31,2,3,No,Yes
+EMP2436,Marketing,PhD,Life Sciences,Female,26,10,Divorced,4.0,Marketing Specialist,102691.64,10939.66,2,5,No,No
+EMP2437,Marketing,PhD,Life Sciences,Female,26,3,Married,14.7,CMO,216805.39,12118.36,4,1,Yes,No
+EMP2438,Technology,Master,Life Sciences,Female,44,2,Single,20.6,Software Engineer,112518.83,7836.55,1,1,No,No
+EMP2439,Customer Service,Bachelor,Marketing,Male,30,4,Married,3.7,Customer Support,42848.73,4739.19,3,1,No,No
+EMP2440,Sales,Master,Other,Female,56,4,Married,0.9,BD Manager,121511.89,4162.34,2,3,Yes,No
+EMP2441,HR,Bachelor,Life Sciences,Male,41,0,Divorced,2.1,Recruiter,44342.05,6593.15,5,4,Yes,No
+EMP2442,Finance,Bachelor,Other,Male,63,5,Single,14.0,Accountant,60125.2,5037.35,1,3,No,No
+EMP2443,Sales,PhD,Life Sciences,Female,56,1,Married,28.4,BD Manager,168328.65,5423.97,5,1,No,No
+EMP2444,Finance,Master,Marketing,Male,39,6,Divorced,0.7,Controller,127252.16,7684.07,1,1,No,No
+EMP2445,Sales,Master,Technical,Male,38,8,Married,19.9,Sales Manager,123351.53,14506.07,2,5,No,No
+EMP2446,Operations,Bachelor,Other,Male,45,8,Single,6.3,Supply Chain Analyst,69952.43,2404.79,1,3,No,No
+EMP2447,HR,Bachelor,Technical,Female,24,4,Single,9.8,CHRO,108489.47,8707.86,1,3,Yes,Yes
+EMP2448,R&D,High School,Marketing,Male,53,3,Divorced,39.6,Research Director,88174.02,2603.74,2,2,No,Yes
+EMP2449,Customer Service,PhD,Other,Female,56,0,Married,6.1,Support Specialist,69984.86,1048.07,5,4,No,No
+EMP2450,HR,High School,Technical,Male,59,7,Married,9.4,HR Manager,68097.23,4610.72,5,2,No,No
+EMP2451,Sales,Bachelor,Marketing,Male,34,1,Divorced,0.2,Sales Representative,49523.9,1072.8,4,2,No,No
+EMP2452,Finance,Master,Medical,Female,46,3,Single,1.3,CFO,185679.03,22473.7,5,4,No,No
+EMP2453,HR,Bachelor,Other,Female,30,1,Divorced,4.5,CHRO,115840.49,2972.12,5,5,No,No
+EMP2454,Operations,High School,Technical,Male,25,0,Divorced,0.4,Supply Chain Analyst,50067.09,7925.25,1,5,No,Yes
+EMP2455,Sales,PhD,Marketing,Female,35,4,Divorced,15.0,Account Executive,107111.57,18437.22,4,4,Yes,No
+EMP2456,Operations,Bachelor,Medical,Male,58,0,Single,8.3,Operations Manager,67419.36,2298.73,2,4,Yes,No
+EMP2457,HR,Master,Other,Male,55,6,Married,11.9,CHRO,148156.05,4732.44,2,3,No,No
+EMP2458,Technology,High School,Medical,Female,32,1,Divorced,2.9,Software Engineer,67310.34,5537.18,3,3,No,No
+EMP2459,Operations,Bachelor,Life Sciences,Male,62,0,Divorced,5.3,Logistics Coordinator,40858.17,4037.37,4,3,Yes,Yes
+EMP2460,R&D,Master,Other,Female,24,3,Divorced,16.4,Research Director,133467.52,7884.09,1,3,No,No
+EMP2461,R&D,Master,Marketing,Female,49,0,Divorced,50.4,Research Director,132631.49,17364.38,3,1,No,Yes
+EMP2462,Customer Service,Bachelor,Marketing,Male,50,1,Single,0.8,Support Specialist,49487.84,1797.64,3,1,Yes,Yes
+EMP2463,R&D,High School,Other,Female,30,6,Married,33.2,Research Scientist,66515.07,3122.03,2,5,Yes,Yes
+EMP2464,Operations,Master,Life Sciences,Male,24,0,Married,12.9,Supply Chain Analyst,77365.14,10300.66,5,1,No,Yes
+EMP2465,Marketing,PhD,Other,Female,46,9,Married,12.4,Content Writer,77771.86,3291.38,1,1,No,No
+EMP2466,Customer Service,High School,Technical,Female,55,0,Single,10.4,Service Manager,49639.34,4386.21,4,3,No,No
+EMP2467,Customer Service,Master,Marketing,Male,33,1,Married,1.1,Support Specialist,63503.91,3403.48,3,3,No,No
+EMP2468,Operations,Bachelor,Medical,Female,63,6,Married,1.4,Logistics Coordinator,47826.12,3707.72,1,4,No,Yes
+EMP2469,HR,Bachelor,Marketing,Male,30,1,Single,13.8,Recruiter,45177.54,10052.84,2,3,Yes,No
+EMP2470,Technology,High School,Life Sciences,Male,36,0,Single,6.3,DevOps,72608.21,3620.38,3,4,No,No
+EMP2471,R&D,Master,Other,Male,61,2,Divorced,37.4,Research Scientist,109048.0,12954.35,3,4,No,No
+EMP2472,Technology,Master,Marketing,Female,46,1,Married,7.8,CTO,188683.7,10864.26,2,1,No,No
+EMP2473,R&D,High School,Technical,Male,26,9,Single,2.3,Research Director,90587.03,15360.7,2,3,Yes,Yes
+EMP2474,Marketing,High School,Life Sciences,Male,32,1,Divorced,18.8,Content Writer,34461.67,2123.39,2,1,Yes,Yes
+EMP2475,HR,High School,Life Sciences,Female,55,7,Married,5.2,HR Specialist,41969.13,4962.14,1,3,No,Yes
+EMP2476,Operations,PhD,Medical,Female,45,11,Married,11.2,Operations Manager,147875.1,3279.49,1,1,No,No
+EMP2477,Technology,PhD,Marketing,Female,36,2,Divorced,18.0,Software Engineer,141653.19,9363.13,1,1,No,No
+EMP2478,Technology,PhD,Other,Male,59,12,Single,34.6,IT Support,114795.0,15259.39,5,1,No,No
+EMP2479,Operations,Bachelor,Life Sciences,Female,29,2,Divorced,23.6,Logistics Coordinator,42576.45,6848.37,3,5,No,No
+EMP2480,HR,PhD,Technical,Male,26,16,Single,16.9,HR Specialist,112859.55,8704.79,1,1,No,No
+EMP2481,HR,PhD,Technical,Female,47,0,Single,17.1,Recruiter,71107.83,5951.83,5,2,No,No
+EMP2482,Customer Service,PhD,Other,Male,39,5,Divorced,43.8,Service Manager,102271.39,8043.66,3,2,No,Yes
+EMP2483,R&D,Master,Technical,Male,27,3,Single,5.3,Research Scientist,104310.67,13620.23,1,2,No,Yes
+EMP2484,Marketing,PhD,Medical,Male,58,2,Divorced,0.0,CMO,183360.28,17573.33,2,4,Yes,No
+EMP2485,Customer Service,High School,Other,Male,34,5,Married,4.8,Service Manager,55510.19,4349.03,4,1,Yes,No
+EMP2486,Operations,PhD,Technical,Female,49,6,Married,3.7,Supply Chain Analyst,109292.68,9332.15,1,2,No,Yes
+EMP2487,Customer Service,Bachelor,Medical,Female,26,0,Single,16.3,Service Manager,56239.08,5589.71,4,4,No,No
+EMP2488,Sales,Bachelor,Technical,Male,34,0,Married,15.1,BD Manager,89076.41,6123.72,1,2,No,No
+EMP2489,Operations,PhD,Marketing,Female,38,6,Divorced,13.5,Supply Chain Analyst,100730.08,4476.33,2,3,No,Yes
+EMP2490,R&D,High School,Other,Female,61,5,Divorced,0.2,Lab Technician,36091.46,3528.71,4,5,No,Yes
+EMP2491,HR,High School,Technical,Female,53,16,Divorced,19.6,CHRO,118199.73,14418.71,5,1,No,No
+EMP2492,Sales,Master,Technical,Male,50,7,Married,5.9,Sales Representative,79143.96,5712.3,2,5,No,Yes
+EMP2493,Technology,High School,Medical,Female,24,15,Married,16.4,Software Engineer,75171.17,1896.07,4,5,Yes,Yes
+EMP2494,R&D,Master,Marketing,Male,61,6,Married,12.2,Research Director,125843.66,15368.46,4,3,No,No
+EMP2495,Operations,Master,Marketing,Male,55,1,Divorced,6.3,Supply Chain Analyst,80717.92,7161.1,2,3,No,No
+EMP2496,Marketing,High School,Medical,Female,61,0,Single,2.2,SEO Analyst,51067.16,3617.37,2,3,No,No
+EMP2497,Sales,High School,Marketing,Female,48,7,Divorced,1.5,Account Executive,57225.82,6812.76,2,4,No,Yes
+EMP2498,Marketing,Master,Technical,Male,34,5,Single,26.7,SEO Analyst,83219.38,3300.7,3,2,Yes,No
+EMP2499,Customer Service,Bachelor,Technical,Male,54,0,Single,37.6,Support Specialist,45867.12,5550.02,5,1,No,Yes

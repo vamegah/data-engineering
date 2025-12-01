@@ -1,0 +1,51 @@
+stock_id,symbol,company_name,sector,market_cap,dividend_yield,beta
+STK100,S000,First Healthcare Inc.,Healthcare,Large,0.005,1.63
+STK101,S001,National Consumer Inc.,Consumer,Large,0.0178,1.38
+STK102,S002,Global Healthcare Inc.,Healthcare,Small,0.0113,1.43
+STK103,S003,Global Utilities Inc.,Utilities,Large,0.0122,1.01
+STK104,S004,National Healthcare Inc.,Healthcare,Large,0.0138,1.46
+STK105,S005,National Technology Inc.,Technology,Small,0.0071,1.63
+STK106,S006,Advanced Utilities Inc.,Utilities,Large,0.0068,1.36
+STK107,S007,National Industrial Inc.,Industrial,Large,0.0176,1.41
+STK108,S008,First Utilities Inc.,Utilities,Mid,0.0292,0.75
+STK109,S009,First Financial Inc.,Financial,Large,0.0088,1.04
+STK110,S010,Advanced Healthcare Inc.,Healthcare,Large,0.0269,1.49
+STK111,S011,First Healthcare Inc.,Healthcare,Mid,0.02,1.56
+STK112,S012,Advanced Industrial Inc.,Industrial,Large,0.0137,0.53
+STK113,S013,Global Healthcare Inc.,Healthcare,Mid,0.0075,0.66
+STK114,S014,First Industrial Inc.,Industrial,Small,0.0149,1.43
+STK115,S015,Global Consumer Inc.,Consumer,Small,0.0093,0.59
+STK116,S016,National Technology Inc.,Technology,Small,0.0172,0.57
+STK117,S017,National Industrial Inc.,Industrial,Large,0.0127,1.74
+STK118,S018,First Healthcare Inc.,Healthcare,Mid,0.0245,1.08
+STK119,S019,First Real Estate Inc.,Real Estate,Small,0.0187,1.22
+STK120,S020,First Financial Inc.,Financial,Mid,0.0265,1.52
+STK121,S021,First Consumer Inc.,Consumer,Small,0.0314,0.94
+STK122,S022,National Healthcare Inc.,Healthcare,Small,0.0159,1.61
+STK123,S023,Advanced Consumer Inc.,Consumer,Large,0.008,0.86
+STK124,S024,National Utilities Inc.,Utilities,Mid,0.0244,0.5
+STK125,S025,National Energy Inc.,Energy,Large,0.014,1.59
+STK126,S026,Advanced Technology Inc.,Technology,Mid,0.0123,1.35
+STK127,S027,National Industrial Inc.,Industrial,Large,0.0104,1.39
+STK128,S028,Advanced Energy Inc.,Energy,Large,0.0247,1.69
+STK129,S029,Advanced Utilities Inc.,Utilities,Small,0.0172,0.98
+STK130,S030,National Financial Inc.,Financial,Mid,0.0052,0.65
+STK131,S031,First Consumer Inc.,Consumer,Small,0.0113,1.09
+STK132,S032,Advanced Utilities Inc.,Utilities,Small,0.0116,1.49
+STK133,S033,National Energy Inc.,Energy,Large,0.0153,0.81
+STK134,S034,Global Real Estate Inc.,Real Estate,Large,0.0217,1.69
+STK135,S035,National Healthcare Inc.,Healthcare,Large,0.0111,1.04
+STK136,S036,Global Utilities Inc.,Utilities,Small,0.0166,0.54
+STK137,S037,Advanced Utilities Inc.,Utilities,Mid,0.0038,1.63
+STK138,S038,Global Industrial Inc.,Industrial,Small,0.0097,0.71
+STK139,S039,First Healthcare Inc.,Healthcare,Small,0.0132,1.69
+STK140,S040,First Energy Inc.,Energy,Large,0.0244,0.79
+STK141,S041,Advanced Utilities Inc.,Utilities,Large,0.0062,0.73
+STK142,S042,First Technology Inc.,Technology,Small,0.0124,1.35
+STK143,S043,Global Financial Inc.,Financial,Small,0.0127,0.95
+STK144,S044,National Industrial Inc.,Industrial,Small,0.012,0.66
+STK145,S045,National Financial Inc.,Financial,Mid,0.0259,0.99
+STK146,S046,First Technology Inc.,Technology,Small,0.0148,0.72
+STK147,S047,Global Real Estate Inc.,Real Estate,Large,0.0161,0.6
+STK148,S048,National Energy Inc.,Energy,Mid,0.017,0.7
+STK149,S049,Global Technology Inc.,Technology,Large,0.0379,1.77

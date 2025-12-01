@@ -1,0 +1,519 @@
+employee_id,exit_date,reason,satisfaction_score,would_recommend
+EMP1000,2023-04-18,Salary,4,No
+EMP1010,2023-07-23,Relocation,5,Yes
+EMP1012,2023-12-24,Company culture,2,No
+EMP1018,2023-06-07,Relocation,1,Yes
+EMP1019,2023-01-04,Salary,2,No
+EMP1021,2023-03-28,Company culture,4,No
+EMP1029,2023-09-09,Company culture,3,Yes
+EMP1030,2023-01-01,Better opportunity,5,No
+EMP1033,2023-02-19,Work-life balance,2,No
+EMP1034,2023-02-05,Career change,3,Yes
+EMP1036,2023-12-23,Management issues,4,No
+EMP1038,2023-08-02,Career change,4,Yes
+EMP1039,2023-09-26,Career change,4,Yes
+EMP1040,2023-08-02,Company culture,4,No
+EMP1048,2023-12-02,Career change,5,No
+EMP1050,2023-05-28,Salary,5,No
+EMP1051,2023-08-09,Career change,2,Yes
+EMP1054,2023-03-29,Salary,4,No
+EMP1056,2023-04-01,Salary,5,No
+EMP1058,2023-07-11,Management issues,3,No
+EMP1061,2023-04-06,Relocation,5,Yes
+EMP1066,2023-12-27,Work-life balance,5,No
+EMP1068,2023-03-10,Management issues,2,No
+EMP1072,2023-04-12,Better opportunity,5,Yes
+EMP1073,2023-09-07,Career change,3,No
+EMP1079,2023-04-04,Company culture,4,Yes
+EMP1084,2023-09-15,Work-life balance,1,Yes
+EMP1086,2023-02-26,Company culture,2,No
+EMP1088,2023-08-19,Career change,3,No
+EMP1090,2023-10-18,Career change,2,Yes
+EMP1093,2023-04-19,Relocation,4,Yes
+EMP1101,2023-04-06,Management issues,5,No
+EMP1108,2023-04-13,Personal reasons,5,No
+EMP1110,2023-01-31,Career change,3,No
+EMP1116,2023-04-04,Salary,4,No
+EMP1119,2023-04-09,Management issues,1,No
+EMP1122,2023-05-13,Management issues,1,Yes
+EMP1125,2023-07-29,Career change,5,No
+EMP1127,2023-08-14,Better opportunity,4,Yes
+EMP1129,2023-11-17,Relocation,4,No
+EMP1131,2023-11-16,Salary,3,No
+EMP1133,2023-02-25,Company culture,1,No
+EMP1134,2023-11-22,Relocation,3,No
+EMP1137,2023-03-27,Salary,2,No
+EMP1138,2023-02-10,Company culture,4,No
+EMP1144,2023-05-31,Personal reasons,1,No
+EMP1148,2023-02-13,Relocation,3,Yes
+EMP1149,2023-07-13,Management issues,5,No
+EMP1153,2023-03-05,Better opportunity,2,Yes
+EMP1157,2023-05-22,Relocation,3,Yes
+EMP1164,2023-02-02,Relocation,5,Yes
+EMP1165,2023-06-25,Relocation,1,No
+EMP1166,2023-01-16,Company culture,1,No
+EMP1168,2023-10-27,Management issues,2,No
+EMP1169,2023-05-01,Better opportunity,5,Yes
+EMP1171,2023-09-02,Salary,4,Yes
+EMP1175,2023-09-06,Work-life balance,1,No
+EMP1178,2023-12-11,Company culture,4,Yes
+EMP1179,2023-02-21,Personal reasons,4,Yes
+EMP1180,2023-01-05,Relocation,3,No
+EMP1186,2023-02-01,Personal reasons,3,No
+EMP1188,2023-05-17,Salary,1,No
+EMP1190,2023-01-04,Personal reasons,4,Yes
+EMP1199,2023-12-07,Management issues,3,No
+EMP1200,2023-10-26,Management issues,5,No
+EMP1204,2023-01-22,Company culture,5,No
+EMP1205,2023-02-19,Work-life balance,5,Yes
+EMP1211,2023-04-19,Management issues,5,No
+EMP1215,2023-09-25,Career change,4,No
+EMP1218,2023-01-04,Management issues,5,Yes
+EMP1219,2023-07-12,Company culture,4,No
+EMP1220,2023-11-05,Salary,1,Yes
+EMP1226,2023-09-24,Career change,1,No
+EMP1228,2023-05-17,Career change,5,No
+EMP1230,2023-09-06,Career change,5,No
+EMP1233,2023-08-31,Work-life balance,5,No
+EMP1235,2023-06-22,Career change,1,No
+EMP1242,2023-11-06,Relocation,3,No
+EMP1244,2023-08-08,Better opportunity,1,No
+EMP1246,2023-06-22,Career change,5,Yes
+EMP1248,2023-07-09,Management issues,3,No
+EMP1253,2023-12-16,Personal reasons,3,No
+EMP1257,2023-06-25,Better opportunity,2,No
+EMP1262,2023-06-11,Company culture,4,No
+EMP1263,2023-05-03,Relocation,5,No
+EMP1266,2023-07-04,Personal reasons,4,No
+EMP1267,2023-12-07,Personal reasons,2,No
+EMP1268,2023-07-24,Career change,4,No
+EMP1269,2023-07-13,Company culture,5,No
+EMP1270,2023-11-09,Better opportunity,2,No
+EMP1272,2023-01-30,Work-life balance,4,Yes
+EMP1273,2023-07-02,Better opportunity,1,Yes
+EMP1275,2023-06-19,Company culture,3,No
+EMP1289,2023-02-21,Salary,2,Yes
+EMP1290,2023-01-02,Work-life balance,1,No
+EMP1298,2023-08-22,Better opportunity,5,No
+EMP1302,2023-12-24,Personal reasons,3,Yes
+EMP1305,2023-07-25,Relocation,2,No
+EMP1307,2023-03-13,Work-life balance,3,No
+EMP1310,2023-01-14,Relocation,2,No
+EMP1315,2023-11-05,Career change,2,Yes
+EMP1318,2023-03-04,Salary,4,Yes
+EMP1319,2023-09-29,Relocation,3,No
+EMP1320,2023-05-24,Salary,3,Yes
+EMP1323,2023-12-25,Better opportunity,1,No
+EMP1324,2023-05-08,Company culture,5,No
+EMP1330,2023-07-08,Personal reasons,1,Yes
+EMP1335,2023-08-20,Company culture,4,No
+EMP1336,2023-11-13,Relocation,2,No
+EMP1338,2023-12-18,Salary,4,Yes
+EMP1346,2023-12-04,Career change,4,Yes
+EMP1348,2023-09-01,Salary,1,Yes
+EMP1351,2023-09-21,Work-life balance,2,Yes
+EMP1357,2023-07-31,Career change,5,No
+EMP1358,2023-12-05,Management issues,4,Yes
+EMP1359,2023-04-07,Management issues,5,Yes
+EMP1360,2023-01-02,Personal reasons,2,No
+EMP1361,2023-11-23,Management issues,2,No
+EMP1363,2023-06-14,Management issues,1,Yes
+EMP1365,2023-01-09,Work-life balance,3,No
+EMP1366,2023-11-21,Better opportunity,1,Yes
+EMP1368,2023-07-04,Company culture,5,No
+EMP1369,2023-01-24,Work-life balance,1,No
+EMP1372,2023-06-16,Management issues,2,No
+EMP1374,2023-12-14,Better opportunity,4,No
+EMP1375,2023-08-16,Personal reasons,3,No
+EMP1377,2023-04-30,Personal reasons,2,No
+EMP1387,2023-11-07,Better opportunity,4,No
+EMP1390,2023-09-06,Salary,5,Yes
+EMP1395,2023-07-24,Better opportunity,5,No
+EMP1396,2023-11-10,Personal reasons,5,No
+EMP1397,2023-02-11,Salary,1,No
+EMP1401,2023-06-28,Management issues,5,No
+EMP1402,2023-08-08,Salary,5,No
+EMP1403,2023-09-01,Career change,1,No
+EMP1404,2023-12-04,Better opportunity,4,Yes
+EMP1405,2023-12-25,Salary,2,Yes
+EMP1412,2023-02-21,Relocation,3,No
+EMP1418,2023-07-17,Company culture,5,No
+EMP1419,2023-05-31,Salary,5,No
+EMP1422,2023-11-07,Better opportunity,5,No
+EMP1424,2023-04-10,Career change,1,No
+EMP1431,2023-12-31,Company culture,1,No
+EMP1436,2023-03-15,Personal reasons,1,Yes
+EMP1438,2023-09-24,Work-life balance,3,No
+EMP1440,2023-10-20,Career change,2,Yes
+EMP1444,2023-09-16,Relocation,5,No
+EMP1445,2023-01-17,Company culture,4,Yes
+EMP1447,2023-03-07,Career change,5,Yes
+EMP1448,2023-09-12,Personal reasons,5,Yes
+EMP1454,2023-02-14,Better opportunity,5,Yes
+EMP1455,2023-06-04,Relocation,5,No
+EMP1457,2023-12-11,Management issues,2,No
+EMP1459,2023-10-08,Work-life balance,4,Yes
+EMP1462,2023-08-28,Personal reasons,1,No
+EMP1467,2023-03-28,Company culture,4,No
+EMP1468,2023-08-17,Salary,5,Yes
+EMP1469,2023-03-01,Management issues,4,Yes
+EMP1470,2023-09-04,Salary,5,Yes
+EMP1473,2023-12-06,Company culture,4,No
+EMP1475,2023-10-04,Relocation,3,Yes
+EMP1480,2023-05-04,Management issues,4,Yes
+EMP1483,2023-05-05,Career change,1,Yes
+EMP1484,2023-04-19,Personal reasons,1,No
+EMP1486,2023-03-29,Personal reasons,4,No
+EMP1487,2023-12-04,Relocation,4,Yes
+EMP1492,2023-12-25,Relocation,2,No
+EMP1495,2023-02-15,Salary,4,No
+EMP1500,2023-02-24,Company culture,1,Yes
+EMP1503,2023-08-11,Better opportunity,3,Yes
+EMP1505,2023-01-15,Salary,1,No
+EMP1506,2023-03-24,Work-life balance,2,No
+EMP1512,2023-06-17,Career change,4,No
+EMP1513,2023-07-16,Work-life balance,3,No
+EMP1523,2023-05-24,Management issues,1,Yes
+EMP1527,2023-04-23,Better opportunity,3,Yes
+EMP1529,2023-05-12,Relocation,5,No
+EMP1530,2023-12-07,Company culture,1,No
+EMP1532,2023-09-01,Company culture,5,Yes
+EMP1534,2023-12-10,Salary,3,No
+EMP1539,2023-03-05,Better opportunity,4,No
+EMP1544,2023-12-07,Relocation,4,Yes
+EMP1545,2023-03-11,Work-life balance,4,No
+EMP1548,2023-10-01,Personal reasons,5,Yes
+EMP1554,2023-11-21,Management issues,4,No
+EMP1557,2023-09-09,Career change,2,No
+EMP1565,2023-02-16,Company culture,1,Yes
+EMP1572,2023-12-21,Personal reasons,1,No
+EMP1576,2023-06-20,Personal reasons,3,No
+EMP1578,2023-04-25,Relocation,5,Yes
+EMP1580,2023-10-22,Salary,1,Yes
+EMP1587,2023-11-04,Company culture,5,Yes
+EMP1594,2023-02-03,Company culture,3,No
+EMP1595,2023-11-26,Relocation,4,Yes
+EMP1597,2023-06-25,Career change,3,No
+EMP1599,2023-07-13,Career change,2,Yes
+EMP1600,2023-07-15,Better opportunity,4,Yes
+EMP1603,2023-12-01,Relocation,4,No
+EMP1604,2023-11-25,Relocation,4,No
+EMP1606,2023-10-15,Salary,3,No
+EMP1607,2023-08-12,Better opportunity,2,No
+EMP1608,2023-04-30,Work-life balance,5,No
+EMP1609,2023-04-25,Better opportunity,3,Yes
+EMP1611,2023-05-13,Salary,1,Yes
+EMP1617,2023-03-01,Company culture,1,Yes
+EMP1618,2023-05-29,Better opportunity,3,No
+EMP1619,2023-02-14,Company culture,5,No
+EMP1621,2023-02-27,Personal reasons,1,Yes
+EMP1623,2023-02-15,Management issues,5,Yes
+EMP1629,2023-06-24,Management issues,4,Yes
+EMP1630,2023-10-31,Personal reasons,3,No
+EMP1631,2023-04-07,Career change,4,No
+EMP1632,2023-03-01,Company culture,1,Yes
+EMP1633,2023-10-21,Work-life balance,5,No
+EMP1634,2023-07-08,Relocation,4,No
+EMP1639,2023-03-07,Relocation,1,Yes
+EMP1644,2023-06-10,Work-life balance,2,No
+EMP1646,2023-07-14,Management issues,4,No
+EMP1658,2023-10-23,Career change,2,Yes
+EMP1663,2023-01-01,Management issues,2,No
+EMP1673,2023-06-09,Work-life balance,1,Yes
+EMP1674,2023-02-01,Company culture,3,No
+EMP1676,2023-10-30,Work-life balance,5,No
+EMP1677,2023-10-02,Personal reasons,1,No
+EMP1679,2023-04-08,Career change,4,Yes
+EMP1684,2023-07-18,Relocation,5,Yes
+EMP1686,2023-08-05,Work-life balance,3,No
+EMP1687,2023-06-13,Relocation,1,Yes
+EMP1688,2023-07-06,Work-life balance,3,No
+EMP1689,2023-12-14,Career change,4,Yes
+EMP1691,2023-03-06,Relocation,1,No
+EMP1692,2023-09-24,Company culture,4,No
+EMP1694,2023-12-06,Better opportunity,5,No
+EMP1697,2023-11-05,Management issues,5,Yes
+EMP1701,2023-10-30,Work-life balance,3,No
+EMP1703,2023-04-24,Relocation,3,Yes
+EMP1704,2023-02-24,Company culture,5,No
+EMP1712,2023-07-22,Better opportunity,2,Yes
+EMP1713,2023-01-05,Work-life balance,5,No
+EMP1714,2023-10-03,Career change,1,No
+EMP1717,2023-08-24,Better opportunity,4,No
+EMP1720,2023-06-11,Company culture,5,No
+EMP1724,2023-03-16,Company culture,5,Yes
+EMP1729,2023-06-01,Management issues,4,No
+EMP1736,2023-04-23,Work-life balance,4,Yes
+EMP1739,2023-09-13,Work-life balance,1,No
+EMP1741,2023-12-15,Salary,4,No
+EMP1744,2023-08-22,Company culture,3,No
+EMP1748,2023-03-17,Personal reasons,5,Yes
+EMP1752,2023-11-04,Better opportunity,4,Yes
+EMP1753,2023-05-26,Company culture,1,No
+EMP1756,2023-03-16,Better opportunity,4,No
+EMP1757,2023-12-07,Management issues,5,Yes
+EMP1760,2023-12-26,Career change,2,Yes
+EMP1761,2023-01-18,Management issues,4,Yes
+EMP1763,2023-11-03,Salary,3,No
+EMP1767,2023-06-13,Management issues,5,No
+EMP1768,2023-06-08,Salary,1,Yes
+EMP1769,2023-09-15,Company culture,5,Yes
+EMP1774,2023-12-19,Work-life balance,2,No
+EMP1780,2023-03-05,Salary,1,Yes
+EMP1783,2023-05-21,Better opportunity,2,No
+EMP1784,2023-12-28,Relocation,2,No
+EMP1785,2023-10-21,Better opportunity,3,No
+EMP1787,2023-09-02,Better opportunity,4,No
+EMP1789,2023-11-20,Better opportunity,3,No
+EMP1790,2023-04-21,Salary,3,Yes
+EMP1795,2023-09-11,Work-life balance,3,No
+EMP1796,2023-05-30,Management issues,1,Yes
+EMP1798,2023-12-27,Personal reasons,4,No
+EMP1799,2023-07-12,Management issues,4,Yes
+EMP1800,2023-01-31,Career change,1,No
+EMP1806,2023-06-20,Company culture,3,Yes
+EMP1808,2023-03-20,Relocation,3,Yes
+EMP1813,2023-04-18,Management issues,2,Yes
+EMP1815,2023-04-26,Personal reasons,2,No
+EMP1816,2023-12-25,Salary,5,No
+EMP1817,2023-01-27,Salary,2,Yes
+EMP1823,2023-04-02,Management issues,4,Yes
+EMP1824,2023-09-07,Career change,1,Yes
+EMP1825,2023-07-20,Career change,3,Yes
+EMP1827,2023-06-03,Better opportunity,5,No
+EMP1828,2023-12-04,Relocation,2,No
+EMP1829,2023-03-23,Salary,5,No
+EMP1830,2023-01-12,Salary,1,No
+EMP1840,2023-10-08,Salary,1,No
+EMP1843,2023-07-20,Salary,5,No
+EMP1846,2023-06-22,Work-life balance,5,Yes
+EMP1848,2023-08-05,Management issues,5,Yes
+EMP1850,2023-12-14,Work-life balance,3,No
+EMP1856,2023-08-31,Company culture,4,Yes
+EMP1857,2023-06-28,Career change,2,Yes
+EMP1859,2023-07-20,Career change,2,No
+EMP1860,2023-07-20,Relocation,2,No
+EMP1863,2023-02-06,Career change,5,No
+EMP1866,2023-09-28,Better opportunity,5,No
+EMP1870,2023-05-25,Work-life balance,5,Yes
+EMP1878,2023-05-25,Work-life balance,3,No
+EMP1880,2023-12-23,Personal reasons,3,Yes
+EMP1881,2023-04-10,Career change,3,No
+EMP1882,2023-12-25,Career change,3,No
+EMP1885,2023-10-08,Salary,1,No
+EMP1888,2023-07-21,Management issues,3,No
+EMP1891,2023-02-19,Personal reasons,3,No
+EMP1893,2023-03-09,Work-life balance,3,No
+EMP1895,2023-06-15,Relocation,2,Yes
+EMP1896,2023-10-25,Better opportunity,2,No
+EMP1904,2023-01-28,Relocation,2,No
+EMP1905,2023-12-30,Work-life balance,4,No
+EMP1906,2023-06-05,Company culture,1,No
+EMP1907,2023-08-23,Management issues,5,No
+EMP1909,2023-12-02,Salary,3,Yes
+EMP1915,2023-03-25,Salary,2,Yes
+EMP1917,2023-10-23,Personal reasons,1,No
+EMP1919,2023-03-12,Career change,3,No
+EMP1921,2023-08-15,Company culture,4,Yes
+EMP1925,2023-12-23,Career change,5,No
+EMP1928,2023-09-05,Personal reasons,3,No
+EMP1929,2023-05-30,Company culture,5,No
+EMP1933,2023-03-16,Better opportunity,3,Yes
+EMP1936,2023-04-18,Relocation,4,No
+EMP1939,2023-04-22,Management issues,1,No
+EMP1942,2023-04-11,Relocation,5,No
+EMP1943,2023-11-30,Management issues,5,Yes
+EMP1947,2023-01-05,Better opportunity,1,Yes
+EMP1949,2023-07-05,Better opportunity,5,Yes
+EMP1956,2023-10-22,Work-life balance,2,No
+EMP1957,2023-02-22,Company culture,1,Yes
+EMP1959,2023-12-14,Personal reasons,4,No
+EMP1960,2023-03-17,Career change,3,Yes
+EMP1961,2023-07-12,Relocation,3,Yes
+EMP1962,2023-08-07,Personal reasons,1,Yes
+EMP1965,2023-12-14,Company culture,2,No
+EMP1969,2023-03-28,Company culture,4,No
+EMP1973,2023-01-29,Company culture,3,No
+EMP1974,2023-02-19,Management issues,3,No
+EMP1980,2023-07-02,Work-life balance,2,Yes
+EMP1981,2023-08-31,Relocation,5,No
+EMP1983,2023-04-02,Better opportunity,1,No
+EMP1984,2023-01-27,Relocation,2,No
+EMP1985,2023-03-02,Work-life balance,2,Yes
+EMP1986,2023-09-21,Better opportunity,2,No
+EMP1988,2023-11-29,Personal reasons,2,Yes
+EMP1991,2023-06-23,Management issues,5,Yes
+EMP1992,2023-10-31,Management issues,4,Yes
+EMP1993,2023-08-11,Work-life balance,2,Yes
+EMP1996,2023-03-18,Management issues,2,No
+EMP1999,2023-11-18,Management issues,1,No
+EMP2002,2023-07-26,Career change,3,No
+EMP2005,2023-05-06,Relocation,5,Yes
+EMP2008,2023-01-18,Work-life balance,2,Yes
+EMP2009,2023-03-02,Better opportunity,4,Yes
+EMP2011,2023-05-04,Work-life balance,4,No
+EMP2015,2023-07-23,Management issues,4,Yes
+EMP2019,2023-09-08,Better opportunity,1,No
+EMP2024,2023-06-04,Relocation,4,Yes
+EMP2026,2023-12-19,Management issues,1,No
+EMP2027,2023-11-02,Relocation,5,Yes
+EMP2029,2023-03-30,Management issues,4,Yes
+EMP2035,2023-12-01,Better opportunity,3,Yes
+EMP2036,2023-07-12,Work-life balance,2,Yes
+EMP2042,2023-12-21,Work-life balance,5,Yes
+EMP2043,2023-12-10,Career change,3,No
+EMP2045,2023-12-04,Better opportunity,5,Yes
+EMP2050,2023-02-15,Salary,4,Yes
+EMP2051,2023-08-26,Salary,5,Yes
+EMP2053,2023-11-29,Salary,5,No
+EMP2054,2023-07-15,Career change,5,No
+EMP2056,2023-05-21,Management issues,1,No
+EMP2057,2023-11-20,Relocation,3,Yes
+EMP2058,2023-12-01,Company culture,4,Yes
+EMP2065,2023-08-16,Management issues,2,Yes
+EMP2072,2023-07-08,Salary,4,No
+EMP2075,2023-01-06,Better opportunity,4,No
+EMP2082,2023-03-03,Better opportunity,1,No
+EMP2086,2023-03-01,Salary,1,No
+EMP2087,2023-02-12,Work-life balance,5,No
+EMP2088,2023-03-04,Management issues,4,No
+EMP2092,2023-09-08,Relocation,3,Yes
+EMP2093,2023-11-25,Management issues,1,Yes
+EMP2095,2023-12-09,Better opportunity,1,No
+EMP2097,2023-09-18,Career change,3,Yes
+EMP2098,2023-04-26,Company culture,1,No
+EMP2101,2023-01-12,Management issues,3,No
+EMP2106,2023-10-28,Work-life balance,2,No
+EMP2109,2023-10-21,Personal reasons,3,Yes
+EMP2110,2023-10-21,Work-life balance,2,No
+EMP2114,2023-09-03,Salary,5,No
+EMP2122,2023-05-21,Management issues,5,Yes
+EMP2124,2023-12-22,Work-life balance,1,Yes
+EMP2128,2023-02-18,Company culture,3,Yes
+EMP2134,2023-10-31,Relocation,1,No
+EMP2136,2023-04-03,Personal reasons,3,Yes
+EMP2145,2023-07-16,Work-life balance,1,No
+EMP2146,2023-09-05,Company culture,5,No
+EMP2150,2023-11-27,Salary,5,Yes
+EMP2152,2023-12-26,Relocation,1,No
+EMP2156,2023-08-11,Personal reasons,3,Yes
+EMP2157,2023-06-02,Career change,4,No
+EMP2162,2023-10-20,Personal reasons,3,Yes
+EMP2163,2023-03-06,Relocation,1,Yes
+EMP2165,2023-02-20,Personal reasons,3,Yes
+EMP2167,2023-06-16,Relocation,2,No
+EMP2173,2023-02-02,Relocation,3,Yes
+EMP2174,2024-01-01,Work-life balance,5,Yes
+EMP2175,2023-10-03,Personal reasons,5,Yes
+EMP2176,2023-04-05,Relocation,2,Yes
+EMP2178,2023-07-27,Management issues,3,No
+EMP2180,2023-12-25,Better opportunity,4,No
+EMP2181,2023-01-11,Management issues,3,No
+EMP2185,2023-07-21,Relocation,5,Yes
+EMP2186,2023-10-12,Relocation,5,Yes
+EMP2190,2023-10-02,Company culture,1,No
+EMP2191,2023-09-29,Work-life balance,5,No
+EMP2193,2023-09-08,Career change,1,Yes
+EMP2194,2023-02-02,Relocation,5,No
+EMP2201,2023-09-23,Career change,5,No
+EMP2203,2023-10-27,Company culture,4,Yes
+EMP2208,2023-10-03,Work-life balance,1,No
+EMP2212,2024-01-01,Personal reasons,1,Yes
+EMP2216,2023-11-30,Company culture,5,No
+EMP2221,2023-03-05,Career change,1,No
+EMP2222,2023-04-17,Relocation,5,Yes
+EMP2226,2023-12-04,Better opportunity,5,No
+EMP2232,2023-03-02,Career change,3,No
+EMP2233,2023-04-03,Company culture,1,No
+EMP2234,2023-11-03,Company culture,2,Yes
+EMP2235,2023-12-22,Better opportunity,1,No
+EMP2238,2023-04-03,Career change,1,No
+EMP2239,2023-01-03,Better opportunity,4,Yes
+EMP2241,2023-10-12,Better opportunity,2,Yes
+EMP2245,2023-08-17,Relocation,2,No
+EMP2246,2023-06-10,Work-life balance,4,No
+EMP2255,2023-03-04,Career change,4,Yes
+EMP2256,2023-01-21,Management issues,1,No
+EMP2259,2023-03-07,Relocation,3,No
+EMP2264,2023-10-22,Better opportunity,4,Yes
+EMP2265,2023-04-16,Better opportunity,2,Yes
+EMP2269,2023-12-01,Career change,2,No
+EMP2272,2023-03-24,Salary,1,No
+EMP2275,2023-02-14,Career change,3,No
+EMP2277,2023-10-15,Work-life balance,5,Yes
+EMP2279,2023-05-12,Relocation,4,No
+EMP2283,2023-01-18,Personal reasons,4,No
+EMP2284,2023-02-13,Personal reasons,1,Yes
+EMP2286,2023-03-05,Relocation,3,Yes
+EMP2291,2023-09-17,Management issues,2,No
+EMP2299,2023-06-02,Salary,2,Yes
+EMP2303,2023-07-06,Personal reasons,5,Yes
+EMP2305,2023-10-06,Relocation,2,Yes
+EMP2307,2023-03-29,Work-life balance,4,Yes
+EMP2309,2023-08-05,Better opportunity,5,No
+EMP2310,2023-12-03,Management issues,3,Yes
+EMP2313,2023-01-01,Career change,5,No
+EMP2315,2023-05-08,Better opportunity,3,No
+EMP2316,2023-06-03,Better opportunity,2,No
+EMP2318,2023-01-24,Career change,1,Yes
+EMP2329,2023-09-23,Management issues,5,No
+EMP2332,2023-05-31,Career change,5,No
+EMP2333,2023-12-04,Company culture,4,No
+EMP2336,2023-10-01,Relocation,4,No
+EMP2337,2023-08-16,Better opportunity,3,No
+EMP2342,2023-03-13,Work-life balance,1,No
+EMP2344,2023-10-23,Better opportunity,4,No
+EMP2345,2023-09-09,Work-life balance,4,No
+EMP2346,2023-12-22,Company culture,2,Yes
+EMP2348,2023-06-10,Company culture,2,Yes
+EMP2351,2023-09-25,Relocation,4,No
+EMP2353,2023-06-30,Salary,3,Yes
+EMP2357,2023-11-07,Management issues,1,No
+EMP2358,2023-10-03,Work-life balance,4,Yes
+EMP2362,2023-09-19,Company culture,3,No
+EMP2363,2023-04-18,Career change,3,No
+EMP2367,2023-12-19,Personal reasons,4,Yes
+EMP2370,2023-02-20,Relocation,3,No
+EMP2371,2023-12-06,Career change,5,No
+EMP2378,2023-01-23,Work-life balance,3,No
+EMP2384,2023-05-02,Career change,4,No
+EMP2386,2023-01-19,Management issues,3,Yes
+EMP2394,2023-04-07,Salary,4,No
+EMP2395,2023-03-14,Career change,2,Yes
+EMP2399,2023-06-03,Salary,4,Yes
+EMP2403,2023-04-21,Career change,3,No
+EMP2404,2023-03-10,Salary,4,No
+EMP2406,2023-11-05,Career change,1,No
+EMP2407,2023-10-10,Better opportunity,4,No
+EMP2415,2023-04-21,Relocation,4,Yes
+EMP2417,2023-10-30,Relocation,1,No
+EMP2419,2023-07-03,Company culture,1,No
+EMP2420,2023-05-23,Salary,1,Yes
+EMP2424,2023-03-07,Relocation,5,No
+EMP2428,2023-11-15,Company culture,4,No
+EMP2429,2023-08-05,Relocation,1,Yes
+EMP2430,2023-02-08,Management issues,1,No
+EMP2432,2023-10-09,Management issues,2,Yes
+EMP2434,2023-05-11,Salary,5,Yes
+EMP2435,2023-05-14,Career change,4,No
+EMP2447,2023-07-15,Management issues,3,No
+EMP2448,2023-11-29,Personal reasons,5,No
+EMP2454,2023-03-25,Salary,5,No
+EMP2459,2023-07-24,Management issues,2,No
+EMP2461,2023-08-22,Career change,4,No
+EMP2462,2023-02-12,Better opportunity,4,Yes
+EMP2463,2023-05-11,Relocation,1,No
+EMP2464,2023-12-13,Relocation,1,Yes
+EMP2468,2023-08-06,Salary,5,No
+EMP2473,2023-12-22,Relocation,2,No
+EMP2474,2023-03-15,Company culture,4,Yes
+EMP2475,2023-10-02,Personal reasons,2,No
+EMP2482,2023-04-15,Personal reasons,3,No
+EMP2483,2023-02-06,Career change,4,Yes
+EMP2486,2023-11-19,Career change,1,Yes
+EMP2489,2023-05-18,Company culture,5,No
+EMP2490,2023-11-21,Management issues,2,Yes
+EMP2492,2023-12-23,Relocation,1,No
+EMP2493,2023-11-27,Career change,5,No
+EMP2497,2023-04-09,Salary,1,No
+EMP2499,2024-01-01,Relocation,4,Yes
