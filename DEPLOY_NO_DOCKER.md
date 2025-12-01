@@ -9,6 +9,7 @@ Since Docker is not installed, here are **easier ways** to deploy your portfolio
 **No Docker needed! Deploy directly from GitHub to the cloud - 100% FREE**
 
 ### Why This is Best for You:
+
 - ✅ No local setup required
 - ✅ Completely FREE
 - ✅ Professional URLs
@@ -19,11 +20,13 @@ Since Docker is not installed, here are **easier ways** to deploy your portfolio
 ### Steps:
 
 1. **Create Render Account**
+
    - Go to https://render.com
    - Click "Get Started"
    - Sign up with your GitHub account (1 click)
 
 2. **Deploy with Blueprint**
+
    - Click "New +" (top right)
    - Select "Blueprint"
    - Click "Connect" next to your repository
@@ -32,6 +35,7 @@ Since Docker is not installed, here are **easier ways** to deploy your portfolio
    - Click "Apply"
 
 3. **Wait 5-10 minutes** ☕
+
    - Render builds all 6 APIs
    - Creates PostgreSQL database
    - Deploys everything automatically
@@ -85,6 +89,7 @@ railway open
 **Run APIs locally one at a time for testing**
 
 ### Prerequisites:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -92,42 +97,49 @@ pip install -r requirements.txt
 ### Run Individual APIs:
 
 **Terminal 1 - Fraud API:**
+
 ```bash
 cd fraud
 uvicorn api.app:app --host 0.0.0.0 --port 8001
 ```
 
 **Terminal 2 - E-commerce API:**
+
 ```bash
 cd ecommerce
 uvicorn api.app:app --host 0.0.0.0 --port 8002
 ```
 
 **Terminal 3 - Financial API:**
+
 ```bash
 cd financial
 uvicorn api.app:app --host 0.0.0.0 --port 8003
 ```
 
 **Terminal 4 - Healthcare API:**
+
 ```bash
 cd healthcare
 uvicorn api.app:app --host 0.0.0.0 --port 8004
 ```
 
 **Terminal 5 - HR API:**
+
 ```bash
 cd hr
 uvicorn api.app:app --host 0.0.0.0 --port 8005
 ```
 
 **Terminal 6 - Restaurant API:**
+
 ```bash
 cd restaurant
 uvicorn api.app:app --host 0.0.0.0 --port 8006
 ```
 
 **Access APIs:**
+
 - Fraud: http://localhost:8001/docs
 - E-commerce: http://localhost:8002/docs
 - Financial: http://localhost:8003/docs
@@ -142,19 +154,23 @@ uvicorn api.app:app --host 0.0.0.0 --port 8006
 ### Install Docker Desktop for Windows:
 
 1. **Download Docker Desktop**
+
    - Go to https://www.docker.com/products/docker-desktop
    - Click "Download for Windows"
    - Run the installer
 
 2. **Install Requirements**
+
    - Enable WSL 2 (Windows Subsystem for Linux)
    - Restart computer if prompted
 
 3. **Start Docker Desktop**
+
    - Launch Docker Desktop application
    - Wait for it to start (green icon in system tray)
 
 4. **Verify Installation**
+
    ```bash
    docker --version
    docker-compose --version
@@ -171,12 +187,12 @@ uvicorn api.app:app --host 0.0.0.0 --port 8006
 
 ## 📊 Comparison: Which Should You Choose?
 
-| Option | Setup Time | Cost | Best For |
-|--------|-----------|------|----------|
-| **Render** | 10 min | FREE | **Showcase to employers** ⭐ |
-| **Railway** | 8 min | FREE ($5 credit) | Fast deployment |
-| **Local Python** | 2 min | FREE | Quick testing |
-| **Docker** | 20 min | FREE | Local full deployment |
+| Option           | Setup Time | Cost             | Best For                     |
+| ---------------- | ---------- | ---------------- | ---------------------------- |
+| **Render**       | 10 min     | FREE             | **Showcase to employers** ⭐ |
+| **Railway**      | 8 min      | FREE ($5 credit) | Fast deployment              |
+| **Local Python** | 2 min      | FREE             | Quick testing                |
+| **Docker**       | 20 min     | FREE             | Local full deployment        |
 
 ---
 
@@ -194,6 +210,7 @@ uvicorn api.app:app --host 0.0.0.0 --port 8006
 ### What Employers Will See:
 
 When you share your Render URLs, employers can:
+
 - ✅ Click and immediately see your APIs
 - ✅ Test endpoints in interactive Swagger UI
 - ✅ See real-time predictions and analytics
@@ -231,9 +248,11 @@ https://fraud-api.onrender.com (Live Demo)
 ## 🆘 Troubleshooting
 
 ### "I don't have Node.js for Railway"
+
 Download from https://nodejs.org (takes 5 minutes)
 
 ### "Local Python APIs won't start"
+
 ```bash
 # Install dependencies first
 pip install -r requirements.txt
@@ -244,9 +263,11 @@ uvicorn api.app:app --port 8001
 ```
 
 ### "I want Docker but it's too slow to install"
+
 Use **Render cloud deployment** instead - it's faster and better for showcase!
 
 ### "Which option is best for job applications?"
+
 **Render** - gives you professional live URLs to include in applications
 
 ---
@@ -254,6 +275,7 @@ Use **Render cloud deployment** instead - it's faster and better for showcase!
 ## 💡 Pro Tip
 
 Deploy to **Render** today, then install Docker later if you need local testing. This way:
+
 - ✅ Your portfolio is immediately live and shareable
 - ✅ You can start applying to jobs right away
 - ✅ You can install Docker later at your convenience
@@ -265,6 +287,7 @@ Deploy to **Render** today, then install Docker later if you need local testing.
 **Choose your path:**
 
 ### Path A: Cloud Deployment (10 min) ⭐ RECOMMENDED
+
 ```
 1. Go to render.com
 2. Connect GitHub
@@ -275,6 +298,7 @@ Deploy to **Render** today, then install Docker later if you need local testing.
 ```
 
 ### Path B: Local Testing (2 min)
+
 ```
 1. pip install -r requirements.txt
 2. Run APIs in separate terminals
@@ -283,6 +307,7 @@ Deploy to **Render** today, then install Docker later if you need local testing.
 ```
 
 ### Path C: Install Docker (20 min)
+
 ```
 1. Download Docker Desktop
 2. Install and restart

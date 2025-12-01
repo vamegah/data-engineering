@@ -12,7 +12,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY healthcare/ ./healthcare/
 COPY shared/ ./shared/
-COPY data/ ./data/
+
+# Create data directories (APIs work without actual data files)
+RUN mkdir -p ./data/raw ./data/processed
 
 EXPOSE 8004
 

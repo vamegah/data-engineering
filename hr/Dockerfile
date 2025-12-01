@@ -16,7 +16,9 @@ RUN pip install nltk textblob && \
 
 COPY hr/ ./hr/
 COPY shared/ ./shared/
-COPY data/ ./data/
+
+# Create data directories (APIs work without actual data files)
+RUN mkdir -p ./data/raw ./data/processed
 
 EXPOSE 8005
 
