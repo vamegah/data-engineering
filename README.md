@@ -83,9 +83,28 @@ Access the production APIs:
 - **[HR API](http://localhost/api/hr/docs)** - Attrition prediction
 - **[Restaurant API](http://localhost/api/restaurant/docs)** - Sentiment analysis
 
-### 🐳 Quick Deploy with Docker
+### 💻 Local Deployment (Without Docker)
 
-Deploy all projects locally:
+**Fastest way to test locally - no Docker required!**
+
+```powershell
+# Option 1: Test one API quickly (2 minutes)
+.\test_one_api.ps1
+
+# Option 2: Run all 6 APIs (opens 6 windows)
+.\run_local.ps1
+
+# Option 3: Run manually
+cd fraud
+python -m uvicorn api.app:app --port 8001
+# Open http://localhost:8001/docs
+```
+
+📖 **[DEPLOY_NO_DOCKER.md](DEPLOY_NO_DOCKER.md)** - Complete guide for local deployment
+
+### 🐳 Docker Deployment (Optional)
+
+If you have Docker Desktop installed:
 
 ```bash
 # Start all services
@@ -95,9 +114,11 @@ docker-compose up -d
 # API documentation at http://localhost/api/{project}/docs
 ```
 
-### ☁️ Cloud Deployment
+**Don't have Docker?** No problem! Use the local deployment above or cloud deployment below.
 
-**Recommended: Render (FREE)**
+### ☁️ Cloud Deployment (Recommended for Showcase)
+
+**⭐ Render (FREE) - Best for Portfolio Showcase**
 
 1. Connect GitHub repository to [Render](https://render.com)
 2. Use `render.yaml` for automatic deployment
