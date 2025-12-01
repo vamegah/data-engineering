@@ -1,7 +1,7 @@
 # Run Portfolio APIs Locally Without Docker
 # Windows PowerShell Script
 
-Write-Host "=" -NoNewline -ForegroundColor Cyan
+Write-Host ""
 Write-Host ("="*70) -ForegroundColor Cyan
 Write-Host "  Data Engineering Portfolio - Local Deployment" -ForegroundColor Cyan
 Write-Host ("="*70) -ForegroundColor Cyan
@@ -11,15 +11,21 @@ Write-Host ""
 Write-Host "Checking Python installation..." -ForegroundColor Yellow
 try {
     $pythonVersion = python --version 2>&1
-    Write-Host "✓ Python is installed: $pythonVersion" -ForegroundColor Green
+    if ($pythonVersion -match "Python") {
+        Write-Host "✓ Python is installed: $pythonVersion" -ForegroundColor Green
+    } else {
+        throw "Python not found"
+    }
 } catch {
     Write-Host "✗ Python is not installed!" -ForegroundColor Red
     Write-Host "  Please install Python 3.9+ from https://www.python.org" -ForegroundColor Red
+    Read-Host "Press Enter to exit"
     exit 1
 }
 
 # Check if dependencies are installed
-Write-Host "`nChecking dependencies..." -ForegroundColor Yellow
+Write-Host ""
+Write-Host "Checking dependencies..." -ForegroundColor Yellow
 $hasDeps = $false
 try {
     python -c "import fastapi" 2>&1 | Out-Null
@@ -38,11 +44,12 @@ if (-not $hasDeps) {
         Write-Host "✓ Dependencies installed successfully" -ForegroundColor Green
     } else {
         Write-Host "✗ Failed to install dependencies" -ForegroundColor Red
+        Read-Host "Press Enter to exit"
         exit 1
     }
 }
 
-Write-Host "`n" -NoNewline
+Write-Host ""
 Write-Host ("="*70) -ForegroundColor Cyan
 Write-Host "  Starting APIs" -ForegroundColor Cyan
 Write-Host ("="*70) -ForegroundColor Cyan
@@ -82,7 +89,8 @@ function Start-API {
     Start-Sleep -Seconds 1
 }
 
-Write-Host "`nStarting APIs in separate windows..." -ForegroundColor Yellow
+Write-Host ""
+Write-Host "Starting APIs in separate windows..." -ForegroundColor Yellow
 Write-Host ""
 
 # Start each API
@@ -93,7 +101,7 @@ Start-API -Name "Healthcare" -Path "healthcare" -Port 8004
 Start-API -Name "HR Analytics" -Path "hr" -Port 8005
 Start-API -Name "Restaurant" -Path "restaurant" -Port 8006
 
-Write-Host "`n" -NoNewline
+Write-Host ""
 Write-Host ("="*70) -ForegroundColor Cyan
 Write-Host "  All APIs Started!" -ForegroundColor Green
 Write-Host ("="*70) -ForegroundColor Cyan

@@ -1,19 +1,18 @@
 # Quick Test - Run One API Locally
 # Tests that everything works without Docker
 
-Write-Host "`n🚀 Testing Fraud Detection API..." -ForegroundColor Cyan
+Write-Host ""
+Write-Host "🚀 Testing Fraud Detection API..." -ForegroundColor Cyan
 Write-Host ""
 
 # Check Python
-Write-Host "`nChecking Python..." -ForegroundColor Yellow
+Write-Host "Checking Python..." -ForegroundColor Yellow
 try {
     $pythonVersion = python --version 2>&1
     if ($pythonVersion -match "Python") {
         Write-Host "✓ Python: $pythonVersion" -ForegroundColor Green
     } else {
-        Write-Host "✗ Python not found. Install from https://www.python.org" -ForegroundColor Red
-        Read-Host "Press Enter to exit"
-        exit 1
+        throw "Python not found"
     }
 } catch {
     Write-Host "✗ Python not found. Install from https://www.python.org" -ForegroundColor Red
@@ -22,7 +21,8 @@ try {
 }
 
 # Install dependencies
-Write-Host "`n📦 Installing dependencies..." -ForegroundColor Yellow
+Write-Host ""
+Write-Host "📦 Installing dependencies..." -ForegroundColor Yellow
 pip install fastapi uvicorn pandas scikit-learn python-multipart -q
 
 if ($LASTEXITCODE -eq 0) {
@@ -32,7 +32,8 @@ if ($LASTEXITCODE -eq 0) {
 }
 
 # Start Fraud API
-Write-Host "`n🎯 Starting Fraud Detection API..." -ForegroundColor Cyan
+Write-Host ""
+Write-Host "🎯 Starting Fraud Detection API..." -ForegroundColor Cyan
 Write-Host ""
 Write-Host "API will be available at: " -NoNewline
 Write-Host "http://localhost:8001/docs" -ForegroundColor Green
