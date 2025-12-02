@@ -14,12 +14,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install nltk textblob && \
     python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('punkt')"
 
-# Create directories first
-RUN mkdir -p ./shared ./data/raw ./data/processed
-
-# Copy project files
-COPY hr/ ./hr/
+# Copy shared utilities and project files from root context
 COPY shared/ ./shared/
+COPY hr/ ./hr/
+
+# Create data directories (data folder not in git)
+RUN mkdir -p ./data/raw ./data/processed
 
 EXPOSE 8005
 

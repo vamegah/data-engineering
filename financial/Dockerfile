@@ -14,13 +14,12 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
-# Create directories first
-RUN mkdir -p ./shared ./data/raw ./data/processed ./models ./logs
-
-# Copy project files
-COPY financial/ ./financial/
+# Copy shared utilities and project files from root context
 COPY shared/ ./shared/
+COPY financial/ ./financial/
+
+# Create data directories (data folder not in git)
+RUN mkdir -p ./data/raw ./data/processed ./models ./logs
 
 # Expose port for API
 EXPOSE 8003

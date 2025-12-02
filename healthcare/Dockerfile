@@ -10,12 +10,12 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create directories first
-RUN mkdir -p ./shared ./data/raw ./data/processed
-
-# Copy project files
-COPY healthcare/ ./healthcare/
+# Copy shared utilities and project files from root context
 COPY shared/ ./shared/
+COPY healthcare/ ./healthcare/
+
+# Create data directories (data folder not in git)
+RUN mkdir -p ./data/raw ./data/processed
 
 EXPOSE 8004
 

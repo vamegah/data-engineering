@@ -12,13 +12,12 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
-# Create directories first
-RUN mkdir -p ./shared ./data/raw ./data/processed
-
-# Copy project files
-COPY fraud/ ./fraud/
+# Copy shared utilities and project files from root context
 COPY shared/ ./shared/
+COPY fraud/ ./fraud/
+
+# Create data directories (data folder not in git)
+RUN mkdir -p ./data/raw ./data/processed
 
 # Expose API port
 EXPOSE 8001
