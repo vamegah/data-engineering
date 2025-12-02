@@ -17,6 +17,7 @@ on:
       - "tests/test_ecommerce.py"
       - "requirements-test.txt"
       - ".github/workflows/ecommerce_ci.yml"
+      - "Dockerfile.ecommerce"
 
 jobs:
   test:
@@ -38,7 +39,7 @@ jobs:
           --health-retries 5
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
