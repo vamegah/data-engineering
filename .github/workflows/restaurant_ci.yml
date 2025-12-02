@@ -7,12 +7,16 @@ on:
       - "restaurant/**"
       - "shared/**"
       - "tests/test_restaurant.py"
+      - "requirements-test.txt"
+      - ".github/workflows/restaurant_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "restaurant/**"
       - "shared/**"
       - "tests/test_restaurant.py"
+      - "requirements-test.txt"
+      - ".github/workflows/restaurant_ci.yml"
 
 jobs:
   test:

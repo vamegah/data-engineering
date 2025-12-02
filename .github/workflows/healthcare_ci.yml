@@ -7,12 +7,16 @@ on:
       - "healthcare/**"
       - "shared/**"
       - "tests/test_healthcare.py"
+      - "requirements-test.txt"
+      - ".github/workflows/healthcare_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "healthcare/**"
       - "shared/**"
       - "tests/test_healthcare.py"
+      - "requirements-test.txt"
+      - ".github/workflows/healthcare_ci.yml"
 
 jobs:
   test:

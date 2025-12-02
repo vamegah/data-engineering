@@ -7,12 +7,16 @@ on:
       - "hr/**"
       - "shared/**"
       - "tests/test_hr.py"
+      - "requirements-test.txt"
+      - ".github/workflows/hr_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "hr/**"
       - "shared/**"
       - "tests/test_hr.py"
+      - "requirements-test.txt"
+      - ".github/workflows/hr_ci.yml"
 
 jobs:
   test:

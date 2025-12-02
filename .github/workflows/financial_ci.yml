@@ -7,12 +7,16 @@ on:
       - "financial/**"
       - "shared/**"
       - "tests/test_financial.py"
+      - "requirements-test.txt"
+      - ".github/workflows/financial_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "financial/**"
       - "shared/**"
       - "tests/test_financial.py"
+      - "requirements-test.txt"
+      - ".github/workflows/financial_ci.yml"
 
 jobs:
   test:

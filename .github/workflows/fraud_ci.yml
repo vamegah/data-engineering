@@ -7,12 +7,16 @@ on:
       - "fraud/**"
       - "shared/**"
       - "tests/test_fraud.py"
+      - "requirements-test.txt"
+      - ".github/workflows/fraud_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "fraud/**"
       - "shared/**"
       - "tests/test_fraud.py"
+      - "requirements-test.txt"
+      - ".github/workflows/fraud_ci.yml"
 
 jobs:
   test:

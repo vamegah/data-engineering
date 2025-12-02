@@ -7,12 +7,16 @@ on:
       - "ecommerce/**"
       - "shared/**"
       - "tests/test_ecommerce.py"
+      - "requirements-test.txt"
+      - ".github/workflows/ecommerce_ci.yml"
   pull_request:
     branches: [main]
     paths:
       - "ecommerce/**"
       - "shared/**"
       - "tests/test_ecommerce.py"
+      - "requirements-test.txt"
+      - ".github/workflows/ecommerce_ci.yml"
 
 jobs:
   test:

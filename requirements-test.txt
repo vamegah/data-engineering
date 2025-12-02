@@ -1,4 +1,5 @@
 # Minimal dependencies for CI/CD testing
+# Updated: Dec 2, 2025 - Tested and working with Python 3.11
 # Core data science libraries
 pandas>=2.0.0
 numpy>=1.24.0
