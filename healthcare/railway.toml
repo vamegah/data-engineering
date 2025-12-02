@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "healthcare/Dockerfile"
+dockerfilePath = "Dockerfile.healthcare"
 watchPatterns = ["healthcare/**", "shared/**", "requirements.txt"]
 
 [deploy]

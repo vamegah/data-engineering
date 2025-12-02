@@ -1,0 +1,16 @@
+{
+  "phases": {
+    "setup": {
+      "nixPkgs": ["python39"]
+    },
+    "install": {
+      "cmds": ["pip install --no-cache-dir -r requirements.txt"]
+    },
+    "build": {
+      "cmds": []
+    }
+  },
+  "start": {
+    "cmd": "uvicorn ecommerce.api.app:app --host 0.0.0.0 --port $PORT"
+  }
+}

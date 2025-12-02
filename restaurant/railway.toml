@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "restaurant/Dockerfile"
+dockerfilePath = "Dockerfile.restaurant"
 watchPatterns = ["restaurant/**", "shared/**", "requirements.txt"]
 
 [deploy]

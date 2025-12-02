@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "fraud/Dockerfile"
+dockerfilePath = "Dockerfile.fraud"
 watchPatterns = ["fraud/**", "shared/**", "requirements.txt"]
 
 [deploy]

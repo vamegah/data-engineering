@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "financial/Dockerfile"
+dockerfilePath = "Dockerfile.financial"
 watchPatterns = ["financial/**", "shared/**", "requirements.txt"]
 
 [deploy]

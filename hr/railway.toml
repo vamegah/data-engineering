@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "hr/Dockerfile"
+dockerfilePath = "Dockerfile.hr"
 watchPatterns = ["hr/**", "shared/**", "requirements.txt"]
 
 [deploy]
