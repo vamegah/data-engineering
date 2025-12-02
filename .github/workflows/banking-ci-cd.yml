@@ -1,90 +1,89 @@
-
 name: Banking Churn CI/CD
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, develop]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 env:
-  PYTHON_VERSION: '3.10'
+  PYTHON_VERSION: "3.10"
 
 jobs:
   # Job 1: Linting and Code Quality
   lint:
     name: Code Quality Checks
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install flake8 black isort
-    
-    - name: Run Black (code formatting check)
-      run: black --check banking/ tests/
-      continue-on-error: true
-    
-    - name: Run isort (import sorting)
-      run: isort --check-only banking/ tests/
-      continue-on-error: true
-    
-    - name: Run Flake8 (linting)
-      run: flake8 banking/ tests/ --max-line-length=100 --ignore=E203,W503
-      continue-on-error: true
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 black isort
+
+      - name: Run Black (code formatting check)
+        run: black --check banking/ tests/
+        continue-on-error: true
+
+      - name: Run isort (import sorting)
+        run: isort --check-only banking/ tests/
+        continue-on-error: true
+
+      - name: Run Flake8 (linting)
+        run: flake8 banking/ tests/ --max-line-length=100 --ignore=E203,W503
+        continue-on-error: true
 
   # Job 2: Unit Tests
   test:
     name: Unit Tests
     runs-on: ubuntu-latest
     needs: lint
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-    
-    - name: Cache pip dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-cov
-    
-    - name: Run tests with coverage
-      run: |
-        pytest tests/test_banking.py -v --cov=banking --cov-report=xml --cov-report=term
-    
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        file: ./coverage.xml
-        fail_ci_if_error: false
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Run tests with coverage
+        run: |
+          pytest tests/test_banking.py -v --cov=banking --cov-report=xml --cov-report=term
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          fail_ci_if_error: false
 
   # Job 3: Integration Tests
   integration:
     name: Integration Tests
     runs-on: ubuntu-latest
     needs: test
-    
+
     services:
       postgres:
         image: postgres:14-alpine
@@ -99,72 +98,72 @@ jobs:
           --health-retries 5
         ports:
           - 5432:5432
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    - name: Setup database
-      env:
-        DB_HOST: localhost
-        DB_PORT: 5432
-        DB_NAME: test_banking_db
-        DB_USER: test_user
-        DB_PASSWORD: test_pass
-      run: |
-        python banking/scripts/setup.py
-        python banking/scripts/etl_pipeline.py
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Setup database
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: test_banking_db
+          DB_USER: test_user
+          DB_PASSWORD: test_pass
+        run: |
+          python banking/scripts/setup.py
+          python banking/scripts/etl_pipeline.py
 
   # Job 4: Docker Build
   docker:
     name: Build Docker Image
     runs-on: ubuntu-latest
     needs: test
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
-    
-    - name: Build Docker image
-      uses: docker/build-push-action@v4
-      with:
-        context: .
-        file: banking/Dockerfile
-        push: false
-        tags: banking-churn:latest
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
+      - uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: banking/Dockerfile
+          push: false
+          tags: banking-churn:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
   # Job 5: Security Scan
   security:
     name: Security Scanning
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Run Bandit (security linter)
-      run: |
-        pip install bandit
-        bandit -r banking/ -f json -o bandit-report.json
-      continue-on-error: true
-    
-    - name: Run Safety (dependency security check)
-      run: |
-        pip install safety
-        safety check --json
-      continue-on-error: true
+      - uses: actions/checkout@v3
+
+      - name: Run Bandit (security linter)
+        run: |
+          pip install bandit
+          bandit -r banking/ -f json -o bandit-report.json
+        continue-on-error: true
+
+      - name: Run Safety (dependency security check)
+        run: |
+          pip install safety
+          safety check --json
+        continue-on-error: true
 
   # Job 6: Deploy to Staging (only on main branch)
   deploy-staging:
@@ -173,16 +172,16 @@ jobs:
     needs: [test, docker]
     if: github.ref == 'refs/heads/main'
     environment: staging
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Deploy to staging
-      run: |
-        echo "Deploying to staging environment..."
-        # Add your deployment steps here
-        # Example: kubectl apply -f k8s/staging/
-        # Example: docker-compose -f docker-compose.staging.yml up -d
+      - uses: actions/checkout@v3
+
+      - name: Deploy to staging
+        run: |
+          echo "Deploying to staging environment..."
+          # Add your deployment steps here
+          # Example: kubectl apply -f k8s/staging/
+          # Example: docker-compose -f docker-compose.staging.yml up -d
 
   # Job 7: Deploy to Production (only on release tags)
   deploy-production:
@@ -191,13 +190,13 @@ jobs:
     needs: [test, docker, deploy-staging]
     if: startsWith(github.ref, 'refs/tags/v')
     environment: production
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Deploy to production
-      run: |
-        echo "Deploying to production environment..."
-        # Add your production deployment steps here
-        # Example: kubectl apply -f k8s/production/
-        # Example: aws ecs update-service ...
+      - uses: actions/checkout@v3
+
+      - name: Deploy to production
+        run: |
+          echo "Deploying to production environment..."
+          # Add your production deployment steps here
+          # Example: kubectl apply -f k8s/production/
+          # Example: aws ecs update-service ...
